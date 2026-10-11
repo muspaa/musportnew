@@ -1,0 +1,59 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> r-hmt-immersive-portfolio@2.6.0 test
+> node --test tests/*.test.mjs
+
+✔ chapter cover remains reversible and bounded across mobile and desktop (0.818422ms)
+✔ tall mobile hero is readable before the last scene pins; short hero stays below header (0.115151ms)
+✔ canonical uses explicit domain, otherwise Vercel production origin, otherwise source domain (0.156532ms)
+✔ canonical rejects insecure, credentialed and non-root URLs (0.277852ms)
+✔ all six journey phases, archive and personal facts share the public source (1.276109ms)
+✔ validates actual user messages, rejects injected system role, excessive body and missing text (0.383008ms)
+✔ only known answer fields are accepted; metadata and HTML are not answers (0.468925ms)
+✔ forwards follow-up history and shared profile to original Nexray provider (4.945744ms)
+✔ HTML upstream and malformed response return honest 502 without internals (4.723795ms)
+✔ method, type, cross-site, size and rate-limit boundaries (6.931646ms)
+✔ aborts a hanging upstream and returns 504 without a synthetic answer (1001.624532ms)
+✔ the physical Journey workspace fits narrow mobile and desktop stages through chapter transitions (2719.837465ms)
+✔ focused and side work frames stay within their native viewports at pointer and swipe extremes (2.115923ms)
+✔ swipe velocity cannot over-rotate the shelf and pause removes velocity from its pose (0.833594ms)
+✔ Journey camera respects paused pointer motion and invalid chapter indices stay bounded (0.225123ms)
+✔ hero portrait frames and physical base fit mobile and desktop while fanning out and reacting to scroll (529.02042ms)
+✔ all character frames fit their native mobile and desktop gallery stages at pointer extremes (1.183754ms)
+✔ all 19 upright orbit hit targets stay separate and inside mobile/desktop wrappers throughout motion (40.072634ms)
+✔ orbit inertia travels identically at 30, 60 and 120 Hz and resumes from its preserved angle (0.868246ms)
+✔ orbit renders stop for hidden tabs, offscreen scenes, dialogs, intro, focus, selection and reduced motion (0.154078ms)
+✔ silver rails form finite closed paths and orbit state remains reversible and bounded (1.628562ms)
+✔ room camera and floor travel remain continuous at every section boundary in both scroll directions (2.190364ms)
+✔ room route uses actual section spacing and cannot overshoot its architectural camera limits (8.899064ms)
+✔ repeated Journey reversals preserve the instantaneous angle and angular velocity and then settle (0.910568ms)
+✔ Journey switches screens halfway through its turn; paused changes settle without a pulse (0.237862ms)
+✔ the last mobile work and centered desktop works have reachable native snap targets (0.264522ms)
+✔ work dragging requires horizontal intent and leaves small clicks and vertical gestures alone (0.152746ms)
+✔ production Lua executes rating and limiter boundaries in native Lua (87.886702ms)
+✔ required name and integer stars; omitted or empty comment is valid (2.449948ms)
+✔ exact origin comparison rejects null, prefixes and cross-site writes (0.564446ms)
+✔ signed challenge is bound to IP, browser, age and server secret (0.488964ms)
+✔ invalid requests never reach Upstash (1.005669ms)
+✔ one atomic EVAL writes rating; no raw IP or token enters key arguments (4.354549ms)
+✔ retry across fresh handler instances uses the same idempotency key and fingerprint (1.655822ms)
+✔ Redis-wide limit and duplicate conflict become honest 429/409 responses (1.110585ms)
+✔ GET returns real aggregate, bounded public reviews and a fresh signed challenge (0.792353ms)
+✔ missing configuration, HTTP failure, malformed JSON and storage errors never fake success (3.074022ms)
+✔ intro waits for its own rendered stage even if a different scene or empty frame was ready (0.928074ms)
+✔ the first frame after a narrower viewport fits immediately and zooming back in cannot crop (1.499471ms)
+✔ renderer status metadata cannot become a scene or suppress native fallback imagery (0.178214ms)
+✔ orbit release travels the same distance at 30, 60 and 120 updates per second (0.325582ms)
+✔ vertical or small touch movement retains native page scroll; horizontal intent can orbit (0.192145ms)
+✔ perspective fit keeps all subject corners inside mobile and desktop frustums (0.554572ms)
+✔ off-axis nodes on the same camera plane have equal projected touch sizes (0.306394ms)
+✔ nodes behind the camera or outside the stage cannot create invisible click targets (0.246425ms)
+✔ camera-space projection follows a rotated camera and resizes with the stage (3.247119ms)
+ℹ tests 46
+ℹ suites 0
+ℹ pass 46
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3392.557471

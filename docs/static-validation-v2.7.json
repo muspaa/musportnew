@@ -1,0 +1,60 @@
+{
+  "version": "2.7.0",
+  "baseline": "R_HMT_V2_Vercel_Ready.zip / V2.6.1 / Library version 11",
+  "counts": {
+    "projects": 18,
+    "journey": 6,
+    "tools": 19,
+    "people": 14,
+    "communities": 5
+  },
+  "unchanged_baseline_files": {
+    "public": 117,
+    "api": 4,
+    "shared": 3
+  },
+  "modified_baseline_assets": [],
+  "h1_count": 1,
+  "duplicate_ids": [],
+  "asset_references": 65,
+  "missing_asset_references": [],
+  "svg_assets_parsed": 47,
+  "json_ld_blocks": 1,
+  "og_image": "https://res.cloudinary.com/dhxfke7kq/image/upload/v1791627186/Ssstt/dsoqtqltngd5e2yg4cbw.jpg",
+  "canonical_in_local_build": "https://rhmt.biz.id/",
+  "ratings": {
+    "examples": 3,
+    "stars_each": 5,
+    "counted_in_real_aggregate": false,
+    "sent_to_redis": false
+  },
+  "required_env": [
+    "UPSTASH_REDIS_REST_URL",
+    "UPSTASH_REDIS_REST_TOKEN"
+  ],
+  "tests": {
+    "passed": 52,
+    "failed": 0
+  },
+  "production_build": "passed",
+  "runtime": {
+    "js": [
+      {
+        "file": "dist/assets/index-CxGbXpeG.js",
+        "bytes": 300771,
+        "gzip_bytes": 93415
+      }
+    ],
+    "css": [
+      {
+        "file": "dist/assets/index-DRL_Mt7u.css",
+        "bytes": 82916,
+        "gzip_bytes": 17561
+      }
+    ]
+  },
+  "browser_gpu_touch_qa": "not performed: supported browser capability unavailable",
+  "deployment": "not performed",
+  "google_search_console": "not submitted",
+  "live_upstash_nexray": "not tested"
+}

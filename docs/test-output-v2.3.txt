@@ -1,0 +1,30 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> r-hmt-immersive-portfolio@2.3.0 test
+> node --test tests/*.test.mjs
+
+✔ all six journey phases, archive and personal facts share the public source (2.032458ms)
+✔ validates actual user messages, rejects injected system role, excessive body and missing text (0.622767ms)
+✔ only known answer fields are accepted; metadata and HTML are not answers (0.597488ms)
+✔ forwards follow-up history and shared profile to original Nexray provider (8.567629ms)
+✔ HTML upstream and malformed response return honest 502 without internals (4.876697ms)
+✔ method, type, cross-site, size and rate-limit boundaries (10.575666ms)
+✔ aborts a hanging upstream and returns 504 without a synthetic answer (1001.95358ms)
+✔ production Lua executes rating and limiter boundaries in native Lua (91.834514ms)
+✔ required name and integer stars; omitted or empty comment is valid (3.063238ms)
+✔ exact origin comparison rejects null, prefixes and cross-site writes (0.752341ms)
+✔ signed challenge is bound to IP, browser, age and server secret (0.682226ms)
+✔ invalid requests never reach Upstash (1.313075ms)
+✔ one atomic EVAL writes rating; no raw IP or token enters key arguments (5.382187ms)
+✔ retry across fresh handler instances uses the same idempotency key and fingerprint (1.908872ms)
+✔ Redis-wide limit and duplicate conflict become honest 429/409 responses (1.603973ms)
+✔ GET returns real aggregate, bounded public reviews and a fresh signed challenge (1.182458ms)
+✔ missing configuration, HTTP failure, malformed JSON and storage errors never fake success (4.018305ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1166.462138

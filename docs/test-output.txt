@@ -1,0 +1,15 @@
+✔ all six journey phases, archive and personal facts share the public source (0.949925ms)
+✔ validates actual user messages, rejects injected system role, excessive body and missing text (0.22265ms)
+✔ only known answer fields are accepted; metadata and HTML are not answers (0.315397ms)
+✔ forwards follow-up history and shared profile to original Nexray provider (18.237861ms)
+✔ HTML upstream and malformed response return honest 502 without internals (3.566647ms)
+✔ method, type, cross-site, size and rate-limit boundaries (5.737108ms)
+✔ aborts a hanging upstream and returns 504 without a synthetic answer (1000.977514ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1047.195389

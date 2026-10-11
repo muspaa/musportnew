@@ -1,0 +1,67 @@
+{
+  "downloaded_at": "2026-10-08",
+  "license_note": "These are official copyrighted character reference images. No general reuse or redistribution license was found on the pages reviewed. Do not label them free, CC, public domain, licensed, or original portfolio art. They are replaceable reference assets; attribution does not itself grant permission.",
+  "assets": [
+    {
+      "character": "Elaina",
+      "work": "Wandering Witch: The Journey of Elaina / Majo no Tabitabi",
+      "source_page": "https://majotabi.jp/",
+      "source_asset": "https://majotabi.jp/assets/character/c1.png?0701",
+      "dimensions": [
+        1440,
+        1440
+      ],
+      "bytes": 295703,
+      "kind": "Transparent character model sheet with full body on left and three head views on right",
+      "credit": "© 白石定規・SBクリエイティブ／魔女の旅々製作委員会",
+      "included_asset": "public/images/elaina.webp"
+    },
+    {
+      "character": "Arisu Sakayanagi",
+      "work": "Classroom of the Elite",
+      "source_page": "https://you-zitsu.com/character.html",
+      "source_asset": "https://you-zitsu.com/assets/character/c/2a1.webp",
+      "dimensions": [
+        1000,
+        2000
+      ],
+      "bytes": 82118,
+      "kind": "Transparent full body illustration",
+      "credit": "©衣笠彰梧・KADOKAWA刊／ようこそ実力至上主義の教室へ4製作委員会",
+      "included_asset": "public/images/arisu.webp"
+    },
+    {
+      "character": "Hiyori Shiina",
+      "work": "Classroom of the Elite",
+      "source_page": "https://you-zitsu.com/character.html",
+      "source_asset": "https://you-zitsu.com/assets/character/c/2c4.webp",
+      "dimensions": [
+        1000,
+        2000
+      ],
+      "bytes": 88614,
+      "kind": "Transparent full body illustration",
+      "credit": "©衣笠彰梧・KADOKAWA刊／ようこそ実力至上主義の教室へ4製作委員会",
+      "included_asset": "public/images/hiyori.webp"
+    }
+  ],
+  "video": {
+    "source": "https://res.cloudinary.com/dhxfke7kq/video/upload/v1791439342/Ssstt/wnudrzps2bdshrcyykkw.mp4",
+    "encoded_dimensions": [
+      720,
+      1280
+    ],
+    "duration_seconds": 20.383333,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "rotation_metadata": null,
+    "css_rotation_degrees": -90,
+    "upright_dimensions": [
+      1280,
+      720
+    ],
+    "poster_timestamp_seconds": 2,
+    "note": "Original MP4 was only downloaded and inspected, never transcoded. Upright poster is an extracted still rotated counterclockwise. If using poster directly on the already CSS-rotated video element use the unrotated poster; upright poster belongs on an unrotated overlay.",
+    "included_poster": "public/posters/cote.webp"
+  }
+}

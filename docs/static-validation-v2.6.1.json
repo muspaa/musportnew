@@ -1,0 +1,41 @@
+{
+  "version": "2.6.1",
+  "counts": {
+    "projects": 18,
+    "journey": 6,
+    "tools": 19,
+    "people": 14,
+    "communities": 5
+  },
+  "v25_public_assets_preserved": 106,
+  "v25_api_files_preserved": 4,
+  "authorized_modified_assets": [
+    "public/sitemap.xml"
+  ],
+  "h1": 1,
+  "duplicate_ids": [],
+  "missing_assets": [],
+  "local_references_checked": 65,
+  "svg_files_valid": 47,
+  "json_ld_valid": true,
+  "canonical_origin": "https://rhmt.biz.id/",
+  "canonical_og_sitemap_robots_consistent": true,
+  "og_jpeg_dimensions": [
+    1734,
+    907
+  ],
+  "video_audio_only": true,
+  "splash_in_prerender": true,
+  "no_three_runtime": true,
+  "reachable_source_files": 30,
+  "runtime_assets": {
+    "assets/index-BUosfyf8.css": 76179,
+    "assets/index-DQce-l_J.js": 296416
+  },
+  "js_gzip_bytes": 91984,
+  "v25_js_gzip_bytes": 88124,
+  "browser_visual_qa": "not run: supported browser control unavailable",
+  "video_recording": "not available: no supported browser recording/control",
+  "database_live_test": "not run",
+  "GSC_submission": "not performed: no connected owner property/account"
+}

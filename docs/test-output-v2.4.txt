@@ -1,0 +1,41 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> r-hmt-immersive-portfolio@2.4.0 test
+> node --test tests/*.test.mjs
+
+✔ all six journey phases, archive and personal facts share the public source (3.649196ms)
+✔ validates actual user messages, rejects injected system role, excessive body and missing text (0.928471ms)
+✔ only known answer fields are accepted; metadata and HTML are not answers (0.808902ms)
+✔ forwards follow-up history and shared profile to original Nexray provider (12.812507ms)
+✔ HTML upstream and malformed response return honest 502 without internals (18.376261ms)
+✔ method, type, cross-site, size and rate-limit boundaries (34.89351ms)
+✔ aborts a hanging upstream and returns 504 without a synthetic answer (1004.284279ms)
+✔ the physical Journey workspace fits narrow mobile and desktop stages through chapter transitions (2580.762428ms)
+✔ focused and side work frames stay within their native viewports at pointer and swipe extremes (3.230599ms)
+✔ swipe velocity cannot over-rotate the shelf and pause removes velocity from its pose (2.331538ms)
+✔ Journey camera respects paused pointer motion and invalid chapter indices stay bounded (0.36722ms)
+✔ production Lua executes rating and limiter boundaries in native Lua (352.45484ms)
+✔ required name and integer stars; omitted or empty comment is valid (10.885451ms)
+✔ exact origin comparison rejects null, prefixes and cross-site writes (2.223264ms)
+✔ signed challenge is bound to IP, browser, age and server secret (2.158456ms)
+✔ invalid requests never reach Upstash (3.035322ms)
+✔ one atomic EVAL writes rating; no raw IP or token enters key arguments (10.445638ms)
+✔ retry across fresh handler instances uses the same idempotency key and fingerprint (3.911167ms)
+✔ Redis-wide limit and duplicate conflict become honest 429/409 responses (3.818129ms)
+✔ GET returns real aggregate, bounded public reviews and a fresh signed challenge (2.866627ms)
+✔ missing configuration, HTTP failure, malformed JSON and storage errors never fake success (14.100083ms)
+✔ renderer status metadata cannot become a scene or suppress native fallback imagery (1.84073ms)
+✔ orbit release travels the same distance at 30, 60 and 120 updates per second (0.613139ms)
+✔ vertical or small touch movement retains native page scroll; horizontal intent can orbit (0.336774ms)
+✔ perspective fit keeps all subject corners inside mobile and desktop frustums (5.282448ms)
+✔ off-axis nodes on the same camera plane have equal projected touch sizes (0.929034ms)
+✔ nodes behind the camera or outside the stage cannot create invisible click targets (0.419982ms)
+✔ camera-space projection follows a rotated camera and resizes with the stage (1.102931ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3131.59501

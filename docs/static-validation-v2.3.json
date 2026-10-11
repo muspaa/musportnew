@@ -1,0 +1,45 @@
+{
+  "version": "2.3.0",
+  "date": "2026-10-10",
+  "h1": 1,
+  "localAssetReferences": 57,
+  "missingAssets": [],
+  "validSvgs": 35,
+  "counts": {
+    "PROJECTS": 16,
+    "JOURNEY_STEPS": 6,
+    "PEOPLE": 14,
+    "COMMUNITIES": 6,
+    "tools": 19
+  },
+  "unchangedFromV22": {
+    "PROJECTS": true,
+    "JOURNEY_STEPS": true,
+    "ECOSYSTEM": true,
+    "PEOPLE": true,
+    "COMMUNITIES": true
+  },
+  "originalIdentity": {
+    "pp.png": {
+      "unchanged": true,
+      "sha256": "44e6fd7ff6accb885bbdb236ca4a9472b92e1c471050c4f89e0526b0762501da"
+    },
+    "pp-dev.png": {
+      "unchanged": true,
+      "sha256": "20629e18832d6f6db033a7a291d35ccaf622db569645685200c63bee224e9d57"
+    }
+  },
+  "allProjectNamesInStaticHtml": true,
+  "allToolNamesInStaticHtml": true,
+  "serverRedisTokenNameInBrowserBundle": false,
+  "build": "passed",
+  "tests": {
+    "passed": 17,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browserVisualQA": "unavailable",
+  "liveUpstash": "not configured",
+  "liveChat": "not verified",
+  "deployment": "not performed"
+}

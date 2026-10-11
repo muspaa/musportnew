@@ -1,0 +1,42 @@
+{
+  "version": "2.4.1",
+  "date": "2026-10-10",
+  "timezone": "Asia/Jakarta",
+  "baseline": "checkpoints/r-hmt-v24-source-delivery.zip",
+  "unchangedFiles": {
+    "shared/content.json": true,
+    "shared/knowledge.mjs": true,
+    "shared/profile.json": true,
+    "api/chat.js": true,
+    "api/contact.js": true,
+    "api/health.js": true,
+    "api/ratings.js": true
+  },
+  "unchangedPublicAssets": 102,
+  "counts": {
+    "PROJECTS": 16,
+    "JOURNEY_STEPS": 6,
+    "PEOPLE": 14,
+    "COMMUNITIES": 6,
+    "tools": 19
+  },
+  "h1": 1,
+  "localAssetReferences": 56,
+  "missingAssets": [],
+  "validSvgs": 38,
+  "videoBanner": {
+    "count": 1,
+    "autoplay": true,
+    "loop": true,
+    "nativeControls": false
+  },
+  "build": "passed",
+  "tests": {
+    "passed": 34,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browserQA": "unavailable",
+  "liveUpstash": "not configured",
+  "deployment": "not performed"
+}

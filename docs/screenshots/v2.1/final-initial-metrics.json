@@ -1,0 +1,169 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+  "reducedMotion": false,
+  "metrics": {
+    "cls": 0.004874376572651684,
+    "lcp": 224,
+    "events": [
+      {
+        "value": 0.004874376572651684,
+        "time": 179.5,
+        "sources": [
+          {
+            "node": "#text",
+            "before": {
+              "x": 13.640625,
+              "y": 673.625,
+              "width": 356,
+              "height": 130.09375,
+              "top": 673.625,
+              "right": 369.640625,
+              "bottom": 803.71875,
+              "left": 13.640625
+            },
+            "after": {
+              "x": 13.640625,
+              "y": 664.625,
+              "width": 310,
+              "height": 139.09375,
+              "top": 664.625,
+              "right": 323.640625,
+              "bottom": 803.71875,
+              "left": 13.640625
+            }
+          },
+          {
+            "node": "assembly-note",
+            "before": {
+              "x": 187.3806915283203,
+              "y": 645.0407104492188,
+              "width": 202.6193084716797,
+              "height": 130.76922607421875,
+              "top": 645.0407104492188,
+              "right": 390,
+              "bottom": 775.8099365234375,
+              "left": 187.3806915283203
+            },
+            "after": {
+              "x": 195.072998046875,
+              "y": 645.0407104492188,
+              "width": 194.927001953125,
+              "height": 130.76922607421875,
+              "top": 645.0407104492188,
+              "right": 390,
+              "bottom": 775.8099365234375,
+              "left": 195.072998046875
+            }
+          },
+          {
+            "node": "#text",
+            "before": {
+              "x": 20,
+              "y": 145.59375,
+              "width": 350,
+              "height": 70,
+              "top": 145.59375,
+              "right": 370,
+              "bottom": 215.59375,
+              "left": 20
+            },
+            "after": {
+              "x": 20,
+              "y": 140.59375,
+              "width": 350,
+              "height": 70,
+              "top": 140.59375,
+              "right": 370,
+              "bottom": 210.59375,
+              "left": 20
+            }
+          },
+          {
+            "node": "#text",
+            "before": {
+              "x": 20,
+              "y": 201.265625,
+              "width": 350,
+              "height": 70,
+              "top": 201.265625,
+              "right": 370,
+              "bottom": 271.265625,
+              "left": 20
+            },
+            "after": {
+              "x": 20,
+              "y": 196.265625,
+              "width": 350,
+              "height": 70,
+              "top": 196.265625,
+              "right": 370,
+              "bottom": 266.265625,
+              "left": 20
+            }
+          },
+          {
+            "node": "assembly-coordinate",
+            "before": {
+              "x": 260.171875,
+              "y": 420.9375,
+              "width": 97.765625,
+              "height": 21.59375,
+              "top": 420.9375,
+              "right": 357.9375,
+              "bottom": 442.53125,
+              "left": 260.171875
+            },
+            "after": {
+              "x": 267.4375,
+              "y": 420.9375,
+              "width": 90.5,
+              "height": 21.59375,
+              "top": 420.9375,
+              "right": 357.9375,
+              "bottom": 442.53125,
+              "left": 267.4375
+            }
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "resources": [
+    {
+      "url": "spacegrotesk-variable.woff2",
+      "transfer": 49488,
+      "duration": 11
+    },
+    {
+      "url": "pp.webp",
+      "transfer": 66132,
+      "duration": 10
+    },
+    {
+      "url": "pp-dev.webp",
+      "transfer": 77686,
+      "duration": 15
+    },
+    {
+      "url": "index-BqEICICi.js",
+      "transfer": 82533,
+      "duration": 18
+    },
+    {
+      "url": "manrope-variable.woff2",
+      "transfer": 54212,
+      "duration": 62
+    },
+    {
+      "url": "engine-K6Oival1.js",
+      "transfer": 4129,
+      "duration": 9
+    },
+    {
+      "url": "three-CmyFZNEc.js",
+      "transfer": 122423,
+      "duration": 19
+    }
+  ]
+}

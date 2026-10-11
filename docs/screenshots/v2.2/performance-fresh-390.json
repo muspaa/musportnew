@@ -1,0 +1,82 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+  "reducedMotion": false,
+  "metrics": {
+    "cls": 0.00005638612310007551,
+    "lcp": 164,
+    "events": [
+      {
+        "value": 0.00005638612310007551,
+        "time": 149.19999999995343,
+        "sources": [
+          {
+            "node": "assembly-coordinate",
+            "before": {
+              "x": 260.171875,
+              "y": 433.03125,
+              "width": 97.765625,
+              "height": 21.59375,
+              "top": 433.03125,
+              "right": 357.9375,
+              "bottom": 454.625,
+              "left": 260.171875
+            },
+            "after": {
+              "x": 267.4375,
+              "y": 433.03125,
+              "width": 90.5,
+              "height": 21.59375,
+              "top": 433.03125,
+              "right": 357.9375,
+              "bottom": 454.625,
+              "left": 267.4375
+            }
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "resources": [
+    {
+      "url": "spacegrotesk-variable.woff2",
+      "transfer": 300,
+      "duration": 6
+    },
+    {
+      "url": "index-CF5F9Juw.js",
+      "transfer": 300,
+      "duration": 7
+    },
+    {
+      "url": "pp.webp",
+      "transfer": 300,
+      "duration": 7
+    },
+    {
+      "url": "pp-dev.webp",
+      "transfer": 300,
+      "duration": 16
+    },
+    {
+      "url": "exploration-landscape.webp",
+      "transfer": 300,
+      "duration": 4
+    },
+    {
+      "url": "manrope-variable.woff2",
+      "transfer": 300,
+      "duration": 43
+    },
+    {
+      "url": "engine-K6Oival1.js",
+      "transfer": 300,
+      "duration": 13
+    },
+    {
+      "url": "three-CmyFZNEc.js",
+      "transfer": 300,
+      "duration": 14
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> r-hmt-immersive-portfolio@2.1.0 build
+> tsc --noEmit && vite build && node scripts/prerender.mjs
+
+vite v6.4.4 building for production...
+transforming...
+✓ 1694 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   2.56 kB │ gzip:   1.09 kB
+dist/assets/index-zMsjsybg.css   78.79 kB │ gzip:  17.42 kB
+dist/assets/engine-K6Oival1.js    8.94 kB │ gzip:   3.83 kB
+dist/assets/index-BqEICICi.js   264.26 kB │ gzip:  82.23 kB
+dist/assets/three-CmyFZNEc.js   487.77 kB │ gzip: 122.12 kB
+✓ built in 2.38s
+Prerendered complete portfolio: 51.2 KB HTML

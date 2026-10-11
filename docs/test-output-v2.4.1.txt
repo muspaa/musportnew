@@ -1,0 +1,47 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> r-hmt-immersive-portfolio@2.4.1 test
+> node --test tests/*.test.mjs
+
+✔ all six journey phases, archive and personal facts share the public source (4.232636ms)
+✔ validates actual user messages, rejects injected system role, excessive body and missing text (0.87423ms)
+✔ only known answer fields are accepted; metadata and HTML are not answers (1.988248ms)
+✔ forwards follow-up history and shared profile to original Nexray provider (17.890192ms)
+✔ HTML upstream and malformed response return honest 502 without internals (23.549043ms)
+✔ method, type, cross-site, size and rate-limit boundaries (61.699597ms)
+✔ aborts a hanging upstream and returns 504 without a synthetic answer (1008.627479ms)
+✔ the physical Journey workspace fits narrow mobile and desktop stages through chapter transitions (9034.450288ms)
+✔ focused and side work frames stay within their native viewports at pointer and swipe extremes (3.136069ms)
+✔ swipe velocity cannot over-rotate the shelf and pause removes velocity from its pose (1.609979ms)
+✔ Journey camera respects paused pointer motion and invalid chapter indices stay bounded (0.424719ms)
+✔ room camera and floor travel remain continuous at every section boundary in both scroll directions (4.774109ms)
+✔ room route uses actual section spacing and cannot overshoot its architectural camera limits (24.795674ms)
+✔ repeated Journey reversals preserve the instantaneous angle and angular velocity and then settle (11.557162ms)
+✔ Journey switches screens halfway through its turn; paused changes settle without a pulse (0.549343ms)
+✔ the last mobile work and centered desktop works have reachable native snap targets (15.004328ms)
+✔ work dragging requires horizontal intent and leaves small clicks and vertical gestures alone (4.434086ms)
+✔ production Lua executes rating and limiter boundaries in native Lua (287.753965ms)
+✔ required name and integer stars; omitted or empty comment is valid (7.10035ms)
+✔ exact origin comparison rejects null, prefixes and cross-site writes (1.535662ms)
+✔ signed challenge is bound to IP, browser, age and server secret (2.217128ms)
+✔ invalid requests never reach Upstash (3.820758ms)
+✔ one atomic EVAL writes rating; no raw IP or token enters key arguments (13.677931ms)
+✔ retry across fresh handler instances uses the same idempotency key and fingerprint (4.631889ms)
+✔ Redis-wide limit and duplicate conflict become honest 429/409 responses (4.798527ms)
+✔ GET returns real aggregate, bounded public reviews and a fresh signed challenge (2.90608ms)
+✔ missing configuration, HTTP failure, malformed JSON and storage errors never fake success (11.498946ms)
+✔ renderer status metadata cannot become a scene or suppress native fallback imagery (2.783815ms)
+✔ orbit release travels the same distance at 30, 60 and 120 updates per second (0.892845ms)
+✔ vertical or small touch movement retains native page scroll; horizontal intent can orbit (0.535342ms)
+✔ perspective fit keeps all subject corners inside mobile and desktop frustums (3.622768ms)
+✔ off-axis nodes on the same camera plane have equal projected touch sizes (0.985368ms)
+✔ nodes behind the camera or outside the stage cannot create invisible click targets (0.776949ms)
+✔ camera-space projection follows a rotated camera and resizes with the stage (0.450588ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9960.733135

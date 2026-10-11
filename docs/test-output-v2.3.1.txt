@@ -1,0 +1,37 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> r-hmt-immersive-portfolio@2.3.1 test
+> node --test tests/*.test.mjs
+
+✔ all six journey phases, archive and personal facts share the public source (0.945716ms)
+✔ validates actual user messages, rejects injected system role, excessive body and missing text (0.215625ms)
+✔ only known answer fields are accepted; metadata and HTML are not answers (0.273903ms)
+✔ forwards follow-up history and shared profile to original Nexray provider (3.930305ms)
+✔ HTML upstream and malformed response return honest 502 without internals (2.948025ms)
+✔ method, type, cross-site, size and rate-limit boundaries (5.739783ms)
+✔ aborts a hanging upstream and returns 504 without a synthetic answer (1001.390014ms)
+✔ production Lua executes rating and limiter boundaries in native Lua (60.944925ms)
+✔ required name and integer stars; omitted or empty comment is valid (2.32862ms)
+✔ exact origin comparison rejects null, prefixes and cross-site writes (0.48396ms)
+✔ signed challenge is bound to IP, browser, age and server secret (0.485873ms)
+✔ invalid requests never reach Upstash (0.972466ms)
+✔ one atomic EVAL writes rating; no raw IP or token enters key arguments (4.030055ms)
+✔ retry across fresh handler instances uses the same idempotency key and fingerprint (1.298617ms)
+✔ Redis-wide limit and duplicate conflict become honest 429/409 responses (1.088551ms)
+✔ GET returns real aggregate, bounded public reviews and a fresh signed challenge (0.805194ms)
+✔ missing configuration, HTTP failure, malformed JSON and storage errors never fake success (3.193454ms)
+✔ renderer status metadata cannot become a scene or suppress native fallback imagery (0.756961ms)
+✔ orbit release travels the same distance at 30, 60 and 120 updates per second (0.427274ms)
+✔ vertical or small touch movement retains native page scroll; horizontal intent can orbit (0.139691ms)
+✔ perspective fit keeps all subject corners inside mobile and desktop frustums (1.178937ms)
+✔ off-axis nodes on the same camera plane have equal projected touch sizes (0.328475ms)
+✔ nodes behind the camera or outside the stage cannot create invisible click targets (0.184649ms)
+✔ camera-space projection follows a rotated camera and resizes with the stage (1.25364ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1096.304952

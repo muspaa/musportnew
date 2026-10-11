@@ -1,0 +1,216 @@
+[
+  {
+    "name": "hero-360-browser.jpg",
+    "rect": {
+      "height": 780,
+      "width": 360,
+      "x": 0,
+      "y": 60
+    },
+    "audit": {
+      "viewport": {
+        "width": 360,
+        "height": 780
+      },
+      "captureScale": 1,
+      "documentWidth": 360,
+      "overflow": [],
+      "brokenImages": [],
+      "canvases": 0,
+      "sections": 9,
+      "headings": 1
+    }
+  },
+  {
+    "name": "hero-390-browser.jpg",
+    "rect": {
+      "height": 844,
+      "width": 390,
+      "x": 0,
+      "y": 60
+    },
+    "audit": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "captureScale": 1,
+      "documentWidth": 390,
+      "overflow": [],
+      "brokenImages": [],
+      "canvases": 0,
+      "sections": 9,
+      "headings": 1
+    }
+  },
+  {
+    "name": "hero-768-browser.jpg",
+    "rect": {
+      "height": 856,
+      "width": 642,
+      "x": 0,
+      "y": 60
+    },
+    "audit": {
+      "viewport": {
+        "width": 753,
+        "height": 1024
+      },
+      "captureScale": 0.8359375,
+      "documentWidth": 753,
+      "overflow": [],
+      "brokenImages": [],
+      "canvases": 0,
+      "sections": 9,
+      "headings": 1
+    }
+  },
+  {
+    "name": "hero-1440-browser.jpg",
+    "rect": {
+      "height": 839.375,
+      "width": 1343,
+      "x": 0,
+      "y": 60
+    },
+    "audit": {
+      "viewport": {
+        "width": 1425,
+        "height": 900
+      },
+      "captureScale": 0.9326388888888889,
+      "documentWidth": 1425,
+      "overflow": [],
+      "brokenImages": [],
+      "canvases": 0,
+      "sections": 9,
+      "headings": 1
+    }
+  },
+  {
+    "name": "journey-390-browser.jpg",
+    "rect": {
+      "height": 844,
+      "width": 390,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "ecosystem-390-browser.jpg",
+    "rect": {
+      "height": 844,
+      "width": 390,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "archive-390-browser.jpg",
+    "rect": {
+      "height": 844,
+      "width": 390,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "lab-390-browser.jpg",
+    "rect": {
+      "height": 844,
+      "width": 390,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "people-390-browser.jpg",
+    "rect": {
+      "height": 844,
+      "width": 390,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "universe-390-browser.jpg",
+    "rect": {
+      "height": 844,
+      "width": 390,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "contact-390-browser.jpg",
+    "rect": {
+      "height": 844,
+      "width": 390,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "journey-1440-browser.jpg",
+    "rect": {
+      "height": 839.375,
+      "width": 1343,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "ecosystem-1440-browser.jpg",
+    "rect": {
+      "height": 839.375,
+      "width": 1343,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "archive-1440-browser.jpg",
+    "rect": {
+      "height": 839.375,
+      "width": 1343,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "lab-1440-browser.jpg",
+    "rect": {
+      "height": 839.375,
+      "width": 1343,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "people-1440-browser.jpg",
+    "rect": {
+      "height": 839.375,
+      "width": 1343,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "universe-1440-browser.jpg",
+    "rect": {
+      "height": 839.375,
+      "width": 1343,
+      "x": 0,
+      "y": 60
+    }
+  },
+  {
+    "name": "contact-1440-browser.jpg",
+    "rect": {
+      "height": 839.375,
+      "width": 1343,
+      "x": 0,
+      "y": 60
+    }
+  }
+]

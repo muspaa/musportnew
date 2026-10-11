@@ -1,0 +1,32 @@
+{
+  "version": "2.3.1",
+  "date": "2026-10-10",
+  "baseline": "checkpoints/r-hmt-v23-delivery.zip",
+  "unchangedFiles": {
+    "shared/content.json": true,
+    "shared/profile.json": true,
+    "api/chat.js": true,
+    "api/ratings.js": true
+  },
+  "unchangedPublicAssets": 102,
+  "counts": {
+    "PROJECTS": 16,
+    "JOURNEY_STEPS": 6,
+    "PEOPLE": 14,
+    "COMMUNITIES": 6,
+    "tools": 19
+  },
+  "h1": 1,
+  "localAssetReferences": 57,
+  "missingAssets": [],
+  "validSvgs": 35,
+  "build": "passed",
+  "tests": {
+    "passed": 24,
+    "failed": 0,
+    "skipped": 0
+  },
+  "browserQA": "unavailable",
+  "liveUpstash": "not configured",
+  "deployment": "not performed"
+}

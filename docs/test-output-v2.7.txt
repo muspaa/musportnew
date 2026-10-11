@@ -1,0 +1,21 @@
+npm test — recorded execution summary, 10 October 2026
+node --test tests/*.test.mjs
+
+✔ cached critical assets still allow the whole opening choreography
+✔ intro never regresses or reports completion before delayed assets settle
+✔ reduced motion has a short opening and a bounded network deadline
+
+Existing chapter/SEO, content, chat, rating/Lua, rail, native shelf, orbit,
+and historical geometry regression suites also passed.
+
+ℹ tests 52
+ℹ suites 0
+ℹ pass 52
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3380.883444
+
+This is the recorded summary, not a complete stdout transcript.
+Geometry tests from historical renderers do not verify the active CSS visual layout.

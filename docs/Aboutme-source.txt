@@ -1,0 +1,141 @@
+R_HMT V2 — Copywriting & Language Refinement
+
+Poles seluruh bahasa dan copywriting website agar lebih natural, personal, to the point, tetapi tetap intelektual. Tujuannya agar tulisan terasa seperti pemikiran R_HMT sendiri, bukan narasi AI yang terlalu sempurna.
+
+Arahan Bahasa
+
+- Ganti headline utama Hero menjadi “Learning in Progress.”
+- Gunakan variasi subjek i / w / saya / aku sesuai konteks. Jangan menggunakan satu subjek secara monoton atau memaksakan variasi dalam satu paragraf.
+- Bahasa Indonesia tetap dominan. Sisipkan English singkat secara natural, seperti but idk, actually, somehow, at least, atau istilah teknis yang relevan.
+- Pertahankan jargon seperti perspektif, implementasi, fundamental, asumsi, eksplorasi, iterasi, debugging, dan workflow jika sesuai konteks.
+- Hindari kalimat puitis, motivasional, terlalu filosofis, atau English panjang yang terkesan dibuat-buat.
+- Jangan mengubah semua kalimat. Pertahankan teks yang sudah natural dan informatif.
+- Gunakan variasi panjang kalimat dan struktur paragraf agar tidak terasa seperti pola tulisan AI.
+
+Konteks Pribadi — About Me
+
+Pastikan narasi tidak kehilangan konteks personal berikut:
+
+Sejak awal R_HMT memang memiliki ketertarikan terhadap teknologi, tetapi belum mendalaminya secara serius.
+
+Saat kelas 10, ada tugas kelompok P5 yang sebenarnya tidak berkaitan langsung dengan web development. Karena tertarik dengan teknologi, R_HMT mencoba mencari pendekatan alternatif sesuai minatnya agar bisa berkontribusi dalam kelompok.
+
+Ada juga motivasi personal: saat itu R_HMT menyukai seseorang di kelas, tetapi perasaannya hanya dipendam. Keberadaan seseorang tersebut menjadi salah satu dorongan untuk membuktikan bahwa dirinya mampu memberikan kontribusi dan tidak sekadar menjadi beban kelompok.
+
+Namun, orang tersebut hanya menjadi pemicu awal, bukan alasan utama R_HMT terus mendalami web development. Setelah tugas selesai, ketertarikan terhadap teknologi berkembang secara independen melalui eksplorasi dan berbagai eksperimen.
+
+Sampaikan konteks ini secara subtil, cukup beberapa kalimat. Jangan dibuat seperti kisah romantis, curhatan, atau cerita perjuangan yang dramatis.
+
+Contoh Gaya Penulisan
+
+About Me — How It Started
+
+«Sebenarnya aku udah tertarik sama teknologi sejak awal, cuma belum sampai mendalaminya. Waktu kelas 10 ada tugas kelompok P5, dan i mencoba mencari pendekatan lain lewat web development, meskipun tugasnya sendiri nggak berkaitan langsung dengan itu.
+
+Ada motivasi personal juga sih. Waktu itu ada seseorang di kelas yg secara nggak langsung bikin aku ingin membuktikan kalau bisa berkontribusi, bukan sekadar ikut nama dalam kelompok. Nggak pernah diungkapkan juga, but ya, itu salah satu konteks awalnya.
+
+Tapi setelah tugas selesai, ketertarikan w terhadap web development tetap berlanjut. Mulai dari eksperimen sederhana sampai mencoba berbagai pendekatan teknis. Jadi, motivasi awalnya memang personal, tapi alasan i tetap mendalami bidang ini sudah berkembang jauh dari itu.»
+
+Digital Archive
+
+«Kumpulan project dan eksperimen yang pernah aku buat. Beberapa masih bisa diakses, sebagian udah nggak aktif. Ada juga yg cuma sebatas proof of concept, tapi tetap jadi bagian dari proses belajar.»
+
+Technology / Ecosystem
+
+«i cukup sering mencoba tools dan teknologi baru, tapi bukan berarti semuanya sudah dikuasai. Biasanya lebih fokus ke relevansi dan implementasinya. Kalau suatu tools memang bisa membantu workflow, ya kenapa nggak dicoba?»
+
+Personal / Anime
+
+«Selain teknologi, i juga suka anime, terutama Classroom of the Elite (COTE)i. and my Waifu ada elaina (yg sekarang terpampang icon profil), Arisu sakayanagi and juga Hiyori shina dari COTE 
+
+Prinsip Akhir
+
+Gunakan contoh tersebut sebagai referensi karakter bahasa, bukan template yang harus diikuti secara identik.
+
+Jangan memaksakan jargon, English, atau pergantian subjek di setiap paragraf. Sesuaikan dengan kebutuhan komunikasi: informasi teknis tetap presisi, penjelasan pribadi terasa autentik, dan navigasi website tetap singkat serta mudah dipahami.
+
+Prioritaskan kejelasan, konteks nyata, dan naturalitas. Bukan kalimat yang sekadar terdengar keren.
+
+Contoh Penggunaan Bahasa & Subjek
+
+Gunakan i / w / saya / aku secara fleksibel sesuai konteks, bukan berdasarkan aturan baku atau pola pergantian tertentu.
+
+Contoh subjek:
+
+- i: "Awalnya i cuma coba-coba, tapi lama-lama mulai tertarik sama implementasinya."
+- w: "Menurut w, pendekatan ini kurang efisien kalau diterapkan di semua kondisi."
+- aku: "Waktu kelas 10, aku mulai lebih serius mengeksplorasi web development."
+- saya: "Saya memiliki ketertarikan pada pengembangan web, AI, dan berbagai eksperimen teknologi."
+
+Contoh natural code-switching:
+
+- "But idk, mungkin nanti perspektif i bakal berubah."
+- "Actually, masalahnya bukan di teknologinya, tapi lebih ke implementasi."
+- "Awalnya cuma eksperimen sederhana, but somehow malah jadi tertarik mendalaminya."
+- "Secara konsep udah masuk akal, cuma eksekusinya masih perlu beberapa iterasi."
+- "i pernah coba pendekatan itu, tapi hasilnya kurang sesuai ekspektasi. So yeah, masih perlu evaluasi."
+
+Contoh yang harus dihindari:
+
+- "Every failure is a lesson, and every journey has its own meaning." — terlalu puitis dan motivasional.
+- "I am passionate about creating innovative digital experiences." — terlalu korporat dan generik.
+- "Aku belajar coding. W membuat proyek. Saya melakukan eksperimen. I mengembangkan website." — pergantian subjek dipaksakan.
+
+Catatan: Jangan menyisipkan English, jargon, atau pergantian subjek hanya untuk memenuhi gaya. Satu paragraf boleh menggunakan subjek yang sama, bahkan boleh tanpa English sama sekali jika memang lebih natural.
+
+Targetnya adalah bahasa Indonesia yang komunikatif, sedikit santai, tetap analitis, dengan istilah teknis dan English yang muncul seperlunya. Pertahankan kejelasan informasi sebagai prioritas utama.
+
+Contoh Bahasa Puitis yang Harus Dihindari
+
+Jangan membuat narasi terdengar seperti puisi, kutipan motivasi, atau refleksi filosofis yang berlebihan. Gunakan bahasa yang langsung, informatif, sedikit intelektual, tetapi tetap santai.
+
+1. Tentang perjalanan belajar
+
+❌ Terlalu puitis:
+"Di balik setiap baris kode, tersimpan perjalanan panjang tentang rasa penasaran dan keberanian untuk terus melangkah."
+
+✅ Lebih natural:
+"Awalnya i cuma tertarik sama teknologi, kemudian mulai mendalami web development lewat beberapa eksperimen."
+
+2. Tentang kegagalan
+
+❌ Terlalu puitis:
+"Setiap kegagalan adalah bagian dari perjalanan yang membentuk siapa diriku hari ini."
+
+✅ Lebih natural:
+"Beberapa eksperimen memang gagal, tapi dari situ w jadi tahu bagian mana yang perlu diperbaiki."
+
+3. Tentang motivasi kelas 10
+
+❌ Terlalu puitis:
+"Ada seseorang yang tanpa disadari menjadi alasan di balik langkah pertama dalam perjalanan panjang ini."
+
+✅ Lebih natural:
+"Waktu kelas 10 sebenarnya ada motivasi personal juga. Ada seseorang yg bikin aku ingin membuktikan kalau bisa berkontribusi dalam kelompok. Tapi ya, itu cuma salah satu pemicunya."
+
+4. Tentang teknologi
+
+❌ Terlalu puitis:
+"Teknologi adalah dunia tanpa batas, tempat ide dan imajinasi bertemu untuk menciptakan kemungkinan baru."
+
+✅ Lebih natural:
+"Menurut w, teknologi menarik karena banyak pendekatan yg bisa dieksplorasi, terutama soal implementasi dan efisiensi."
+
+5. Tentang masa depan
+
+❌ Terlalu puitis:
+"Perjalanan ini belum berakhir, karena masih banyak mimpi yang menunggu untuk diwujudkan."
+
+✅ Lebih natural:
+"Untuk sekarang i masih fokus belajar dan eksperimen. But idk, kita lihat aja nanti bakal berkembang ke mana."
+
+Prinsip Penting
+
+- Hindari metafora, dramatisasi, dan kalimat yang terdengar seperti slogan motivasi.
+- Jangan selalu mengakhiri paragraf dengan kesimpulan filosofis.
+- Gunakan i / w / saya / aku sesuai konteks, bukan bergantian secara mekanis.
+- Pertahankan jargon teknis seperti implementasi, iterasi, debugging, workflow, dan fundamental jika relevan.
+- Gunakan English singkat secara natural, bukan kalimat panjang untuk terlihat keren.
+- Tidak semua kalimat harus santai. Penjelasan teknis boleh lebih formal selama tetap mudah dipahami.
+
+Target: tulisan terasa seperti seseorang yang memahami topik dan menjelaskan pendapatnya secara langsung, bukan AI yang berusaha membuat setiap kalimat terdengar mendalam.

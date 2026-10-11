@@ -1,0 +1,31 @@
+{
+  "previous_js": {
+    "index-INvmdQR_.js": {
+      "bytes": 276584,
+      "gzip": 85663
+    },
+    "three-BYpcLBoy.js": {
+      "bytes": 507329,
+      "gzip": 126036
+    },
+    "world-4vqWGmZ4.js": {
+      "bytes": 36494,
+      "gzip": 14549
+    }
+  },
+  "current_js": {
+    "index-C28tdR6I.js": {
+      "bytes": 285618,
+      "gzip": 88124
+    }
+  },
+  "previous_js_gzip_total": 226248,
+  "current_js_gzip_total": 88124,
+  "backgrounds": {
+    "dark-960.webp": 41906,
+    "light-1680.webp": 105422,
+    "dark-1680.webp": 96434,
+    "light-960.webp": 47358
+  },
+  "benchmark": "Transfer-size comparison only; not a FPS/Lighthouse/browser measurement."
+}

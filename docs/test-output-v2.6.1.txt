@@ -1,0 +1,62 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> r-hmt-immersive-portfolio@2.6.1 test
+> node --test tests/*.test.mjs
+
+✔ chapter cover remains reversible and bounded across mobile and desktop (1.153899ms)
+✔ tall mobile hero is readable before the last scene pins; short hero stays below header (0.148052ms)
+✔ canonical uses explicit domain, otherwise Vercel production origin, otherwise source domain (0.14301ms)
+✔ canonical rejects insecure, credentialed and non-root URLs (0.720027ms)
+✔ short desktop hero starts unfolded even when work is initially visible below it (0.149036ms)
+✔ all six journey phases, archive and personal facts share the public source (1.200755ms)
+✔ validates actual user messages, rejects injected system role, excessive body and missing text (0.286154ms)
+✔ only known answer fields are accepted; metadata and HTML are not answers (0.419844ms)
+✔ forwards follow-up history and shared profile to original Nexray provider (9.53206ms)
+✔ HTML upstream and malformed response return honest 502 without internals (4.53409ms)
+✔ method, type, cross-site, size and rate-limit boundaries (9.877971ms)
+✔ aborts a hanging upstream and returns 504 without a synthetic answer (1001.599612ms)
+✔ the physical Journey workspace fits narrow mobile and desktop stages through chapter transitions (3159.791169ms)
+✔ focused and side work frames stay within their native viewports at pointer and swipe extremes (2.063215ms)
+✔ swipe velocity cannot over-rotate the shelf and pause removes velocity from its pose (0.997302ms)
+✔ Journey camera respects paused pointer motion and invalid chapter indices stay bounded (0.2618ms)
+✔ hero portrait frames and physical base fit mobile and desktop while fanning out and reacting to scroll (714.253204ms)
+✔ all character frames fit their native mobile and desktop gallery stages at pointer extremes (1.337096ms)
+✔ all 19 upright orbit hit targets stay separate and inside mobile/desktop wrappers throughout motion (33.129191ms)
+✔ orbit inertia travels identically at 30, 60 and 120 Hz and resumes from its preserved angle (0.896135ms)
+✔ orbit renders stop for hidden tabs, offscreen scenes, dialogs, intro, focus, selection and reduced motion (0.14849ms)
+✔ silver rails form finite closed paths and orbit state remains reversible and bounded (0.492543ms)
+✔ room camera and floor travel remain continuous at every section boundary in both scroll directions (3.223483ms)
+✔ room route uses actual section spacing and cannot overshoot its architectural camera limits (13.205727ms)
+✔ repeated Journey reversals preserve the instantaneous angle and angular velocity and then settle (3.952179ms)
+✔ Journey switches screens halfway through its turn; paused changes settle without a pulse (0.938926ms)
+✔ the last mobile work and centered desktop works have reachable native snap targets (0.89829ms)
+✔ work dragging requires horizontal intent and leaves small clicks and vertical gestures alone (0.285852ms)
+✔ production Lua executes rating and limiter boundaries in native Lua (89.841827ms)
+✔ required name and integer stars; omitted or empty comment is valid (4.586119ms)
+✔ exact origin comparison rejects null, prefixes and cross-site writes (0.732533ms)
+✔ signed challenge is bound to IP, browser, age and server secret (1.085146ms)
+✔ invalid requests never reach Upstash (1.717384ms)
+✔ one atomic EVAL writes rating; no raw IP or token enters key arguments (5.983646ms)
+✔ retry across fresh handler instances uses the same idempotency key and fingerprint (2.144669ms)
+✔ Redis-wide limit and duplicate conflict become honest 429/409 responses (3.063849ms)
+✔ GET returns real aggregate, bounded public reviews and a fresh signed challenge (1.046463ms)
+✔ missing configuration, HTTP failure, malformed JSON and storage errors never fake success (8.793624ms)
+✔ slow review movement survives integer scrollLeft rounding at 30, 60 and 120Hz (2.526888ms)
+✔ review rail reaches both edges and reverses without overshooting (2.034803ms)
+✔ intro waits for its own rendered stage even if a different scene or empty frame was ready (1.017854ms)
+✔ the first frame after a narrower viewport fits immediately and zooming back in cannot crop (2.62099ms)
+✔ renderer status metadata cannot become a scene or suppress native fallback imagery (0.358407ms)
+✔ orbit release travels the same distance at 30, 60 and 120 updates per second (0.330929ms)
+✔ vertical or small touch movement retains native page scroll; horizontal intent can orbit (0.251349ms)
+✔ perspective fit keeps all subject corners inside mobile and desktop frustums (0.753206ms)
+✔ off-axis nodes on the same camera plane have equal projected touch sizes (0.336901ms)
+✔ nodes behind the camera or outside the stage cannot create invisible click targets (0.201052ms)
+✔ camera-space projection follows a rotated camera and resizes with the stage (1.622286ms)
+ℹ tests 49
+ℹ suites 0
+ℹ pass 49
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4374.040354

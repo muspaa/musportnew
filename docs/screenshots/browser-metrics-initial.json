@@ -1,0 +1,257 @@
+{
+  "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+  "reducedMotion": false,
+  "metrics": {
+    "cls": 0,
+    "lcp": 220,
+    "events": [],
+    "errors": []
+  },
+  "resources": [
+    {
+      "url": "client",
+      "transfer": 300,
+      "duration": 5
+    },
+    {
+      "url": "instrument-serif.woff2",
+      "transfer": 300,
+      "duration": 7
+    },
+    {
+      "url": "main.tsx?t=1791461312844",
+      "transfer": 300,
+      "duration": 7
+    },
+    {
+      "url": "@react-refresh",
+      "transfer": 300,
+      "duration": 6
+    },
+    {
+      "url": "env.mjs",
+      "transfer": 300,
+      "duration": 4
+    },
+    {
+      "url": "react_jsx-dev-runtime.js?v=0bf4f46a",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "react.js?v=0bf4f46a",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "react-dom_client.js?v=c9adff65",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "App.tsx",
+      "transfer": 300,
+      "duration": 5
+    },
+    {
+      "url": "index.css?t=1791461312844",
+      "transfer": 300,
+      "duration": 5
+    },
+    {
+      "url": "chunk-VGRFUQQI.js?v=dc5b78c1",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "chunk-G3PMV62Z.js?v=dc5b78c1",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "chunk-W4OE7ISL.js?v=dc5b78c1",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "lucide-react.js?v=5d379f69",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "data.ts",
+      "transfer": 300,
+      "duration": 7
+    },
+    {
+      "url": "Primitives.tsx",
+      "transfer": 300,
+      "duration": 7
+    },
+    {
+      "url": "Archive.tsx",
+      "transfer": 300,
+      "duration": 8
+    },
+    {
+      "url": "Scene.tsx",
+      "transfer": 300,
+      "duration": 9
+    },
+    {
+      "url": "AiSandbox.tsx",
+      "transfer": 300,
+      "duration": 8
+    },
+    {
+      "url": "PeopleAndCommunities.tsx",
+      "transfer": 300,
+      "duration": 9
+    },
+    {
+      "url": "Personal.tsx",
+      "transfer": 300,
+      "duration": 9
+    },
+    {
+      "url": "content.json?import",
+      "transfer": 300,
+      "duration": 8
+    },
+    {
+      "url": "profile.json?import",
+      "transfer": 300,
+      "duration": 8
+    },
+    {
+      "url": "useMotion.ts",
+      "transfer": 300,
+      "duration": 4
+    },
+    {
+      "url": "anime.ts",
+      "transfer": 300,
+      "duration": 4
+    },
+    {
+      "url": "VideoPlayer.tsx",
+      "transfer": 300,
+      "duration": 5
+    },
+    {
+      "url": "origin.webp",
+      "transfer": 300,
+      "duration": 10
+    },
+    {
+      "url": "Shadow.webp",
+      "transfer": 300,
+      "duration": 9
+    },
+    {
+      "url": "Hmmodz.webp",
+      "transfer": 300,
+      "duration": 10
+    },
+    {
+      "url": "Reiz.webp",
+      "transfer": 300,
+      "duration": 10
+    },
+    {
+      "url": "Zakrenz.webp",
+      "transfer": 300,
+      "duration": 11
+    },
+    {
+      "url": "Ramda.webp",
+      "transfer": 300,
+      "duration": 12
+    },
+    {
+      "url": "Tenkz.webp",
+      "transfer": 300,
+      "duration": 12
+    },
+    {
+      "url": "Coding.webp",
+      "transfer": 300,
+      "duration": 13
+    },
+    {
+      "url": "Scrape.webp",
+      "transfer": 300,
+      "duration": 14
+    },
+    {
+      "url": "Promosi.webp",
+      "transfer": 300,
+      "duration": 16
+    },
+    {
+      "url": "Promosiv2.webp",
+      "transfer": 300,
+      "duration": 16
+    },
+    {
+      "url": "Bots.webp",
+      "transfer": 300,
+      "duration": 16
+    },
+    {
+      "url": "elaina.webp",
+      "transfer": 300,
+      "duration": 18
+    },
+    {
+      "url": "arisu.webp",
+      "transfer": 300,
+      "duration": 18
+    },
+    {
+      "url": "hiyori.webp",
+      "transfer": 300,
+      "duration": 18
+    },
+    {
+      "url": "cote.webp",
+      "transfer": 300,
+      "duration": 19
+    },
+    {
+      "url": "manrope.woff2",
+      "transfer": 300,
+      "duration": 6
+    },
+    {
+      "url": "instrument-serif-italic.woff2",
+      "transfer": 300,
+      "duration": 4
+    },
+    {
+      "url": "engine.ts",
+      "transfer": 300,
+      "duration": 15
+    },
+    {
+      "url": "three.js?v=a867eb2d",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "three_examples_jsm_environments_RoomEnvironment__js.js?v=77dbbe82",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "three_examples_jsm_geometries_RoundedBoxGeometry__js.js?v=559ab593",
+      "transfer": 0,
+      "duration": 0
+    },
+    {
+      "url": "chunk-SCGUQBHX.js?v=dc5b78c1",
+      "transfer": 0,
+      "duration": 0
+    }
+  ]
+}

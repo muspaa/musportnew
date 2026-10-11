@@ -1,0 +1,104 @@
+[
+  {
+    "id": "veritas",
+    "http": 200,
+    "title": "Veritas AI - Rangkum PDF &amp; URL Artikel Ilmiah Bebas Halusinasi",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "tierlist-maker",
+    "http": 200,
+    "title": "Tier List Maker",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "anime-quote",
+    "http": 200,
+    "title": "Quotes Editor Anime",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "analisis-tanaman",
+    "http": 200,
+    "title": "Welcome to Flora.AI",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "hd-upscale",
+    "http": 200,
+    "title": "Spark HD Upscaler - Fresh Edition",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "repo-flow",
+    "http": 200,
+    "title": "RepoFlow - Upload & Push Semua File ke GitHub",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "fake-loby-ml",
+    "http": 200,
+    "title": "Fake ML Lobby Generator",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "tugasku-pro",
+    "status": "ARCHIVED",
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "tugasku-lite",
+    "http": 200,
+    "title": "TugasKu - Update Tahap 3 v1.2.0",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "screenshot-web",
+    "http": 200,
+    "title": "Screenshot Web | R_hmt ofc",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "cek-kartu",
+    "http": 200,
+    "title": "DOMPUL CEK - XL/AXIS",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "indosawit-news",
+    "http": 200,
+    "title": "IndoSawit.news x Sanexus.ai - The Nexus Gate",
+    "status": "ONLINE_UNVERIFIED",
+    "reason": "HTTP reachable only; core functionality not verified"
+  },
+  {
+    "id": "image-to-prompt",
+    "status": "ARCHIVED",
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "quickfake",
+    "status": "ARCHIVED",
+    "reason": "No demo URL in original source"
+  },
+  {
+    "id": "soundify",
+    "status": "ARCHIVED",
+    "reason": "No demo URL in original source"
+  },
+  {
+    "id": "web-anime",
+    "status": "ARCHIVED",
+    "reason": "No demo URL in original source"
+  }
+]

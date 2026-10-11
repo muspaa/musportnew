@@ -1,0 +1,74 @@
+{
+  "name": "R_HMT",
+  "alias": "R_HMT OFC",
+  "role": "Self-taught developer & curious explorer",
+  "about": "Sebenarnya aku sudah tertarik sama teknologi sejak awal, cuma belum mendalaminya. Waktu kelas 10 ada tugas kelompok P5. Tugasnya tidak berkaitan langsung dengan web development, tapi i mencoba pendekatan lain sesuai minat supaya bisa berkontribusi.",
+  "approach": "Setelah tugas selesai, ketertarikan w tetap berlanjut. Sebagian besar proses belajar ini memakai Oppo A3s, tanpa laptop. Mulai dari eksperimen sederhana, debugging, sampai mencoba desain dan workflow bersama AI. Sekarang alasannya sudah berkembang: aku memang ingin memahami cara ide diimplementasikan.",
+  "ethos": "Saya tidak berusaha menguasai semua tools. Lebih tertarik memahami fundamental, hubungan antarteknologi, dan kapan sebuah pendekatan memang relevan. Untuk sekarang masih fokus belajar dan eksperimen. But idk, nanti perspektif i bisa berubah.",
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/rahmat-369",
+      "handle": "rahmat-369"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/rAi_engine",
+      "handle": "rAi_engine"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/rahmt_nhw",
+      "handle": "rahmt_nhw"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@r_hmtofc",
+      "handle": "r_hmtofc"
+    },
+    {
+      "name": "WhatsApp Channel",
+      "url": "https://whatsapp.com/channel/0029VbBjyjlJ93wa6hwSWa0p",
+      "handle": "R_HMT · Code & AI"
+    }
+  ],
+  "anime": [
+    {
+      "id": "elaina",
+      "name": "Elaina",
+      "origin": "Majo no Tabitabi",
+      "label": "The wandering witch",
+      "note": "Penyihir pengelana yang penasaran pada dunia. Mandiri, percaya diri, dan punya caranya sendiri melihat sebuah perjalanan.",
+      "image": "/images/anime-v22/elaina.jpg",
+      "source": "https://id.pinterest.com/pin/1130192469019479631/",
+      "color": "#a6a09d"
+    },
+    {
+      "id": "arisu",
+      "name": "Arisu Sakayanagi",
+      "origin": "Classroom of the Elite",
+      "label": "Quiet intelligence",
+      "note": "Tenang, analitis, dan gemar permainan strategi. Selalu ada perhitungan di balik langkah kecilnya.",
+      "image": "/images/anime-v22/arisu.jpg",
+      "source": "https://id.pinterest.com/pin/287737863685486930/",
+      "color": "#a7947f"
+    },
+    {
+      "id": "hiyori",
+      "name": "Hiyori Shiina",
+      "origin": "Classroom of the Elite",
+      "label": "A quieter chapter",
+      "note": "Pembaca buku yang lembut dan observan. Menikmati percakapan tenang, dengan perhatian pada hal-hal kecil.",
+      "image": "/images/anime-v22/hiyori.jpg",
+      "source": "https://id.pinterest.com/pin/846113848787698598/",
+      "color": "#87938b"
+    }
+  ],
+  "video": {
+    "url": "https://res.cloudinary.com/dhxfke7kq/video/upload/v1791439342/Ssstt/wnudrzps2bdshrcyykkw.mp4",
+    "poster": "/posters/cote.webp",
+    "rotation": -90,
+    "title": "Classroom of the Elite"
+  },
+  "motivation": "Ada motivasi personal juga. Waktu itu ada seseorang di kelas yang i sukai, meski tidak pernah diungkapkan. Itu ikut mendorong aku untuk berkontribusi, bukan sekadar ikut nama. Cukup sebagai salah satu pemicu awal."
+}

@@ -1,0 +1,31 @@
+{
+  "name": "r-hmt-immersive-portfolio",
+  "version": "2.7.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 4173",
+    "build": "tsc --noEmit && vite build && node scripts/prerender.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "test": "node --test tests/*.test.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "0.546.0",
+    "react": "19.0.1",
+    "react-dom": "19.0.1",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.0",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "@types/three": "0.180.0",
+    "@vitejs/plugin-react": "5.0.4",
+    "typescript": "5.8.3",
+    "vite": "6.4.4"
+  }
+}

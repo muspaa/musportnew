@@ -1,0 +1,55 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> r-hmt-immersive-portfolio@2.5.0 test
+> node --test tests/*.test.mjs
+
+✔ all six journey phases, archive and personal facts share the public source (3.387229ms)
+✔ validates actual user messages, rejects injected system role, excessive body and missing text (1.473396ms)
+✔ only known answer fields are accepted; metadata and HTML are not answers (0.732697ms)
+✔ forwards follow-up history and shared profile to original Nexray provider (17.082892ms)
+✔ HTML upstream and malformed response return honest 502 without internals (10.310532ms)
+✔ method, type, cross-site, size and rate-limit boundaries (22.267982ms)
+✔ aborts a hanging upstream and returns 504 without a synthetic answer (1002.141195ms)
+✔ the physical Journey workspace fits narrow mobile and desktop stages through chapter transitions (7370.409475ms)
+✔ focused and side work frames stay within their native viewports at pointer and swipe extremes (3.436824ms)
+✔ swipe velocity cannot over-rotate the shelf and pause removes velocity from its pose (1.85382ms)
+✔ Journey camera respects paused pointer motion and invalid chapter indices stay bounded (0.367123ms)
+✔ hero portrait frames and physical base fit mobile and desktop while fanning out and reacting to scroll (1410.332658ms)
+✔ all character frames fit their native mobile and desktop gallery stages at pointer extremes (2.793071ms)
+✔ all 19 upright orbit hit targets stay separate and inside mobile/desktop wrappers throughout motion (126.94041ms)
+✔ orbit inertia travels identically at 30, 60 and 120 Hz and resumes from its preserved angle (6.201826ms)
+✔ orbit renders stop for hidden tabs, offscreen scenes, dialogs, intro, focus, selection and reduced motion (2.531424ms)
+✔ silver rails form finite closed paths and orbit state remains reversible and bounded (4.341203ms)
+✔ room camera and floor travel remain continuous at every section boundary in both scroll directions (6.363163ms)
+✔ room route uses actual section spacing and cannot overshoot its architectural camera limits (21.561164ms)
+✔ repeated Journey reversals preserve the instantaneous angle and angular velocity and then settle (5.134223ms)
+✔ Journey switches screens halfway through its turn; paused changes settle without a pulse (0.441792ms)
+✔ the last mobile work and centered desktop works have reachable native snap targets (0.900674ms)
+✔ work dragging requires horizontal intent and leaves small clicks and vertical gestures alone (0.393272ms)
+✔ production Lua executes rating and limiter boundaries in native Lua (263.104449ms)
+✔ required name and integer stars; omitted or empty comment is valid (3.995677ms)
+✔ exact origin comparison rejects null, prefixes and cross-site writes (1.197238ms)
+✔ signed challenge is bound to IP, browser, age and server secret (1.3053ms)
+✔ invalid requests never reach Upstash (1.519171ms)
+✔ one atomic EVAL writes rating; no raw IP or token enters key arguments (8.953726ms)
+✔ retry across fresh handler instances uses the same idempotency key and fingerprint (2.474908ms)
+✔ Redis-wide limit and duplicate conflict become honest 429/409 responses (1.836481ms)
+✔ GET returns real aggregate, bounded public reviews and a fresh signed challenge (1.678788ms)
+✔ missing configuration, HTTP failure, malformed JSON and storage errors never fake success (7.855285ms)
+✔ intro waits for its own rendered stage even if a different scene or empty frame was ready (2.024567ms)
+✔ the first frame after a narrower viewport fits immediately and zooming back in cannot crop (4.352928ms)
+✔ renderer status metadata cannot become a scene or suppress native fallback imagery (0.261482ms)
+✔ orbit release travels the same distance at 30, 60 and 120 updates per second (0.676085ms)
+✔ vertical or small touch movement retains native page scroll; horizontal intent can orbit (0.342199ms)
+✔ perspective fit keeps all subject corners inside mobile and desktop frustums (1.402413ms)
+✔ off-axis nodes on the same camera plane have equal projected touch sizes (0.774152ms)
+✔ nodes behind the camera or outside the stage cannot create invisible click targets (0.556402ms)
+✔ camera-space projection follows a rotated camera and resizes with the stage (1.356856ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 42
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9152.087157
