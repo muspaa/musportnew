@@ -206,7 +206,7 @@ export default function EcosystemSection() {
           <span className="text-xs font-mono font-bold tracking-widest text-[#00f2fe] bg-cyan-950/20 border border-cyan-500/10 px-3.5 py-1.5 rounded-full uppercase">[ 3D UNIFIED STELLAR CONSTELLATION ]</span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-display font-medium text-white tracking-widest uppercase font-sans">DIGITAL ECOSYSTEM</h2>
           <p className="text-sm text-zinc-500 max-w-xl mx-auto leading-relaxed">
-            Semua pipeline cerdas, model kognitif AI, infrastruktur server, dan terminal penunjang produktivitas R_hmt bersatu dalam sebuah simulasi Orbit Galaksi 3D terpadu.
+            Semua pipeline cerdas, model kognitif AI, infrastruktur server, dan terminal penunjang produktivitas musfa bersatu dalam sebuah simulasi Orbit Galaksi 3D terpadu.
           </p>
         </div>
 
@@ -428,7 +428,7 @@ export default function EcosystemSection() {
                         [ STELLAR SYSTEM OVERVIEW ]
                       </h4>
                       <p className="text-xs text-zinc-450 leading-relaxed font-sans">
-                        Arahkan kursor Anda ke atom node ikon teknologi di dalam diagram untuk memeriksa, memetakan, dan memicu telemetri komponen asisten digital Vyna (R_hmt).
+                        Arahkan kursor Anda ke atom node ikon teknologi di dalam diagram untuk memeriksa, memetakan, dan memicu telemetri komponen asisten digital Vyna (musfa).
                       </p>
                     </div>
 

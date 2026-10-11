@@ -25,11 +25,11 @@ const CURRENTLY_EXPLORING = [
 ];
 
 const DIGITAL_PRESENCE = [
-  { name: "GitHub", url: "https://github.com/rahmat-369", icon: <Github className="w-4 h-4 text-white hover:text-[#00f2fe] transition-colors" /> },
-  { name: "Telegram", url: "https://t.me/rAi_engine", icon: <Send className="w-4 h-4 text-white hover:text-cyan-400 transition-colors" /> },
-  { name: "Instagram", url: "https://www.instagram.com/rahmt_nhw?igsh=MWQwcnB3bTA2ZnVidg==", icon: <Instagram className="w-4 h-4 text-white hover:text-rose-450 transition-colors" /> },
-  { name: "TikTok", url: "https://www.tiktok.com/@r_hmtofc?_r=1&_t=ZS-94KRfWQjeUu", icon: <TiktokIcon /> },
-  { name: "WhatsApp Channel", url: "https://whatsapp.com/channel/0029VbBjyjlJ93wa6hwSWa0p", icon: <WhatsappIcon /> },
+  { name: "GitHub", url: "https://github.com/muspaa", icon: <Github className="w-4 h-4 text-white hover:text-[#00f2fe] transition-colors" /> },
+  { name: "Telegram", url: "https://t.me/", icon: <Send className="w-4 h-4 text-white hover:text-cyan-400 transition-colors" /> },
+  { name: "Instagram", url: "https://https://www.instagram.com/twou1sec?srtk=MXF0Y25oNHprMXlpeA==", icon: <Instagram className="w-4 h-4 text-white hover:text-rose-450 transition-colors" /> },
+  { name: "TikTok", url: "https://www.tiktok.com/@xinyourc?_r=1&_t=ZS-9ATj3UEf4vU", icon: <TiktokIcon /> },
+  { name: "WhatsApp", url: "https://wa.me/+6287712922471", icon: <WhatsappIcon /> },
   { name: "Email", url: "#contact-form", icon: <Mail className="w-4 h-4 text-white hover:text-amber-500 transition-colors" /> }
 ];
 
@@ -84,7 +84,7 @@ export default function FooterSection() {
             <p className="text-2xl sm:text-3xl font-display font-medium text-zinc-100 tracking-wide leading-relaxed">
               "Saya tidak berusaha menguasai seluruh teknologi yang ada. Saya lebih tertarik memahami bagaimana teknologi saling terhubung, bagaimana sebuah ide dapat diwujudkan, dan bagaimana rasa penasaran bisa berubah menjadi sesuatu yang nyata. Bagi saya, setiap project bukan sekadar hasil akhir, melainkan bagian dari proses eksplorasi yang terus berjalan."
             </p>
-            <cite className="text-xs font-mono text-zinc-500 block mt-4 not-italic font-bold font-sans">— R_HMT // TECHNOLOGY EXPLORER</cite>
+            <cite className="text-xs font-mono text-zinc-500 block mt-4 not-italic font-bold font-sans">— MUSFA // TECHNOLOGY EXPLORER</cite>
           </blockquote>
         </div>
 
@@ -260,7 +260,7 @@ export default function FooterSection() {
         {/* Footer Bottom copyright / credit parameters & Scroll trigger */}
         <div className="pt-16 border-t border-zinc-950/80 flex flex-col sm:flex-row justify-between items-center gap-6">
           <div className="text-left font-sans">
-            <span className="text-xs font-mono text-zinc-650 tracking-wider block">R_HMT // TECHNOLOGY EXPLORER</span>
+            <span className="text-xs font-mono text-zinc-650 tracking-wider block">MUSFA // TECHNOLOGY EXPLORER</span>
             <span className="text-[10px] font-mono text-zinc-750 block mt-1">INDEPENDENT PRODUCT BUILDER &copy; {new Date().getFullYear()}</span>
           </div>
 

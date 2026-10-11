@@ -17,8 +17,8 @@ export default function IdentityAssembly({ still }: { still: boolean }) {
       <a href="#archive" className="assembly-backplate backplate-two"><span>THE WORKS</span><b>16 eksperimen ↗</b></a>
       <a href="#ecosystem" className="assembly-backplate backplate-one"><span>THE TOOLS</span><b>19 tools ↗</b></a>
       <figure className="identity-photo">
-        <div className="photo-topline"><span><i/> R_HMT / THE HUMAN BEHIND THE CODE</span><ArrowUpRight size={14}/></div>
-        <div className="portrait-window"><img src="/images/pp.webp" width="864" height="1088" alt="Foto asli R_HMT: potret dengan kacamata dan hoodie hitam di samping editor kode" fetchPriority="high"/></div>
+        <div className="photo-topline"><span><i/> MUSFA / THE HUMAN BEHIND THE CODE</span><ArrowUpRight size={14}/></div>
+        <div className="portrait-window"><img src="/images/pp.webp" width="864" height="1088" alt="Foto mus saat pkl di pt otsuka (pocari)" fetchPriority="high"/></div>
         <figcaption><span>Curiosity is personal.</span><span>01 — ORIGIN</span></figcaption>
       </figure>
       <div className="assembly-code" aria-hidden="true"><Code2 size={19}/><span>learn. build.<br/><b>repeat.</b></span><small>HUMAN × AI</small></div>

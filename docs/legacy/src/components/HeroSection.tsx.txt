@@ -14,7 +14,7 @@ const roles = [
 function TerminalCodeSimulator() {
   const lines = [
     ">_ loading workspace compilers...",
-    ">_ setting target directory: ~/r_hmt/digital_ecosystem",
+    ">_ setting target directory: ~/musfa/digital_ecosystem",
     ">_ linking cognitive resources: Google Gemini AI [OK]",
     ">_ starting fast-iterative build engines...",
     ">_ compiling codebases...",
@@ -299,7 +299,7 @@ export default function HeroSection({
                 {!isSplashActive && <span className="animate-blink font-mono text-cyan-400 ml-0.5 select-none">_</span>}
               </motion.h1>
               <h1 className="text-6xl sm:text-8xl font-display font-black tracking-widest leading-none pb-2 filter drop-shadow-[0_0_15px_rgba(0,242,254,0.15)] select-text flex flex-wrap">
-                {"R_HMT".split("").map((char, index) => (
+                {"musfa".split("").map((char, index) => (
                   <motion.span
                     key={index}
                     initial={{ opacity: 0, y: 20, filter: "blur(6px)" }}
@@ -384,7 +384,7 @@ export default function HeroSection({
                     <span className="w-2.5 h-2.5 rounded-full bg-amber-500 block"></span>
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 block"></span>
                   </div>
-                  <span className="text-[9px] font-mono text-zinc-400 tracking-wider font-bold">R_HMT // VIRTUAL_OS</span>
+                  <span className="text-[9px] font-mono text-zinc-400 tracking-wider font-bold">MUSFA // VIRTUAL_OS</span>
                 </div>
                 
                 {/* Visual Tab Selection */}
@@ -433,7 +433,7 @@ export default function HeroSection({
                           <div className="w-24 h-12 rounded-lg border border-cyan-500/30 bg-cyan-950/20 flex items-center justify-center backdrop-blur shadow-[0_0_20px_rgba(0,242,254,0.15)] font-mono text-[9px] text-[#00f2fe] tracking-widest font-extrabold pb-0.5">VIRTUAL OS</div>
                         </div>
                         <div>
-                          <p className="font-mono text-[10px] text-zinc-100 uppercase tracking-widest font-bold">R_HMT // PORTAL GATEWAY</p>
+                          <p className="font-mono text-[10px] text-zinc-100 uppercase tracking-widest font-bold">MUSFA // PORTAL GATEWAY</p>
                           <p className="font-mono text-[8px] text-zinc-400 mt-1 uppercase">16:9 AMBIENT PHOTO LOADED</p>
                         </div>
                       </div>
@@ -459,7 +459,7 @@ export default function HeroSection({
                           <p className="pl-3 text-purple-400">return (</p>
                           <p className="pl-6 text-zinc-300">&lt;<span className="text-cyan-400">motion.div</span> className=<span className="text-emerald-400">"card"</span>&gt;</p>
                           <p className="pl-9 text-zinc-300">&lt;<span className="text-cyan-400">img</span> src=<span className="text-emerald-400">"/gambar/pp-dev.png"</span> /&gt;</p>
-                          <p className="pl-9 text-zinc-300">&lt;<span className="text-cyan-400">h3</span>&gt;R_hmt&lt;/<span className="text-cyan-400">h3</span>&gt;</p>
+                          <p className="pl-9 text-zinc-300">&lt;<span className="text-cyan-400">h3</span>&gt;musfa&lt;/<span className="text-cyan-400">h3</span>&gt;</p>
                           <p className="pl-9 text-zinc-300">&lt;<span className="text-cyan-400">span</span>&gt;ACTIVE ARCHITECT&lt;/<span className="text-cyan-400">span</span>&gt;</p>
                           <p className="pl-6 text-zinc-300">&lt;/<span className="text-cyan-400">motion.div</span>&gt;</p>
                           <p className="pl-3 text-purple-450">);</p>
@@ -488,7 +488,7 @@ export default function HeroSection({
                               onError={() => {
                                 setAvatarError(true);
                               }}
-                              alt="1:1 Profile of R_hmt"
+                              alt="1:1 Profile of MUSFA"
                               className="w-full h-full object-contain opacity-95 transition-all duration-500"
                             />
                           ) : (
@@ -502,7 +502,7 @@ export default function HeroSection({
                                 </div>
                               </div>
                               <div>
-                                <p className="font-mono text-[9px] text-zinc-100 uppercase tracking-widest font-bold">R_HMT</p>
+                                <p className="font-mono text-[9px] text-zinc-100 uppercase tracking-widest font-bold">MUSFA</p>
                                 <p className="font-mono text-[7px] text-zinc-400 mt-1 uppercase">ACTIVE ARCHITECT</p>
                               </div>
                             </div>
@@ -515,7 +515,7 @@ export default function HeroSection({
                         {/* Code output text that matches the IDE representation on the left */}
                         {!avatarError && (
                           <div className="mt-2 text-center py-1 border-t border-zinc-950/40">
-                            <h3 className="text-zinc-100 font-bold text-[10px] tracking-wider uppercase font-mono leading-none">R_hmt</h3>
+                            <h3 className="text-zinc-100 font-bold text-[10px] tracking-wider uppercase font-mono leading-none">musfa</h3>
                             <span className="text-accent-cyan text-[7.5px] tracking-widest uppercase font-mono block mt-1.5 leading-none">ACTIVE ARCHITECT</span>
                           </div>
                         )}

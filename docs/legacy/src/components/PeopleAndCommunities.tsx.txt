@@ -114,7 +114,7 @@ export default function PeopleAndCommunities() {
               PEOPLE ALONG THE JOURNEY
             </h2>
             <p className="text-sm text-zinc-400 max-w-xl mx-auto leading-relaxed">
-              Jejaring pengembang independen, kontributor terbuka, dan rekan kolaborasi erat R_hmt. Klik profil mereka untuk membuka detail platform komunikasi sosial mereka.
+              Jejaring pengembang independen, kontributor terbuka, dan rekan kolaborasi erat musfa. Klik profil mereka untuk membuka detail platform komunikasi sosial mereka.
             </p>
           </div>
 
@@ -149,7 +149,7 @@ export default function PeopleAndCommunities() {
               COMMUNITIES
             </h2>
             <p className="text-sm text-zinc-400 max-w-xl mx-auto leading-relaxed">
-              Keterlibatan aktif R_hmt dalam perkumpulan hacker visual, laboratorium automation bots, serta forum diskusi bersama anggota komunitas pilihan.
+              Keterlibatan aktif MUSFA dalam perkumpulan hacker visual, laboratorium automation bots, serta forum diskusi bersama anggota komunitas pilihan.
             </p>
           </div>
 
@@ -184,7 +184,7 @@ export default function PeopleAndCommunities() {
               </div>
 
               <p className="text-xs text-zinc-450 leading-relaxed max-w-md mx-auto">
-                Saluran interaktif R_HMT untuk share code menarik, info perkembangan teknologi AI terbaru, update & share tools web praktis, serta tips & trik dunia digital terhangat untuk semua kalangan.
+                Saluran interaktif MUSFA untuk share code menarik, info perkembangan teknologi AI terbaru, update & share tools web praktis, serta tips & trik dunia digital terhangat untuk semua kalangan.
               </p>
 
               {/* Big Join Button */}

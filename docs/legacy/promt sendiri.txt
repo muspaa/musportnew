@@ -3,10 +3,10 @@ yg pertama adalah penambahan splash screen dimana seperti splash screen animasi 
 oh iya sebelum itu pastikan jika user masuk slalu mulai dari atas ya.
 
 (card posisi tampilan utama)
-1. pada tampilan awal R_hmt, sebelum itu ada teks animasi ketik "hi, im (dilanjutkan nama besar dibawahnya) lalu dibawahnya 
+1. pada tampilan awal MUSFA, sebelum itu ada teks animasi ketik "hi, im (dilanjutkan nama besar dibawahnya) lalu dibawahnya 
 # tambah animasi teks berganti style terminal pada "> Technology explorer, vibe coders, dst.." agar terasalebih hidup lalu sebelum teks "mengeksplorasi batas teknologi ...." tambah "saya seorang pelajar MA yang" tambah juga "secara otodidak&mandiri)
 
-# dibawahnya foto gambar/pp.png kotak horizontal sekitar ukuran 16:9. letaknya ditampilkan di "r_hmt//virtual os yg dimana gambar pp.png (yg 16:9) itu juga ditampilkan di card visual os dan card engine jadi ada halaman baru menampilkan gambar tsb tapi utk PP.png ini ditampilkan paling awal. 
+# dibawahnya foto gambar/pp.png kotak horizontal sekitar ukuran 16:9. letaknya ditampilkan di "MUSFA//virtual os yg dimana gambar pp.png (yg 16:9) itu juga ditampilkan di card visual os dan card engine jadi ada halaman baru menampilkan gambar tsb tapi utk PP.png ini ditampilkan paling awal. 
   *lalu utk profil 1:1 panggil di gambar/pp-dev.png tampilkan di profil card visual_os
   *lalu juga di  card code_enginee itu ada teks animasi ketiknjuga kyk terminal
 

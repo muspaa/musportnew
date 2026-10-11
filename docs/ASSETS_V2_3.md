@@ -22,6 +22,6 @@ Background pegunungan lama tetap disertakan untuk preservasi aset, tetapi tidak 
 
 `public/og-tech.png` — 1730 × 909 px, artwork statis untuk sharing. Dibuat dengan ImageGen; komposisinya menyatukan arsitektur tech terang, frame silver, electric blue, potret/avatar berdasarkan referensi, dan tulisan Learning in Progress. Artwork ini bukan screenshot website atau bukti tampilan WebGL. Identitas di runtime tetap memakai aset asli.
 
-Sumber generasi pada sesi kerja: `generated_images/exec-ece1ad0e-ef6e-403f-ac1d-e4c62e8da1c5.png`. File asli disalin tanpa mengubah piksel. Prompt arah: banner portfolio R_HMT, bright cool-white digital architecture, physical brushed silver/browser frames, electric-blue accents, authentic portrait/avatar reference, “Learning in Progress.” dan “Kode, eksperimen, dan proses belajar.” Hindari nature scenery, generic neon, sparkle, atau template bento.
+Sumber generasi pada sesi kerja: `generated_images/exec-ece1ad0e-ef6e-403f-ac1d-e4c62e8da1c5.png`. File asli disalin tanpa mengubah piksel. Prompt arah: banner portfolio MUSFA, bright cool-white digital architecture, physical brushed silver/browser frames, electric-blue accents, authentic portrait/avatar reference, “Learning in Progress.” dan “Kode, eksperimen, dan proses belajar.” Hindari nature scenery, generic neon, sparkle, atau template bento.
 
 Metadata OG/Twitter menunjuk `/og-tech.png`; banner lama `/og-image.jpg` tetap ada sebagai aset historis. Artwork sharing tidak dipakai sebagai pengganti background 3D halaman.

@@ -46,7 +46,7 @@ export default function App() {
       if (document.hidden) {
         document.title = "Hei, kembali ke lab! 🧪";
       } else {
-        document.title = "R_HMT Portfolio | Share Code, AI Tech & Web Tools";
+        document.title = "MUSFA Portfolio | Share Code, AI Tech & Web Tools";
       }
     };
     document.addEventListener("visibilitychange", handleVisibilityChange);
@@ -222,7 +222,7 @@ export default function App() {
           <div className="w-8 h-8 rounded-full bg-[#03080e] border border-zinc-805 flex items-center justify-center overflow-hidden group-hover:border-accent-cyan transition-all relative shadow-[0_0_15px_rgba(0,242,254,0.1)]">
             <img 
               src="/gambar/pp-dev.png" 
-              alt="Profil R_HMT" 
+              alt="Profil MUSFA" 
               className="w-full h-full object-cover transition duration-300 group-hover:scale-110"
               onError={(e) => {
                 e.currentTarget.style.display = 'none';
@@ -230,7 +230,7 @@ export default function App() {
             />
             <span className="absolute font-display font-medium text-xs tracking-widest text-[#00f2fe] glow-text-cyan z-[-1]">R</span>
           </div>
-          <span className="text-xs font-mono tracking-widest font-bold uppercase text-zinc-300 group-hover:text-white transition-colors">R_HMT OFC</span>
+          <span className="text-xs font-mono tracking-widest font-bold uppercase text-zinc-300 group-hover:text-white transition-colors">MUSFA OFC</span>
         </button>
 
         {/* Desktop Navigation Links */}
@@ -315,7 +315,7 @@ export default function App() {
             <span className="text-xs font-mono font-bold tracking-widest text-[#00f2fe] bg-cyan-950/20 border border-cyan-500/10 px-3 py-1 rounded-full uppercase">[ MULTI-PANE SANDBOX // KANVAS EKSPERIMEN ]</span>
             <h2 className="text-5xl font-display font-medium text-white tracking-widest uppercase">MUTASI LAB CHAT</h2>
             <p className="text-sm text-zinc-500 max-w-lg mx-auto leading-relaxed">
-              Uji coba simulasi pemikiran kognitif R_hmt serta pelajari filosofi building, teknologi, dan karyanya langsung bersama AI kembaran digitalnya.
+              Uji coba simulasi pemikiran kognitif MUSGA serta pelajari filosofi building, teknologi, dan karyanya langsung bersama AI kembaran digitalnya.
             </p>
           </div>
           <AiSandbox />

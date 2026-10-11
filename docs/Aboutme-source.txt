@@ -1,6 +1,6 @@
-R_HMT V2 — Copywriting & Language Refinement
+MUSFA V2 — Copywriting & Language Refinement
 
-Poles seluruh bahasa dan copywriting website agar lebih natural, personal, to the point, tetapi tetap intelektual. Tujuannya agar tulisan terasa seperti pemikiran R_HMT sendiri, bukan narasi AI yang terlalu sempurna.
+Poles seluruh bahasa dan copywriting website agar lebih natural, personal, to the point, tetapi tetap intelektual. Tujuannya agar tulisan terasa seperti pemikiran MUSFA sendiri, bukan narasi AI yang terlalu sempurna.
 
 Arahan Bahasa
 
@@ -16,13 +16,13 @@ Konteks Pribadi — About Me
 
 Pastikan narasi tidak kehilangan konteks personal berikut:
 
-Sejak awal R_HMT memang memiliki ketertarikan terhadap teknologi, tetapi belum mendalaminya secara serius.
+Sejak awal MUSFA memang memiliki ketertarikan terhadap teknologi, tetapi belum mendalaminya secara serius.
 
-Saat kelas 10, ada tugas kelompok P5 yang sebenarnya tidak berkaitan langsung dengan web development. Karena tertarik dengan teknologi, R_HMT mencoba mencari pendekatan alternatif sesuai minatnya agar bisa berkontribusi dalam kelompok.
+Saat kelas 10, ada tugas kelompok P5 yang sebenarnya tidak berkaitan langsung dengan web development. Karena tertarik dengan teknologi, MUSFA mencoba mencari pendekatan alternatif sesuai minatnya agar bisa berkontribusi dalam kelompok.
 
-Ada juga motivasi personal: saat itu R_HMT menyukai seseorang di kelas, tetapi perasaannya hanya dipendam. Keberadaan seseorang tersebut menjadi salah satu dorongan untuk membuktikan bahwa dirinya mampu memberikan kontribusi dan tidak sekadar menjadi beban kelompok.
+Ada juga motivasi personal: saat itu MUSFA menyukai seseorang di kelas, tetapi perasaannya hanya dipendam. Keberadaan seseorang tersebut menjadi salah satu dorongan untuk membuktikan bahwa dirinya mampu memberikan kontribusi dan tidak sekadar menjadi beban kelompok.
 
-Namun, orang tersebut hanya menjadi pemicu awal, bukan alasan utama R_HMT terus mendalami web development. Setelah tugas selesai, ketertarikan terhadap teknologi berkembang secara independen melalui eksplorasi dan berbagai eksperimen.
+Namun, orang tersebut hanya menjadi pemicu awal, bukan alasan utama MUSFA terus mendalami web development. Setelah tugas selesai, ketertarikan terhadap teknologi berkembang secara independen melalui eksplorasi dan berbagai eksperimen.
 
 Sampaikan konteks ini secara subtil, cukup beberapa kalimat. Jangan dibuat seperti kisah romantis, curhatan, atau cerita perjuangan yang dramatis.
 

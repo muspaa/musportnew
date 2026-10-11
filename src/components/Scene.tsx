@@ -2,9 +2,7 @@ import { useRef, useState, type PointerEvent } from 'react';
 import { ArrowUpRight, Braces, Layers3 } from 'lucide-react';
 import { PROJECTS } from '../data';
 const photos=[
-  {id:'portrait',src:'/images/pp.webp',alt:'Foto asli R_HMT dengan kacamata dan hoodie hitam',title:'R_HMT',caption:'Student · Developer · Explorer',width:762,height:960},
-  {id:'work',src:'/components/works/repo-flow.svg',alt:'Ilustrasi RepoFlow, salah satu karya R_HMT',title:'Selected Works',caption:'Build. Learn. Repeat.',width:820,height:500},
-  {id:'personal',src:'/images/anime-v22/elaina.jpg',alt:'Elaina',title:'Elaina',caption:'A little more me.',width:600,height:900}
+  {id:'portrait',src:'/images/pp.webp',alt:'Foto MUS saat pkl',title:'MUS',caption:'Developer · Explorer',width:762,height:960},
 ];
 export default function Scene({paused=false}:{mode?:'hero';paused?:boolean}) {
   const ref=useRef<HTMLDivElement>(null),[expanded,setExpanded]=useState(false),[order,setOrder]=useState([0,1,2]);
@@ -24,7 +22,7 @@ export default function Scene({paused=false}:{mode?:'hero';paused?:boolean}) {
       </button>;})}
       <div className="portrait-exploring"><Braces size={18}/><div><small>CURRENTLY EXPLORING</small><span>Web development<br/>& AI creative tech</span></div><ArrowUpRight size={15}/></div>
       <div className="portrait-location"><span aria-hidden="true" className="indonesia-flag"/><div><strong>INDONESIA</strong><span>Learning by building.</span></div></div>
-      <span className="portrait-signature" aria-hidden="true">R_hmt.</span>
+      <span className="portrait-signature" aria-hidden="true">MUSFA.</span>
     </div>
     <div className="stack-controls"><button className="stack-toggle" onClick={()=>setExpanded(v=>!v)} aria-expanded={expanded} aria-controls="photo-choices"><Layers3 size={15}/>{expanded?'Rapatkan stack':'Buka stack'}<span aria-hidden="true">{expanded?'−':'+'}</span></button>
       <div hidden={!expanded} className="photo-choices" id="photo-choices" aria-label="Pilih gambar stack">{photos.map((photo,i)=><button key={photo.id} aria-label={`Tampilkan ${photo.title}`} aria-pressed={order[0]===i} onClick={()=>choose(i)}><span>{String(i+1).padStart(2,'0')}</span>{photo.title}</button>)}</div>

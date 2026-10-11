@@ -94,7 +94,7 @@ export default function JourneySection() {
             THE JOURNEY
           </h2>
           <p className="text-xs sm:text-sm text-zinc-450 max-w-xl mx-auto leading-relaxed px-2">
-            Menelusuri kronologi eksplorasi teknologi R_HMT secara berurutan. Setiap langkah adalah fase pembelajaran berkelanjutan menuju sistem arsitektur modern.
+            Menelusuri kronologi eksplorasi teknologi MUSFA secara berurutan. Setiap langkah adalah fase pembelajaran berkelanjutan menuju sistem arsitektur modern.
           </p>
           
           <div className="flex justify-center pt-4">

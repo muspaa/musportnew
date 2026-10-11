@@ -192,7 +192,7 @@ export function mountWorld(host: HTMLElement) {
       const keyboard=new T.Mesh(new T.PlaneGeometry(2.72,.99),new T.MeshBasicMaterial({map:keyboardTexture,toneMapped:false}));keyboard.rotation.x=-Math.PI/2;keyboard.position.set(0,-.842,.13);laptop.add(keyboard);
       const trackpad=box(.85,.009,.38,ceramic,.003);trackpad.position.set(0,-.842,1.02);laptop.add(trackpad);
       const hinge=new T.Group();hinge.position.set(0,-.85,-.58);laptop.add(hinge);
-      const laptopTextures=content.JOURNEY_STEPS.map((step,i)=>{const c=document.createElement('canvas');c.width=840;c.height=520;const g=c.getContext('2d')!;g.fillStyle='#f3f7ff';g.fillRect(0,0,840,520);g.fillStyle='#dbe8fc';g.fillRect(0,0,840,45);g.fillStyle='#2166ff';g.font='18px monospace';g.fillText(`R_HMT / chapter 0${i+1}`,32,30);g.fillStyle='#142e52';g.font='bold 34px monospace';g.fillText(['the origin','learn by building','human × AI','request → response','idea → iteration','still learning();'][i],38,118);step.techKeywords.forEach((term,n)=>{g.fillStyle='#7c95b8';g.font='18px monospace';g.fillText(String(n+1).padStart(2,'0'),38,187+n*64);g.fillStyle=n%2?'#284367':'#2166ff';g.font='24px monospace';g.fillText(term,84,187+n*64);});const tex=new T.CanvasTexture(c);tex.colorSpace=T.SRGBColorSpace;return tex;});
+      const laptopTextures=content.JOURNEY_STEPS.map((step,i)=>{const c=document.createElement('canvas');c.width=840;c.height=520;const g=c.getContext('2d')!;g.fillStyle='#f3f7ff';g.fillRect(0,0,840,520);g.fillStyle='#dbe8fc';g.fillRect(0,0,840,45);g.fillStyle='#2166ff';g.font='18px monospace';g.fillText(`MUSFA / chapter 0${i+1}`,32,30);g.fillStyle='#142e52';g.font='bold 34px monospace';g.fillText(['the origin','learn by building','human × AI','request → response','idea → iteration','still learning();'][i],38,118);step.techKeywords.forEach((term,n)=>{g.fillStyle='#7c95b8';g.font='18px monospace';g.fillText(String(n+1).padStart(2,'0'),38,187+n*64);g.fillStyle=n%2?'#284367':'#2166ff';g.font='24px monospace';g.fillText(term,84,187+n*64);});const tex=new T.CanvasTexture(c);tex.colorSpace=T.SRGBColorSpace;return tex;});
       const lid=box(JOURNEY_SHAPES.lid[0],JOURNEY_SHAPES.lid[1],.115,silver,.035);lid.position.y=.95;hinge.add(lid);
       const laptopScreenMaterial=new T.MeshBasicMaterial({map:laptopTextures[phaseOnMount],toneMapped:false});const laptopScreen=new T.Mesh(new T.PlaneGeometry(2.82,1.67),laptopScreenMaterial);laptopScreen.position.set(0,.95,.062);hinge.add(laptopScreen);
       const laptopBack=box(.13,.13,.012,blue,.004);laptopBack.position.set(0,.95,-.064);hinge.add(laptopBack);group.add(laptop);
@@ -252,7 +252,7 @@ export function mountWorld(host: HTMLElement) {
       view.handlers.push(()=>nodes.forEach(n=>n.hit.removeAttribute('style')));
     } else if(view.kind==='project'||view.kind==='anime') {
       const anime=view.kind==='anime';const image=el.dataset.image||`/components/works/${el.dataset.project}.svg`;
-      const photo=picture(map(image,undefined,anime?ANIME_STAGE.screen[0]/ANIME_STAGE.screen[1]:WORK_STAGE.screen[0]/WORK_STAGE.screen[1]),anime?ANIME_STAGE.screen[0]:WORK_STAGE.screen[0],anime?ANIME_STAGE.screen[1]:WORK_STAGE.screen[1],anime?'PERSONAL COLLECTION':'R_HMT / DIGITAL ARCHIVE');group.add(photo);
+      const photo=picture(map(image,undefined,anime?ANIME_STAGE.screen[0]/ANIME_STAGE.screen[1]:WORK_STAGE.screen[0]/WORK_STAGE.screen[1]),anime?ANIME_STAGE.screen[0]:WORK_STAGE.screen[0],anime?ANIME_STAGE.screen[1]:WORK_STAGE.screen[1],anime?'PERSONAL COLLECTION':'MUSFA / DIGITAL ARCHIVE');group.add(photo);
       if(!anime) {const floor=box(6.2,.07,2.4,glass,.02);floor.position.set(0,-1.88,-.5);group.add(floor);const rail=box(6.4,.018,.025,blue,.006);rail.position.set(0,-1.83,.71);group.add(rail);for(const x of [-1.75,1.75]){const foot=box(.17,.16,.56,silver,.035);foot.position.set(x,-1.79,-.15);photo.add(foot);}}
       let entered=0,previousCenter=0,shelfVelocity=0;
       view.update=(time,dt,motion,r)=>{entered=motion?Math.min(1,entered+dt*1.7):1;const shelf=el.closest('.works-shelf,.anime-gallery');const shelfBounds=shelf?measure(shelf):undefined;const center=(r.left+r.width/2-(shelfBounds?shelfBounds.left+shelfBounds.width/2:innerWidth/2))/(shelfBounds?.width||innerWidth);shelfVelocity=T.MathUtils.damp(shelfVelocity,clamp((center-previousCenter)/Math.max(.001,dt),-4,4),7,dt);previousCenter=center;
@@ -332,7 +332,7 @@ export function mountWorld(host: HTMLElement) {
       showFallbacks();
       try { renderer.setScissorTest(false);renderer.clear(true,true,true); } catch {}
       (window as any).__RHMT_SPATIAL__={renderer:'unavailable',reason:'Scene rendering failed'};
-      console.error('R_HMT spatial renderer stopped; native content remains available.',error);
+      console.error('MUSFA spatial renderer stopped; native content remains available.',error);
     }
   }
   function resize(){mobile=matchMedia('(max-width: 760px)').matches;const cap=mobile||saveData?1.25:1.7;if(pixelRatio>cap){pixelRatio=cap;renderer.setPixelRatio(pixelRatio);}renderer.setSize(innerWidth,innerHeight,false);canvas.style.width='100%';canvas.style.height='100%';request();}

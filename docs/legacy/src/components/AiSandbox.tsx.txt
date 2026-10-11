@@ -99,7 +99,7 @@ export default function AiSandbox() {
   const [chatHistory, setChatHistory] = useState<Message[]>([
     { 
       role: "assistant", 
-      text: "Halo! Saya adalah Digital Twin dari R_HMT, dijalankan dengan Gemini AI. Saya dapat membantu menjawab pertanyaan tentang:\n\n- Eksplorasi teknologi R_HMT\n- Produk & project yang dibuat (TugasKu Pro, HD Upscaler, dll)\n- Filosofi coding & approach dalam building\n- Tech stack & ecosystem tools\n- Learning journey & pengalaman\n\nTanyakan apapun! Apa yang ingin kamu ketahui?" 
+      text: "Halo! Saya adalah Digital Twin dari MUSFA, dijalankan dengan Gemini AI. Saya dapat membantu menjawab pertanyaan tentang:\n\n- Eksplorasi teknologi MUSFA\n- Produk & project yang dibuat (TugasKu Pro, HD Upscaler, dll)\n- Filosofi coding & approach dalam building\n- Tech stack & ecosystem tools\n- Learning journey & pengalaman\n\nTanyakan apapun! Apa yang ingin kamu ketahui?" 
     }
   ]);
   const [isChatLoading, setIsChatLoading] = useState(false);
@@ -166,7 +166,7 @@ export default function AiSandbox() {
             </div>
             <div>
               <h3 className="text-sm font-display font-medium text-white tracking-wider flex items-center gap-2">
-                R_HMT COGNITIVE TWIN
+                MUSFA COGNITIVE TWIN
                 <span className="flex h-2 w-2 relative">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
@@ -300,7 +300,7 @@ export default function AiSandbox() {
                 type="text"
                 value={chatInput}
                 onChange={(e) => setChatInput(e.target.value)}
-                placeholder="Tanyakan sesuatu tentang R_hmt..."
+                placeholder="Tanyakan sesuatu tentang musfa..."
                 disabled={isChatLoading}
                 className="flex-1 px-4 py-3.5 bg-zinc-950/70 border border-zinc-900 rounded-xl text-sm text-zinc-100 placeholder-zinc-700 focus:outline-none focus:border-cyan-500/50 focus:ring-1 focus:ring-cyan-500/20 transition-all disabled:opacity-50"
               />
