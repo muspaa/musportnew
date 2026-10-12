@@ -3,7 +3,7 @@ import { ArrowUp, Check, Copy, LoaderCircle, RotateCcw, Square, Trash2 } from 'l
 import { Chapter, Mark } from './Primitives';
 import RelayMark from './RelayMark';
 type Message = { role: 'user' | 'assistant'; content: string };
-const prompts = ['Bagaimana kamu mulai belajar?', 'Apakah semua proyek masih aktif?', 'Apa itu Anime Quote?'];
+const prompts = ['Bagaimana kamu mulai belajar?', 'Proyek apa saja yang sudah kamu buat?', 'Apa itu MusMusify?'];
 export default function AiSandbox() {
   const [messages, setMessages] = useState<Message[]>([]); const [input, setInput] = useState(''); const [busy, setBusy] = useState(false); const [error, setError] = useState(''); const [copied, setCopied] = useState(-1); const [copyStatus, setCopyStatus] = useState(''); const [online, setOnline] = useState(true);
   const copyTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);

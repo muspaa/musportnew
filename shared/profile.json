@@ -19,12 +19,12 @@
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/twou1sec",
-      "handle": "rahmt_nhw"
+      "handle": "twou1sec"
     },
     {
       "name": "TikTok",
       "url": "https://www.tiktok.com/@xinyourc",
-      "handle": "XIIN"
+      "handle": "xinyourc"
     },
     {
       "name": "WhatsApp",
@@ -32,43 +32,5 @@
       "handle": "mustofa"
     }
   ],
-  "anime": [
-    {
-      "id": "elaina",
-      "name": "Elaina",
-      "origin": "Majo no Tabitabi",
-      "label": "The wandering witch",
-      "note": "Penyihir pengelana yang penasaran pada dunia. Mandiri, percaya diri, dan punya caranya sendiri melihat sebuah perjalanan.",
-      "image": "/images/anime-v22/elaina.jpg",
-      "source": "https://id.pinterest.com/pin/1130192469019479631/",
-      "color": "#a6a09d"
-    },
-    {
-      "id": "arisu",
-      "name": "Arisu Sakayanagi",
-      "origin": "Classroom of the Elite",
-      "label": "Quiet intelligence",
-      "note": "Tenang, analitis, dan gemar permainan strategi. Selalu ada perhitungan di balik langkah kecilnya.",
-      "image": "/images/anime-v22/arisu.jpg",
-      "source": "https://id.pinterest.com/pin/287737863685486930/",
-      "color": "#a7947f"
-    },
-    {
-      "id": "hiyori",
-      "name": "Hiyori Shiina",
-      "origin": "Classroom of the Elite",
-      "label": "A quieter chapter",
-      "note": "Pembaca buku yang lembut dan observan. Menikmati percakapan tenang, dengan perhatian pada hal-hal kecil.",
-      "image": "/images/anime-v22/hiyori.jpg",
-      "source": "https://id.pinterest.com/pin/846113848787698598/",
-      "color": "#87938b"
-    }
-  ],
-  "video": {
-    "url": "https://res.cloudinary.com/dhxfke7kq/video/upload/v1791439342/Ssstt/wnudrzps2bdshrcyykkw.mp4",
-    "poster": "/posters/cote.webp",
-    "rotation": -90,
-    "title": "Classroom of the Elite"
-  },
   "motivation": "Ada motivasi personal juga. Waktu itu ada seseorang di kelas yang i sukai, meski tidak pernah diungkapkan. Itu ikut mendorong aku untuk berkontribusi, bukan sekadar ikut nama. Cukup sebagai salah satu pemicu awal."
 }

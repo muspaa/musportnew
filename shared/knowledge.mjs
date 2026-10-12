@@ -1,16 +1,19 @@
 import content from './content.json' with { type: 'json' };
 import profile from './profile.json' with { type: 'json' };
+import certificates from './certificates.json' with { type: 'json' };
 export function publicKnowledge() {
+  const realCertificates = certificates.items || [];
   return [
     `Nama publik: ${profile.name} (${profile.alias}); pelajar, self-taught independent developer. Tidak ada tim developer yang perlu dikarang.`,
     `Tentang: ${profile.about} ${profile.motivation} ${profile.approach}`,
     `Filosofi: ${profile.ethos}`,
     `Perjalanan: ${content.JOURNEY_STEPS.map(j => `${j.phase}: ${j.subtitle}. ${j.description}`).join('\n')}`,
-    `Arsip karya: ${content.PROJECTS.map(p => `${p.name} [${p.status}]: ${p.summary}`).join('\n')}`,
-    'Tidak semua karya aktif. Tidak ada klaim jumlah pengguna, hasil bisnis, tahun proyek, sertifikat, atau performa terverifikasi.',
+    `Arsip karya (${content.PROJECTS.length} proyek web): ${content.PROJECTS.map(p => `${p.name} [${p.category}, ${p.url}]: ${p.summary}`).join('\n')}`,
+    'Jangan mengklaim jumlah pengguna, hasil bisnis, tahun proyek, atau performa terverifikasi. Netflix Token dan Alight Motion Pro adalah eksperimen; ingatkan bahwa pemakaian pada akun milik orang lain dapat melanggar ketentuan layanan.',
+    realCertificates.length
+      ? `Sertifikat dan penghargaan: ${realCertificates.map(c => `${c.title} (${c.issuer}, ${c.year})`).join('; ')}.`
+      : 'Galeri sertifikat belum berisi data resmi; jangan menyebut sertifikat atau penghargaan tertentu.',
     `Tools yang dieksplorasi, bukan klaim ahli: ${content.ECOSYSTEM.map(g => `${g.category}: ${g.items.map(t => t.name).join(', ')}`).join('; ')}.`,
-    `Anime: ${profile.anime.map(a => `${a.name}, ${a.origin}`).join('; ')}. Elaina adalah favorit utama. Anime favorit: Classroom of the Elite.`,
-    `Jejaring: ${content.PEOPLE.map(p => p.name).join(', ')}. Komunitas: ${content.COMMUNITIES.map(c => c.name).join(', ')}. Jangan mengarang peran orang-orang ini atau mengungkap kontak pribadi mereka.`,
     `Kontak publik pemilik: ${profile.socials.map(s => `${s.name}: ${s.url}`).join('; ')}`
   ].join('\n');
 }

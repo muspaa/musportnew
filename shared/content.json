@@ -1,72 +1,4 @@
 {
-  "COMMUNITIES": [
-    {
-      "name": "HIRASAWA.ID",
-      "title": "WHATSAPP OFFICIAL COMMUNITY",
-      "tagline": "Wadah sentral resmi dalam mengasah logika koding, rekayasa produk, serta berkolaborasi antarsesama peretas digital.",
-      "image": "/images/hirasawa-community.jpg",
-      "url": "https://chat.whatsapp.com/GJrFX9GSOJiBLyJmJNNixi",
-      "status": "Ikon dan nama dari halaman undangan resmi WhatsApp · fungsi bergabung belum diuji",
-      "members": [
-        "SHADOWNEX",
-        "hmmodzvip",
-        "reiz_riz",
-        "Zakrenz"
-      ]
-    },
-    {
-      "name": "Scrape Collection",
-      "title": "AUTOMATION RESEARCH LAB",
-      "tagline": "Kumpulan script otomatisasi penjelajah data (web scraping), repositori pembersihan data, dan bot cerdas.",
-      "image": "Scrape.png",
-      "url": "https://chat.whatsapp.com/BfxkoBVqORL2GIJ3SZh1Lk",
-      "status": "Tautan dari arsip · belum diverifikasi",
-      "members": [
-        "hmmodzvip",
-        "Tenkz",
-        "Ditzzx"
-      ]
-    },
-    {
-      "name": "Promosi",
-      "title": "COMMERCIAL OUTREACH HUB",
-      "tagline": "Tempat promosi perkakas instan, rintisan situs web prototipe, serta sarana perluasan ide produk.",
-      "image": "Promosi.png",
-      "url": "https://chat.whatsapp.com/HxMqke18m0OBh8uQ8Hezth",
-      "status": "Tautan dari arsip · belum diverifikasi",
-      "members": [
-        "Ramadhan Store",
-        "Tenkz",
-        "reiz_riz"
-      ]
-    },
-    {
-      "name": "Promosi v2",
-      "title": "PROMOSI OUTPOST V2",
-      "tagline": "Evolusi ruang distribusi digital berskala mikro untuk pencatatan log promosi produk-produk buatan pengembang independen.",
-      "image": "Promosiv2.png",
-      "url": "https://chat.whatsapp.com/CKBpfDlQICEL6OoDyiHIj3",
-      "status": "Tautan dari arsip · belum diverifikasi",
-      "members": [
-        "Ramadhan Store",
-        "Thxyz404",
-        "Ditzzx"
-      ]
-    },
-    {
-      "name": "Bots Lab",
-      "title": "AI & TELECOMMUNICATIONS",
-      "tagline": "Laboratorium rekayasa pesan interaktif, simulasi bot cerdas, webhook pemicu, dan server transaksional mikro.",
-      "image": "Bots.png",
-      "url": "https://chat.whatsapp.com/CKBpfDlQICEL6OoDyiHIj3",
-      "status": "Tautan dari arsip · belum diverifikasi",
-      "members": [
-        "hmmodzvip",
-        "Tenkz",
-        "Thxyz404"
-      ]
-    }
-  ],
   "ECOSYSTEM": [
     {
       "category": "AI Tools",
@@ -263,606 +195,212 @@
       ]
     }
   ],
-  "PEOPLE": [
-    {
-      "name": "SHADOWNEX",
-      "handle": "shadownex",
-      "avatar": "Shadow.png",
-      "role": "",
-      "socials": [
-        {
-          "platform": "github",
-          "url": "https://github.com/Shadownex293",
-          "label": "GitHub"
-        },
-        {
-          "platform": "telegram",
-          "url": "https://t.me/Shadownex2",
-          "label": "Telegram"
-        },
-        {
-          "platform": "whatsapp-channel",
-          "url": "https://whatsapp.com/channel/0029Vb8Lge5FHWq3fTan4V0J",
-          "label": "Channel WA"
-        }
-      ]
-    },
-    {
-      "name": "hmmodzvip",
-      "handle": "hmmodzvip",
-      "avatar": "Hmmodz.png",
-      "role": "",
-      "socials": [
-        {
-          "platform": "github",
-          "url": "https://github.com/hmmodzvip",
-          "label": "GitHub"
-        },
-        {
-          "platform": "tiktok",
-          "url": "https://www.tiktok.com/@hmmodzvip",
-          "label": "TikTok"
-        },
-        {
-          "platform": "email",
-          "url": "mailto:serverhmmodz@gmail.com",
-          "label": "Email"
-        }
-      ]
-    },
-    {
-      "name": "iboyCloud",
-      "handle": "iboycloud",
-      "avatar": "",
-      "role": "",
-      "socials": [
-        {
-          "platform": "github",
-          "url": "https://github.com/iboycloud",
-          "label": "GitHub"
-        },
-        {
-          "platform": "tiktok",
-          "url": "https://www.tiktok.com/@xiao_bayu",
-          "label": "TikTok"
-        }
-      ]
-    },
-    {
-      "name": "reiz_riz",
-      "handle": "rixz-dev",
-      "avatar": "Reiz.png",
-      "role": "",
-      "socials": [
-        {
-          "platform": "github",
-          "url": "https://github.com/rixz-dev",
-          "label": "GitHub"
-        },
-        {
-          "platform": "whatsapp-channel",
-          "url": "https://whatsapp.com/channel/0029Vb7w7clK5cD9rAxc6r20",
-          "label": "Channel WA"
-        }
-      ]
-    },
-    {
-      "name": "Zakrenz",
-      "handle": "Zakrenzdev",
-      "avatar": "Zakrenz.png",
-      "role": "",
-      "socials": [
-        {
-          "platform": "github",
-          "url": "https://github.com/Zakrenzdev",
-          "label": "GitHub"
-        },
-        {
-          "platform": "tiktok",
-          "url": "https://www.tiktok.com/@zakrenzreal",
-          "label": "TikTok"
-        }
-      ]
-    },
-    {
-      "name": "Ditzzx",
-      "handle": "Ditzzx",
-      "avatar": "",
-      "role": "",
-      "socials": [
-        {
-          "platform": "whatsapp-channel",
-          "url": "https://whatsapp.com/channel/0029Vb6GMVNGehERPKx21D20",
-          "label": "Channel WA"
-        }
-      ]
-    },
-    {
-      "name": "Ramadhan Store",
-      "handle": "Ramadhan Store",
-      "avatar": "Ramda.jpg",
-      "role": "",
-      "socials": [
-        {
-          "platform": "whatsapp",
-          "url": "https://wa.me/62895423189495",
-          "label": "WhatsApp"
-        }
-      ]
-    },
-    {
-      "name": "Tenkz",
-      "handle": "Tenkxzz",
-      "avatar": "Tenkz.png",
-      "role": "",
-      "socials": [
-        {
-          "platform": "github",
-          "url": "https://github.com/Tenkxzz",
-          "label": "GitHub"
-        },
-        {
-          "platform": "instagram",
-          "url": "https://instagram.com/main.pyc",
-          "label": "Instagram"
-        },
-        {
-          "platform": "whatsapp-channel",
-          "url": "https://whatsapp.com/channel/0029VbC13UP1CYoODnULpp3E",
-          "label": "Channel WA"
-        }
-      ]
-    },
-    {
-      "name": "Thxyz404",
-      "handle": "thxyzz404",
-      "avatar": "Thx.png",
-      "role": "",
-      "socials": [
-        {
-          "platform": "tiktok",
-          "url": "https://www.tiktok.com/@thxyzz404",
-          "label": "TikTok"
-        },
-        {
-          "platform": "telegram",
-          "url": "https://t.me/Vnz404",
-          "label": "Telegram"
-        },
-        {
-          "platform": "whatsapp-channel",
-          "url": "https://whatsapp.com/channel/0029Vb8CC8WKLaHqU9bbrN2Z",
-          "label": "Channel WA"
-        }
-      ]
-    },
-    {
-      "name": "Sheriff",
-      "handle": "sheriff",
-      "avatar": "",
-      "role": "",
-      "socials": []
-    },
-    {
-      "name": "Rosée",
-      "handle": "Blckrose2",
-      "avatar": "Rosee.jpg",
-      "role": "",
-      "socials": [
-        {
-          "platform": "github",
-          "url": "https://github.com/Blckrose2",
-          "label": "GitHub"
-        },
-        {
-          "platform": "telegram",
-          "url": "https://t.me/Blckrose0",
-          "label": "Telegram"
-        },
-        {
-          "platform": "whatsapp-channel",
-          "url": "https://whatsapp.com/channel/0029VbBt4432f3ENa8ULoM1J",
-          "label": "Channel WA"
-        },
-        {
-          "platform": "web",
-          "url": "https://api.theresav.eu",
-          "label": "Web API"
-        }
-      ]
-    },
-    {
-      "name": "Kayy Tsoukei",
-      "handle": "KayyOnly",
-      "avatar": "kay.jpg",
-      "role": "",
-      "socials": [
-        {
-          "platform": "github",
-          "url": "https://github.com/KayyOnly",
-          "label": "GitHub"
-        },
-        {
-          "platform": "telegram",
-          "url": "https://t.me/Gbaiks",
-          "label": "Telegram"
-        }
-      ]
-    },
-    {
-      "name": "Ray Mewing",
-      "handle": "raymewing",
-      "avatar": "ray.jpg",
-      "role": "",
-      "socials": [
-        {
-          "platform": "linktree",
-          "url": "https://linktr.ee/raytampann",
-          "label": "Linktree"
-        }
-      ]
-    },
-    {
-      "name": "Thvnotdev119",
-      "handle": "Thvnotdev119",
-      "avatar": "thv.jpg",
-      "role": "",
-      "socials": [
-        {
-          "platform": "tiktok",
-          "url": "https://www.tiktok.com/@Thvnotdev119",
-          "label": "TikTok"
-        }
-      ]
-    }
-  ],
   "PROJECTS": [
     {
-      "id": "veritas",
-      "name": "Veritas (Artikel OCR)",
-      "category": "AI Tools",
-      "url": "https://artikel-ocr.vercel.app/",
-      "description": "Antarmuka analisis artikel ilmiah, PDF, dan URL dengan ringkasan, ekstraksi metodologi, deteksi bias, serta ruang tanya jawab berbasis dokumen. Situs menampilkan integrasi OCR iLovePDF.",
-      "problem": "Membaca dokumen ilmiah panjang atau artikel web bertele-tele sangat memakan waktu, terutama ketika menyalin teks manual dari PDF pindaian.",
-      "exploration": "Integrasi pipeline OCR andal dipadukan dengan kecerdasan buatan perangkum teks untuk analisis dokumen secepat kilat.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
+      "id": "wa-react",
+      "name": "WhatsApp React",
+      "category": "Creator",
+      "url": "https://mus-wa-react.vercel.app/",
+      "description": "Tool web untuk mengirim reaksi emoji ke postingan channel WhatsApp. Pengguna menempel URL postingan, memilih satu atau beberapa emoji (termasuk emoji custom), lalu sistem mengirim reaksi dan menampilkan log hasilnya. Tersedia riwayat 20 URL terakhir yang disimpan lokal di browser.",
+      "summary": "Kirim reaksi emoji otomatis ke postingan channel WhatsApp lewat satu URL.",
+      "problem": "Memberi reaksi ke postingan channel secara manual itu repetitif, apalagi kalau ingin memakai banyak emoji sekaligus.",
+      "exploration": "Form sederhana yang memanggil API reaksi, ditambah log detail, riwayat lokal, FAQ, dan antarmuka bergaya neubrutalism dengan dark mode.",
+      "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
       "ecosystem": [
-        "React",
-        "OCR",
-        "iLovePDF API"
-      ],
-      "summary": "Analisis PDF dan artikel URL dengan ringkasan, metodologi, dan konteks dokumen.",
-      "status": "ONLINE_UNVERIFIED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "tierlist-maker",
-      "name": "Tierlist Maker",
-      "category": "Utilities",
-      "url": "https://tierlist-maker-gamma.vercel.app/",
-      "description": "Editor tier list berbasis gambar: upload gambar, atur baris dan peringkat lewat drag atau sentuhan, ubah tema canvas, lalu download hasilnya.",
-      "problem": "Pembuatan bagan peringkat (tier list) seringkali lambat di mobile dan memerlukan proses crop gambar manual yang tidak ramah pengguna.",
-      "exploration": "Optimalisasi penanganan drag-and-drop murni berpadu rendering grid dinamis berbasis HTML Canvas untuk ekspor cepat.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "JavaScript",
-        "Tailwind CSS",
-        "html2canvas"
-      ],
-      "summary": "Susun gambar ke tier list, atur peringkat, lalu ekspor hasil visual.",
-      "status": "ONLINE_UNVERIFIED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "anime-quote",
-      "name": "Anime Quote",
-      "category": "Utilities",
-      "url": "https://anime-quote-six.vercel.app/",
-      "description": "Editor kartu kutipan anime dengan pilihan karakter, teks, dan tampilan, serta unduhan hasil visual ke PNG.",
-      "problem": "Kutipan anime inspiratif tersebar secara acak di internet tanpa format visual yang layak dibagikan ke media sosial.",
-      "exploration": "Eksperimen integrasi API katalog kutipan anime dipadu filter sentimen emosi dan rendering kartu visual menggunakan kanvas modern.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "React",
-        "CSS",
-        "PNG Export"
-      ],
-      "summary": "Merangkai kutipan dan karakter anime menjadi kartu gambar.",
-      "status": "ONLINE_UNVERIFIED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "analisis-tanaman",
-      "name": "Analisis Tanaman",
-      "category": "AI Tools",
-      "url": "https://analyze-tanaman.vercel.app/welcome",
-      "description": "Flora.AI menampilkan alur identifikasi penyakit daun melalui Gemini AI, dukungan beberapa tanaman, ekspor laporan PDF, dan riwayat diagnosis. Halaman saat diperiksa juga menampilkan pemberitahuan pemeliharaan.",
-      "problem": "Mendiagnosis hama tanaman atau penyakit tanaman membutuhkan waktu lama dan ahli agronomi, menyebabkan keterlambatan penanganan di lahan.",
-      "exploration": "Mengintegrasikan penangkapan kamera ponsel secara langsung ke model multi-modal vision jarak jauh untuk analisis visual instan di lapangan.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "JavaScript",
-        "Tailwind CSS",
-        "Gemini AI",
-        "Vercel API"
-      ],
-      "summary": "Antarmuka analisis penyakit daun, laporan PDF, dan riwayat diagnosis.",
-      "status": "ONLINE_UNVERIFIED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "hd-upscale",
-      "name": "HD Upscale",
-      "category": "AI Tools",
-      "url": "https://hd-upscale-nine.vercel.app/",
-      "description": "Spark Upscaler menyediakan upload JPG, PNG, atau WebP hingga 10 MB, pilihan resolusi output 4K/6K/8K, opsi face enhance, perbandingan hasil, dan download gambar.",
-      "problem": "Skala pembesaran gambar konvensional hanya merenggangkan grid pixel, menciptakan kekaburan visual dan noise yang merusak estetika desain grafik.",
-      "exploration": "Eksplorasi kalkulasi sintetik detail frekuensi tinggi lewat neural-network vision AI ketimbang sekadar interpolasi bilinear.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "JavaScript",
-        "Tailwind CSS",
-        "REST API"
-      ],
-      "summary": "Upload gambar, pilih resolusi dan face enhance, lalu unduh hasil upscale.",
-      "status": "ONLINE_UNVERIFIED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "repo-flow",
-      "name": "Repo Flow",
-      "category": "Utilities",
-      "url": "https://auto-reporistory-githb.vercel.app/",
-      "description": "RepoFlow adalah web manager GitHub untuk upload ZIP atau banyak file, membaca struktur repository, memperbarui atau menghapus file, serta memantau aktivitas push. Antarmukanya mendukung penggunaan dari HP maupun desktop.",
-      "problem": "Pengembang membuang waktu mengatur boilerplate, repositori terpencil, dan file workflow CI/CD berulang-kali untuk setiap eksperimen mikro.",
-      "exploration": "Menghubungkan API REST GitHub untuk merancang wizard interaktif pembangun berkas konfigurasi, inisialisasi Git, dan push otomatis.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "React",
-        "GitHub API",
-        "JSZip",
-        "IndexedDB"
-      ],
-      "summary": "Upload project dan kelola file repository GitHub dari satu antarmuka.",
-      "status": "ONLINE_UNVERIFIED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "fake-loby-ml",
-      "name": "Fake Loby ML",
-      "category": "Utilities",
-      "url": "https://fake-loby-ml-nine.vercel.app/",
-      "description": "Generator kartu lobi Mobile Legends fiktif dengan input nama player, pilihan rank dan border, preview canvas, serta unduhan gambar.",
-      "problem": "Membuat visualisasi kartu profil game secara kustom dengan lencana tier dinamis membutuhkan keterampilan desain grafis yang rumit.",
-      "exploration": "Penerapan rendering canvas 2D untuk mengombinasikan berkas grafis skin, lencana, teks dinamis, dan parameter secara real-time.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "JavaScript",
-        "HTML Canvas",
-        "Tailwind CSS"
-      ],
-      "summary": "Buat kartu lobi ML fiktif dengan nama, rank, dan border pilihan.",
-      "status": "ONLINE_UNVERIFIED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "tugasku-pro",
-      "name": "TugasKu Pro",
-      "category": "Productivity",
-      "url": "https://tugas-ku4.vercel.app/",
-      "description": "Eksperimen workspace untuk mengatur tugas, papan proyek, dan alur kerja personal.",
-      "problem": "Kebanyakan pengatur tugas terlalu kaku atau minim umpan balik visual, membuat pelacakan efisiensi tim terasa membosankan dan lambat.",
-      "exploration": "Riset interaksi drag-and-drop state boards, workspace dinamis, sistem sub-checklist bersarang, dan indikator produktivitas real-time.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "Next.js",
-        "React",
-        "Tailwind CSS",
-        "Zustand",
-        "Framer Motion"
-      ],
-      "summary": "Eksperimen workspace untuk mengatur tugas, papan proyek, dan alur kerja personal.",
-      "status": "ARCHIVED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "tugasku-lite",
-      "name": "TugasKu Lite",
-      "category": "Productivity",
-      "url": "https://tugasku3-lite.netlify.app/",
-      "description": "Pengelola tugas sekolah dengan deadline, prioritas, filter status, jadwal pelajaran mingguan, catatan, dan pilihan tema. Data tersimpan di browser melalui localStorage.",
-      "problem": "Aplikasi pelacak tugas sering kali lamban dan memakan memori berlebih saat dibuka pada jaringan lambat atau terminal smartphone.",
-      "exploration": "Optimasi berat runtime browser sekecil mungkin dan penyimpanan tumpukan status lokal yang tangguh terhadap fluktuasi sinyal internet.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "JavaScript",
+        "Vercel",
+        "REST API",
         "localStorage",
-        "Chart.js"
+        "Neubrutalism UI"
       ],
-      "summary": "Tugas sekolah, jadwal pelajaran, dan catatan dengan penyimpanan lokal.",
-      "status": "ONLINE_UNVERIFIED",
+      "status": "LIVE_VERIFIED",
       "type": "work",
-      "visualType": "illustrative"
+      "visualType": "illustrative",
+      "theme": {
+        "hue": 150,
+        "hue2": 185,
+        "ring": false,
+        "glyph": "♥"
+      }
     },
     {
-      "id": "screenshot-web",
-      "name": "Screenshot Web",
+      "id": "musify",
+      "name": "MusMusify",
+      "category": "Media",
+      "url": "https://mus-musik.vercel.app/",
+      "description": "Web player musik bergaya neubrutalism. Ada pencarian lagu, Quick Picks, playlist populer, top artist, library playlist buatan sendiri, lagu tersimpan lokal, tampilan lirik, dan kontrol putar/jeda di notifikasi atau layar kunci agar musik tetap berjalan di latar belakang.",
+      "summary": "Web player musik dengan pencarian, lirik, playlist, dan pemutaran di latar belakang.",
+      "problem": "Mendengarkan musik lewat browser biasanya terganggu iklan, dan pemutaran berhenti saat tab berpindah atau layar terkunci.",
+      "exploration": "Antarmuka player dengan pencarian instan, playlist dan lagu tersimpan di perangkat, serta dukungan pemutaran latar belakang untuk Android dan iPhone.",
+      "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
+      "ecosystem": [
+        "Vercel",
+        "Media Session",
+        "Playlist",
+        "localStorage"
+      ],
+      "status": "LIVE_VERIFIED",
+      "type": "work",
+      "visualType": "illustrative",
+      "theme": {
+        "hue": 330,
+        "hue2": 285,
+        "ring": true,
+        "glyph": "♪"
+      }
+    },
+    {
+      "id": "netflix-token",
+      "name": "Netflix Token",
       "category": "Utilities",
-      "url": "https://screenshot-web-omega.vercel.app/",
-      "description": "Tool capture website dari URL dengan preset viewport mobile hingga PC 4K, ukuran custom, render scale 1x–3x, pilihan full page, preview, dan download gambar.",
-      "problem": "Ekstensi screenshot biasa sering kali memecah font khusus, merusak posisi elemen CSS absolut, dan gagal menangkap layout gulir penuh.",
-      "exploration": "Membangun proxy server instansi Chromium tanpa kepala (headless) untuk merender animasi dan mengekstrak snapshot visual akurat.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
+      "url": "https://mus-netflix-generator.vercel.app/",
+      "description": "Eksperimen tool web yang menghasilkan token sesi dalam jumlah pilihan (1, 2, 3, atau 5), lengkap dengan panduan langkah, FAQ, dan riwayat generate di perangkat. Situs sendiri menyebut proyek ini untuk edukasi dan testing; pemakaian pada akun milik orang lain dapat melanggar ketentuan layanan.",
+      "summary": "Eksperimen tool web untuk membuat token sesi, dibuat untuk edukasi dan testing.",
+      "problem": "Ingin memahami bagaimana token sesi dan cookie autentikasi bekerja serta bagaimana alurnya dibungkus dalam antarmuka web.",
+      "exploration": "Generator dengan alur pilih jumlah, proses, salin hasil, dan riwayat lokal yang dibatasi 20 entri.",
+      "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
       "ecosystem": [
-        "JavaScript",
-        "CSS",
-        "REST API"
+        "Vercel",
+        "REST API",
+        "localStorage",
+        "Neubrutalism UI"
       ],
-      "summary": "Capture halaman web dengan ukuran viewport dan skala render pilihan.",
-      "status": "ONLINE_UNVERIFIED",
+      "status": "LIVE_VERIFIED",
       "type": "work",
-      "visualType": "illustrative"
+      "visualType": "illustrative",
+      "theme": {
+        "hue": 355,
+        "hue2": 20,
+        "ring": false,
+        "glyph": "N"
+      }
     },
     {
-      "id": "cek-kartu",
-      "name": "Cek Kartu",
+      "id": "webto-apk",
+      "name": "WebtoAPK",
+      "category": "Developer",
+      "url": "https://mus-build-apk-web.vercel.app/",
+      "description": "Tool untuk mengubah URL website atau file HTML/ZIP menjadi aplikasi Android. Pengguna mengisi nama aplikasi, package name, versi, ikon, splash screen, orientasi, dan izin; ada pratinjau sebelum compile, lalu status build dan log dipantau otomatis hingga APK siap diunduh.",
+      "summary": "Ubah website atau file HTML menjadi APK Android lewat form dan antrean build.",
+      "problem": "Membuat aplikasi Android dari web biasanya butuh Android Studio dan laptop, padahal sebagian besar proses belajar ini berlangsung di HP.",
+      "exploration": "Form bertahap (sumber, identitas, splash, izin, pratinjau) dengan polling status build tiap 2 detik dan log build langsung di halaman.",
+      "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
+      "ecosystem": [
+        "Vercel",
+        "Build queue",
+        "Polling status",
+        "Android"
+      ],
+      "status": "LIVE_VERIFIED",
+      "type": "work",
+      "visualType": "illustrative",
+      "theme": {
+        "hue": 95,
+        "hue2": 150,
+        "ring": true,
+        "glyph": "▣"
+      }
+    },
+    {
+      "id": "am-find",
+      "name": "AM Find",
+      "category": "Creator",
+      "url": "https://mus-am-find.vercel.app/",
+      "description": "Tool web gratis yang membantu editor Alight Motion menemukan preset dari video TikTok. Pengguna menempel link video, menekan SCAN, lalu preset yang ditemukan bisa diunduh. Riwayat pemindaian tersimpan di browser dan backend-nya berupa Vercel Serverless Function sebagai proxy.",
+      "summary": "Cari preset Alight Motion dari link video TikTok secara otomatis.",
+      "problem": "Preset Alight Motion sering disebut di video TikTok tetapi sulit dilacak satu per satu.",
+      "exploration": "Alur salin link, tempel, scan, lalu unduh preset, dengan serverless proxy di belakang antarmuka neubrutalism yang responsif.",
+      "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
+      "ecosystem": [
+        "Vercel",
+        "Serverless Function",
+        "localStorage",
+        "Neubrutalism UI"
+      ],
+      "status": "LIVE_VERIFIED",
+      "type": "work",
+      "visualType": "illustrative",
+      "theme": {
+        "hue": 200,
+        "hue2": 235,
+        "ring": false,
+        "glyph": "⌕"
+      }
+    },
+    {
+      "id": "downloader",
+      "name": "Media Downloader",
+      "category": "Media",
+      "url": "https://mus-downloader-ppp.vercel.app/",
+      "description": "Downloader serba-ada untuk tautan dari lebih dari 18 platform, termasuk TikTok, YouTube, Instagram, Facebook, X, Spotify, SoundCloud, Pinterest, dan Reddit. Pengguna menempel link, memilih kualitas atau format dari hasil yang ditemukan, lalu mengunduh file.",
+      "summary": "Unduh media dari 18+ platform seperti TikTok, YouTube, Instagram, dan Spotify.",
+      "problem": "Setiap platform punya cara unduh berbeda, dan banyak situs downloader penuh iklan atau menambahkan watermark.",
+      "exploration": "Satu input tautan yang mendeteksi platform, menampilkan judul, kreator, durasi, dan pilihan kualitas.",
+      "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
+      "ecosystem": [
+        "Vercel",
+        "REST API",
+        "Multi-platform"
+      ],
+      "status": "LIVE_VERIFIED",
+      "type": "work",
+      "visualType": "illustrative",
+      "theme": {
+        "hue": 25,
+        "hue2": 340,
+        "ring": false,
+        "glyph": "↓"
+      }
+    },
+    {
+      "id": "temp-mail",
+      "name": "TempMail",
       "category": "Utilities",
-      "url": "https://cek-provider-six.vercel.app/",
-      "description": "DOMPUL CEK adalah antarmuka pengecekan kartu XL dan AXIS. Nomor diproses lewat API untuk menampilkan status kartu, pulsa, masa aktif, masa tenggang, dan paket yang sedang aktif.",
-      "problem": "Kesalahan pengenalan nomor seluler oleh pengguna saat pengisian pulsa menimbulkan kekacauan sistem pengiriman transaksi lokal.",
-      "exploration": "Membangun mesin ekspresi reguler (RegEx) berkinerja tinggi terhadap dataset awalan nomor handphone dari seluruh operator lokal.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
+      "url": "https://mus-temp.vercel.app/",
+      "description": "Generator email sementara bergaya brutalist. Pengguna menekan Generate untuk membuat alamat, menyalinnya, lalu menunggu pesan masuk di inbox. Pesan dapat dibuka untuk melihat subjek, pengirim, dan isinya, dengan tombol refresh untuk memeriksa pesan baru.",
+      "summary": "Generator email sementara dengan inbox yang bisa dibaca langsung.",
+      "problem": "Mendaftar ke layanan untuk mencoba sesuatu sering memaksa memakai email utama dan membuat inbox penuh.",
+      "exploration": "Alur generate, copy, refresh, dan baca pesan dalam satu halaman ringan.",
+      "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
       "ecosystem": [
-        "JavaScript",
-        "REST API"
+        "Vercel",
+        "REST API",
+        "Inbox polling"
       ],
-      "summary": "Cek informasi kartu XL/AXIS: pulsa, masa aktif, dan paket.",
-      "status": "ONLINE_UNVERIFIED",
+      "status": "LIVE_VERIFIED",
       "type": "work",
-      "visualType": "illustrative"
+      "visualType": "illustrative",
+      "theme": {
+        "hue": 270,
+        "hue2": 310,
+        "ring": true,
+        "glyph": "@"
+      }
     },
     {
-      "id": "indosawit-news",
-      "name": "Indosawit.News v2",
-      "category": "Productivity",
-      "url": "https://nexssuspage.vercel.app",
-      "description": "Halaman penghubung IndoSawit.news dan Sanexus.ai: portal informasi berita nasional/global serta jalur ke layanan deep search AI untuk riset pasar dan konteks berita.",
-      "problem": "Petani kelapa sawit mandiri kesulitan mendapatkan transparansi riwayat pasar harga harian dan info pencegahan penyakit tanaman perkebunan.",
-      "exploration": "Agregasi data harian harga minyak sawit mentah (CPO) nasional dalam kemasan grafik kontras tinggi yang mudah dibaca di luar ruangan.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
+      "id": "alight-motion-pro",
+      "name": "Alight Motion Pro",
+      "category": "Creator",
+      "url": "https://mus-am.vercel.app/",
+      "description": "Halaman aktivasi untuk akun Alight Motion. Pengguna memasukkan email akun, menerima magic link dari Alight Motion, menempelkan URL verifikasi, lalu status aktivasi dan bukti dapat disalin. Dilengkapi activity log dan antarmuka kuning-hitam bergaya poster.",
+      "summary": "Halaman aktivasi akun Alight Motion lewat dispatcher MUSFA dan verifikasi magic link.",
+      "problem": "Alur aktivasi lewat magic link terasa membingungkan bagi banyak pengguna, terutama saat berpindah antara email dan browser.",
+      "exploration": "Wizard tiga langkah (email, verifikasi link, hasil) dengan dispatcher berbasis Node.js dan log aktivitas sistem.",
+      "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
       "ecosystem": [
-        "JavaScript",
-        "Tailwind CSS"
+        "Vercel",
+        "Node.js",
+        "REST API",
+        "Magic link"
       ],
-      "summary": "Portal penghubung berita IndoSawit.news dan riset Sanexus.ai.",
-      "status": "ONLINE_UNVERIFIED",
+      "status": "LIVE_VERIFIED",
       "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "image-to-prompt",
-      "name": "Image To Prompt",
-      "category": "AI Tools",
-      "url": "https://image-to-promt-livid.vercel.app/",
-      "description": "Eksplorasi model vision untuk menerjemahkan gambar menjadi deskripsi atau prompt.",
-      "problem": "Melihat visualisasi yang menawan tetapi kesulitan menemukannya dalam struktur teks deskripsi presisi saat membuat instruksi di Midjourney atau Stable Diffusion.",
-      "exploration": "Pemurnian pipeline sintaks deskripsi warna, gaya arsitektur, pencahayaan, dan atmosfir estetis gambar menjadi format instruksi deklaratif.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "Gemini 2.5 Vision",
-        "React",
-        "Tailwind CSS",
-        "Node.js"
-      ],
-      "summary": "Eksplorasi model vision untuk menerjemahkan gambar menjadi deskripsi atau prompt.",
-      "status": "ARCHIVED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "quickfake",
-      "name": "QuickFake",
-      "category": "Archive Experiments",
-      "url": "",
-      "description": "Eksperimen data REST API tiruan untuk membantu pengembangan prototipe frontend.",
-      "problem": "Menunggu infrastruktur backend selesai dideploy menghambat kecepatan pengembangan antarmuka pengembang.",
-      "exploration": "Pemetaan data skema ke memori lokal untuk menyimulasikan transaksi fiktif dengan kecepatan latensi yang dapat dikontrol.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "Faker.js",
-        "ZustandKey",
-        "TypeScript"
-      ],
-      "summary": "Eksperimen data REST API tiruan untuk membantu pengembangan prototipe frontend.",
-      "status": "ARCHIVED",
-      "type": "experiment",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "soundify",
-      "name": "Soundify",
-      "category": "Archive Experiments",
-      "url": "",
-      "description": "Eksplorasi Web Audio API, osilator, dan visualisasi suara langsung di browser.",
-      "problem": "Perangkat lunak pembuat audio terlampau rumit dan mengintimidasi bagi pengguna awam yang ingin mempelajari akustik digital.",
-      "exploration": "Memanfaatkan antarmuka Web Audio API osilator kustom berpadu dengan lukisan partikel canvas bergerak.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "Web Audio API",
-        "HTML5 Canvas",
-        "Tailwind CSS"
-      ],
-      "summary": "Eksplorasi Web Audio API, osilator, dan visualisasi suara langsung di browser.",
-      "status": "ARCHIVED",
-      "type": "experiment",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "web-anime",
-      "name": "Web Anime",
-      "category": "Archive Experiments",
-      "url": "",
-      "description": "Eksperimen katalog anime dan interaksi visual menggunakan transformasi CSS.",
-      "problem": "Banya visual web terasa kaku dan patah-patah karena animasi javascript berat yang tidak mengakses akselerasi perangkat keras.",
-      "exploration": "Penerapan transformasi koordinat matrix CSS 3D berakselerasi fisik untuk rotasi visual halus.",
-      "outcome": "Tercatat sebagai bagian dari arsip eksplorasi pribadi. Ketersediaan demo dan hasil eksperimen saat ini belum dikonfirmasi.",
-      "ecosystem": [
-        "CSS Transforms",
-        "React",
-        "Framer Motion"
-      ],
-      "summary": "Eksperimen katalog anime dan interaksi visual menggunakan transformasi CSS.",
-      "status": "ARCHIVED",
-      "type": "experiment",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "finora-journey",
-      "name": "Finora Journey",
-      "category": "Productivity",
-      "url": "https://finorajourney.my.id/",
-      "description": "Ruang pengelolaan keuangan pribadi dan bisnis dengan transaksi, kategori, utang, target, limit pengeluaran, laporan, dan simulasi skenario. Dilengkapi penyimpanan lokal dan ruang agent untuk eksplorasi rencana keuangan.",
-      "summary": "Catatan keuangan pribadi dan bisnis, target, serta simulasi skenario.",
-      "problem": "",
-      "exploration": "",
-      "outcome": "Deskripsi ditulis dari halaman dan bundle publik yang diakses 10 Oktober 2026; alur backend tidak diuji.",
-      "ecosystem": [
-        "Next.js",
-        "React",
-        "Dexie",
-        "IndexedDB"
-      ],
-      "status": "ONLINE_UNVERIFIED",
-      "type": "work",
-      "visualType": "illustrative"
-    },
-    {
-      "id": "am-proaktif",
-      "name": "Alight Motion Pro — RHMT",
-      "category": "Utilities",
-      "url": "https://am-proaktif.vercel.app/",
-      "description": "Antarmuka dispatcher Alight Motion dengan alur input email akun dan verifikasi magic link untuk akses Pro. Respons JSON dan log aktivitas ditampilkan sebagai bagian dari proses aktivasi.",
-      "summary": "Antarmuka aktivasi dengan email, magic link, respons, dan log aktivitas.",
-      "problem": "",
-      "exploration": "",
-      "outcome": "Deskripsi ditulis dari halaman dan bundle publik yang diakses 10 Oktober 2026; alur backend tidak diuji.",
-      "ecosystem": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "REST API"
-      ],
-      "status": "ONLINE_UNVERIFIED",
-      "type": "work",
-      "visualType": "illustrative"
+      "visualType": "illustrative",
+      "theme": {
+        "hue": 48,
+        "hue2": 28,
+        "ring": false,
+        "glyph": "✦"
+      }
     }
   ]
 }

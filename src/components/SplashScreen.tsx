@@ -9,8 +9,7 @@ export default function SplashScreen() {
     let active=true,ready=false,frame=0,last=0;
     closed.current=false;setShow(true);setProgress(1);setLeaving(false);document.documentElement.dataset.intro='on';
     const start=performance.now(),reduced=matchMedia('(prefers-reduced-motion: reduce)');
-    const theme=document.documentElement.dataset.theme==='light'?'light':'dark';
-    const images=['/images/pp.webp','/images/pp-dev.webp',`/images/glass/${theme}-960.webp`];
+    const images=['/images/pp.webp','/images/pp-dev.webp'];
     let hold:ReturnType<typeof setTimeout>|undefined;
     const pending:HTMLImageElement[]=[];
     const load=(src:string)=>new Promise<void>(resolve=>{const image=new Image();pending.push(image);image.onload=image.onerror=()=>resolve();image.src=src;});
@@ -27,7 +26,7 @@ export default function SplashScreen() {
   useEffect(()=>{if(!show)return;const old=document.body.style.overflow,focus=document.activeElement as HTMLElement|null;document.body.style.overflow='hidden';dialog.current?.close();dialog.current?.showModal();return()=>{dialog.current?.close();document.body.style.overflow=old;focus?.focus({preventScroll:true});};},[show]);
   if(!show)return null;
   return <dialog open ref={dialog} className={`intro-screen ${leaving?'intro-leaving':''}`} aria-label="intro MUSFA" onCancel={e=>{e.preventDefault();finish();}}>
-    <div className="intro-stage" aria-hidden="true"><span className="intro-panel intro-panel-one"/><span className="intro-panel intro-panel-two"/><span className="intro-panel intro-panel-three"/><div className="intro-identity"><Mark/></div><span className="intro-orbit"/><span className="intro-scan"/></div>
-    <div className="intro-copy"><p className="eyebrow">MUSFA / PERSONAL ARCHIVE</p><h2>Learning <em>in Progress.</em></h2><div className="intro-progress-caption"><span>{progress===100?'READY TO EXPLORE':'LOADING'}</span><output aria-label="Progres intro" aria-live="off">{String(progress).padStart(2,'0')}<small>%</small></output></div><div className="intro-load" role="progressbar" aria-label="Progres pembukaan portofolio" aria-valuemin={1} aria-valuemax={100} aria-valuenow={progress}><span style={{transform:`scaleX(${progress/100})`}}/></div><span>MEMBUKA RUANG EKSPLORASI.</span></div><button className="intro-skip" onClick={finish}>Lewati intro ↗</button>
+    <div className="intro-stage" aria-hidden="true"><span className="intro-ring intro-ring-one"/><span className="intro-ring intro-ring-two"/><span className="intro-ring intro-ring-three"/><span className="intro-satellite"/><div className="intro-identity"><Mark/></div><span className="intro-scan"/></div>
+    <div className="intro-copy"><p className="eyebrow">MUSFA / PERSONAL ARCHIVE</p><h2>Learning <em>in Progress.</em></h2><div className="intro-progress-caption"><span>{progress===100?'READY FOR LAUNCH':'PREPARING LAUNCH'}</span><output aria-label="Progres intro" aria-live="off">{String(progress).padStart(2,'0')}<small>%</small></output></div><div className="intro-load" role="progressbar" aria-label="Progres pembukaan portofolio" aria-valuemin={1} aria-valuemax={100} aria-valuenow={progress}><span style={{transform:`scaleX(${progress/100})`}}/></div><span>MEMBUKA SEMESTA EKSPLORASI.</span></div><button className="intro-skip" onClick={finish}>Lewati intro ↗</button>
   </dialog>;
 }
