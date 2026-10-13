@@ -9,4 +9,3 @@ export interface Project {
 }
 export interface JourneyStep { phase: string; title: string; subtitle: string; description: string; techKeywords: string[]; environment?: { device?: string; laptop?: string; learning?: string } }
 export interface EcosystemGroup { category: string; items: { name: string; description: string; iconName: string }[] }
-export interface Certificate { id: string; title: string; issuer: string; year: string; category: string; image?: string; url?: string; note?: string; demo?: boolean }

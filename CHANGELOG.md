@@ -2,10 +2,13 @@
 
 - Rombak total UI/UX bertema luar angkasa dengan 3D: nebula WebGL, starfield 3D berbasis scroll, planet shader di hero, ring proyek 3D, kartu tilt, HUD journey, mode gelap/terang.
 - Ganti seluruh proyek dengan 8 URL baru; deskripsi dari isi halaman.
-- Hapus 05 THE PERSONAL UNIVERSE (diganti galeri sertifikasi), 07 PEOPLE & COMMUNITIES, dan The community beserta data dan aset gambarnya.
-- Tambah `shared/certificates.json`; kartu contoh otomatis hilang setelah ada sertifikat asli.
+- Hapus 05 THE PERSONAL UNIVERSE, 07 PEOPLE & COMMUNITIES, dan The community beserta data dan aset gambarnya.
+- Bagian sertifikat (05 THE TROPHY ORBIT) dihapus; slot 05 diganti profil **Self-taught. Always curious.** dengan tombol **Download CV** (`public/cv/CV-MUSFA.pdf`).
+- Semua foto memakai foto PKL (header, splash, hero, profil, orbit tools, favicon, apple-touch-icon, OG image). Avatar anime lama dihapus.
+- Polesan 3D: satelit 3D mengorbit planet, konstelasi di dekat kursor, nebula berganti warna per bagian, parallax scroll, kualitas render adaptif.
+- Pembersihan: dokumen QA/build lama (±18 MB), `public/gambar`, aset OG/ikon lama, font TTF tak terpakai, `qa.html`, `metadata.json`, dan dokumen SEO/privasi ditulis ulang agar akurat.
 - Perbaikan: domain kanonik konsisten `musfamus.my.id` (sebelumnya campur `rhmt.biz.id`); tautan GitHub di tech stack kini mengikuti profil; handle Instagram/TikTok di profil cocok dengan URL-nya; JSON-LD selaras dengan profil; sisa nama "R_HMT" di teks tampilan dibersihkan; saran chat tidak lagi menyebut proyek yang sudah dihapus; `seo.mjs` tidak lagi mengimpor `vite` saat pengujian.
-- Test baru untuk ring 3D dan SEO; test lama untuk scene, shelf, dan scroll-scenes dihapus bersama kodenya.
+- Test baru untuk ring 3D dan SEO; `glass.test.mjs` diganti nama menjadi `orbit.test.mjs`; test lama untuk scene, shelf, dan scroll-scenes dihapus bersama kodenya.
 
 ## 2.7.0 — 10 Oktober 2026
 

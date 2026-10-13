@@ -9,7 +9,7 @@ export default function SplashScreen() {
     let active=true,ready=false,frame=0,last=0;
     closed.current=false;setShow(true);setProgress(1);setLeaving(false);document.documentElement.dataset.intro='on';
     const start=performance.now(),reduced=matchMedia('(prefers-reduced-motion: reduce)');
-    const images=['/images/pp.webp','/images/pp-dev.webp'];
+    const images=['/images/pp-avatar.webp','/images/pp.webp'];
     let hold:ReturnType<typeof setTimeout>|undefined;
     const pending:HTMLImageElement[]=[];
     const load=(src:string)=>new Promise<void>(resolve=>{const image=new Image();pending.push(image);image.onload=image.onerror=()=>resolve();image.src=src;});

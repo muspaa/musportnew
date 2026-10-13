@@ -9,7 +9,7 @@ export function useSpaceFx(enabled: boolean) {
   useEffect(() => {
     const root = document.documentElement; root.dataset.js = 'on'; root.dataset.motion = enabled ? 'on' : 'off';
     let frame = 0;
-    const progress = () => { frame = 0; const total = root.scrollHeight - innerHeight; root.style.setProperty('--read-progress', String(total > 0 ? Math.min(1, scrollY / total) : 0)); };
+    const progress = () => { frame = 0; const total = root.scrollHeight - innerHeight; root.style.setProperty('--read-progress', String(total > 0 ? Math.min(1, scrollY / total) : 0)); root.style.setProperty('--sy', String(Math.round(scrollY))); };
     const request = () => { if (!frame) frame = requestAnimationFrame(progress); };
     addEventListener('scroll', request, { passive: true }); addEventListener('resize', request); progress();
 

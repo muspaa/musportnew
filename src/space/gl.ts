@@ -38,6 +38,7 @@ export function fullscreen(gl: GL, fragment: string) {
     use: () => gl.useProgram(program),
     f1: (name: string, a: number) => gl.uniform1f(u(name), a),
     f2: (name: string, a: number, b: number) => gl.uniform2f(u(name), a, b),
+    f3: (name: string, a: number, b: number, c: number) => gl.uniform3f(u(name), a, b, c),
     draw: () => gl.drawArrays(gl.TRIANGLES, 0, 3),
     dispose: () => { gl.deleteBuffer(buffer); gl.deleteProgram(program); gl.deleteShader(vs); gl.deleteShader(fs); }
   };

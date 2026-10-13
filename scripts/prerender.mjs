@@ -14,8 +14,8 @@ try {
     page = page.replace(stylesheet[0], `<style data-portfolio-css>${css}</style>`);
   }
   const html = render();
-  for (const marker of ['Learning', 'THE DIGITAL ARCHIVE', 'Galeri sertifikasi']) if (!html.includes(marker)) throw new Error(`Prerender content incomplete: ${marker}`);
-  for (const gone of ['PEOPLE & COMMUNITIES', 'The community', 'THE PERSONAL UNIVERSE']) if (html.includes(gone)) throw new Error(`Removed section still rendered: ${gone}`);
+  for (const marker of ['Learning', 'THE DIGITAL ARCHIVE', 'Self-taught.', 'Download CV']) if (!html.includes(marker)) throw new Error(`Prerender content incomplete: ${marker}`);
+  for (const gone of ['PEOPLE & COMMUNITIES', 'The community', 'THE PERSONAL UNIVERSE', 'TROPHY ORBIT', 'Galeri sertifikasi']) if (html.includes(gone)) throw new Error(`Removed section still rendered: ${gone}`);
   const data = JSON.parse(await fs.readFile('shared/content.json', 'utf8'));
   const offlineIndex = `<noscript><style>.intro-screen{display:none!important}[data-reveal]{opacity:1!important;translate:none!important}</style><section style="padding:32px;max-width:1000px;margin:auto"><h2>Indeks arsip tanpa JavaScript</h2><p>Aktifkan JavaScript untuk pencarian, dialog interaktif, dan chat. Seluruh karya tetap dapat dibaca di bawah ini.</p>${data.PROJECTS.map(p => `<article style="padding:20px 0;border-top:1px solid #888"><h3>${escape(p.name)}</h3><p>${escape(p.category)}</p><p>${escape(p.description)}</p><p>${p.ecosystem.map(escape).join(' · ')}</p>${/^https:\/\//.test(p.url) ? `<a href="${escape(p.url)}" rel="noopener noreferrer" target="_blank">Tautan arsip ${escape(p.name)}</a>` : '<p>Demo tidak tersedia dalam sumber.</p>'}</article>`).join('')}<h2>Seluruh tools</h2>${data.ECOSYSTEM.map(g => `<h3>${escape(g.category)}</h3><p>${g.items.map(t => escape(t.name)).join(' · ')}</p>`).join('')}</section></noscript>`;
   await fs.writeFile('dist/index.html', page.replace('<!--app-->', html).replace(/<noscript>[\s\S]*?<\/noscript>/, offlineIndex));

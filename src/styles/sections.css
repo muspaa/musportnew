@@ -1,4 +1,4 @@
-/* Bagian halaman: hero, karya (ring 3D), about, journey, sertifikat, ethos, footer. */
+/* Bagian halaman: hero, karya (ring 3D), about, journey, profil/CV, ethos, footer. */
 
 /* HERO */
 .hero{min-height:100svh;display:grid;align-items:center;padding:calc(var(--header-h) + 60px) 0 96px;position:relative}
@@ -166,33 +166,46 @@
 .journey-details p{color:var(--muted);font-size:14.5px}
 .device-note{font-size:12px!important;color:var(--quiet)!important}
 
-/* SERTIFIKAT */
-.cert-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:22px;margin-top:22px}
-.cert-card{position:relative;display:grid;gap:14px;text-align:left;padding:14px;border-radius:26px;background:var(--panel);border:1px solid var(--line);transform-style:preserve-3d;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
-.cert-card:hover{border-color:var(--accent-2);box-shadow:0 30px 70px var(--shadow),0 0 50px rgba(63,216,247,.15)}
-.cert-face{position:relative;width:100%;aspect-ratio:1.414;border-radius:14px;overflow:hidden}
-.cert-photo{background:var(--tile);border:1px solid var(--line)}
-.cert-photo img{width:100%;height:100%;object-fit:cover;object-position:top}
-.cert-contain img{object-fit:contain;background:#fff}
-.cert-paper{display:grid;align-content:center;justify-items:center;gap:6px;padding:20px 24px;text-align:center;color:#2a2418;background:radial-gradient(circle at 20% 15%,#fffdf3,#f2e7c9 70%,#e6d6aa);box-shadow:inset 0 0 0 7px #f2e7c9,inset 0 0 0 8px #b8963e,inset 0 0 0 12px #f2e7c9,inset 0 0 0 13px #b8963e66}
-.cert-paper small{font:600 9px var(--font-display);letter-spacing:.3em;color:#8a6d1f}
-.cert-paper strong{font:400 clamp(17px,2.2vw,22px)/1.15 var(--font-serif);font-style:italic}
-.cert-line{width:56px;height:1px;background:#b8963e}.cert-paper em{font:normal 500 11px var(--font-display);letter-spacing:.05em}.cert-paper b{font:600 10px var(--font-display);letter-spacing:.2em;color:#8a6d1f}
-.cert-seal{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#e8c867,#a8841f);color:#fff7dc;box-shadow:0 3px 8px #5a420a55}
-.cert-ribbon{position:absolute;top:14px;right:-34px;rotate:38deg;width:130px;padding:3px 0;background:#b8963e;color:#fffbe8;font:700 9px var(--font-display);letter-spacing:.3em}
-.cert-glare{position:absolute;inset:0;border-radius:26px;pointer-events:none;background:radial-gradient(260px circle at var(--gx,50%) var(--gy,50%),rgba(255,255,255,.2),transparent 60%);opacity:0;transition:opacity .3s}
-.cert-card[data-tilting=true] .cert-glare{opacity:1}
-.cert-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 6px 4px;transform:translateZ(30px)}
-.cert-meta strong{display:block;font:600 16px/1.25 var(--font-display)}.cert-meta small{display:block;margin-top:3px;font-size:12px;color:var(--quiet)}
-.cert-meta svg{flex:none;color:var(--quiet)}
-.cert-count{margin-left:auto}
-.cert-demo-note{margin:6px 0 0;padding:12px 16px;border-radius:14px;border:1px dashed var(--line-strong);font-size:13px;color:var(--muted)}
-.cert-demo-note code{font:500 12px ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent-2)}
-.cert-modal{width:min(860px,calc(100% - 24px))!important}
-.cert-modal .modal-content{display:grid;gap:26px}
-.cert-modal .cert-face{aspect-ratio:1.414;max-height:62vh;margin-inline:auto;box-shadow:0 30px 80px var(--shadow)}
-.cert-info h2{font-size:clamp(26px,4vw,40px);margin-top:6px}
-.cert-nav{display:flex;align-items:center;gap:12px;margin-left:auto;font:500 12px var(--font-display);letter-spacing:.14em;color:var(--quiet)}
+/* PROFIL / CV */
+.profile-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(36px,6vw,100px);align-items:center}
+.profile-visual{display:grid;place-items:center;padding:clamp(10px,3vw,40px)}
+.portrait-3d{position:relative;width:min(100%,400px);aspect-ratio:3/4;transform-style:preserve-3d}
+.portrait-frame{position:absolute;inset:0;border-radius:34px;overflow:hidden;border:1px solid var(--line-strong);background:var(--tile);box-shadow:0 40px 90px var(--shadow),0 0 90px rgba(142,125,255,.3)}
+.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.portrait-frame::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(5,6,15,.55),transparent 38%),linear-gradient(135deg,rgba(142,125,255,.18),transparent 45%)}
+.portrait-glare{position:absolute;inset:0;z-index:2;pointer-events:none;background:radial-gradient(320px circle at var(--gx,50%) var(--gy,30%),rgba(255,255,255,.24),transparent 60%);opacity:0;transition:opacity .3s}
+.portrait-3d[data-tilting=true] .portrait-glare{opacity:1}
+.portrait-orbit{position:absolute;left:50%;top:50%;aspect-ratio:1;border-radius:50%;pointer-events:none;border:1.5px dashed rgba(142,125,255,.7);translate:-50% -50%}
+.portrait-orbit::after{content:'';position:absolute;left:50%;top:-5px;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:var(--accent-2);box-shadow:0 0 16px var(--accent-2)}
+.portrait-orbit-a{width:136%;transform:rotateX(74deg) rotateZ(0deg);animation:ring-a 22s linear infinite}
+.portrait-orbit-b{width:116%;border-color:rgba(63,216,247,.55);transform:rotateX(66deg) rotateY(-16deg);animation:ring-b 30s linear infinite}
+.portrait-orbit-b::after{background:#ffb86b;box-shadow:0 0 16px #ffb86b}
+@keyframes ring-a{to{transform:rotateX(74deg) rotateZ(360deg)}}@keyframes ring-b{to{transform:rotateX(66deg) rotateY(-16deg) rotateZ(-360deg)}}
+.portrait-chip{position:absolute;padding:10px 16px;border-radius:16px;background:var(--glass);border:1px solid var(--line-strong);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);transform:translateZ(70px);box-shadow:0 14px 40px var(--shadow);animation:bob 8s ease-in-out infinite}
+.portrait-chip small{display:block;font:600 9px var(--font-display);letter-spacing:.2em;color:var(--accent-2)}.portrait-chip strong{font:600 14px var(--font-display)}
+.portrait-chip-a{left:-9%;top:12%}.portrait-chip-b{right:-8%;bottom:11%;animation-delay:-4s}
+.profile-copy h2{margin-bottom:26px}
+.profile-copy .lead{font-size:clamp(19px,2.2vw,26px);line-height:1.5;font-weight:500;letter-spacing:-.01em}
+.profile-note{margin:16px 0 28px;max-width:560px;color:var(--muted)}
+.profile-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:24px}
+.profile-facts>div{display:flex;flex-direction:column-reverse;justify-content:flex-end;gap:6px;padding:16px 14px;border-radius:18px;background:var(--panel);border:1px solid var(--line);transition:.3s}
+.profile-facts>div:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:var(--glow)}
+.profile-facts dd{font:700 34px/1 var(--font-display);background:var(--grad-text);-webkit-background-clip:text;background-clip:text;color:transparent}
+.profile-facts dt{font:500 10px/1.45 var(--font-display);letter-spacing:.06em;color:var(--quiet);text-transform:uppercase}
+.profile-actions{display:flex;flex-wrap:wrap;align-items:center;gap:24px;margin-top:32px}
+.cv-button{min-height:56px;padding:0 30px;font-size:15px;position:relative}
+.cv-button small{padding:3px 9px;border-radius:999px;background:rgba(6,8,26,.2);font:600 10px var(--font-display);letter-spacing:.14em}
+:root[data-theme=light] .cv-button small{background:rgba(255,255,255,.25)}
+.cv-button::after{content:'';position:absolute;inset:-5px;border-radius:999px;border:1px solid var(--accent-2);opacity:0;animation:cv-pulse 2.8s ease-out infinite}
+@keyframes cv-pulse{0%{opacity:.7;transform:scale(.97)}100%{opacity:0;transform:scale(1.14)}}
+
+/* Satelit 3D yang mengorbit planet hero */
+.satellite-orbit{position:absolute;left:50%;top:50%;width:0;height:0;transform-style:preserve-3d;transform:rotateX(16deg) rotateZ(-12deg);--orbit-r:292px}
+.satellite-spin{position:absolute;left:0;top:0;transform-style:preserve-3d;animation:orbit-y 28s linear infinite}
+.satellite{position:absolute;left:0;top:0;transform-style:preserve-3d;transform:translateX(var(--orbit-r))}
+.satellite-body{position:absolute;left:-44px;top:-27px;filter:drop-shadow(0 0 8px rgba(143,220,255,.55));animation:orbit-y-rev 28s linear infinite}
+@keyframes orbit-y{to{transform:rotateY(360deg)}}@keyframes orbit-y-rev{to{transform:rotateY(-360deg)}}
+html[data-motion=on] .hero-stage{translate:0 calc(min(var(--sy,0),900) * -.07px)}
 
 /* ETHOS & FOOTER */
 .ethos{text-align:center}.ethos .chapter{justify-content:center}
@@ -215,7 +228,7 @@
   .hero{padding-top:calc(var(--header-h) + 36px)}
   .hero-grid{grid-template-columns:1fr;gap:10px}.hero-stage{order:-1;width:min(100%,430px);margin-bottom:6px}
   .hero-copy{text-align:left}
-  .about-grid,.journey-layout{grid-template-columns:1fr}.journey-art{position:static}
+  .about-grid,.journey-layout,.profile-grid{grid-template-columns:1fr}.journey-art{position:static}.profile-visual{order:-1}.profile-facts{grid-template-columns:repeat(2,minmax(0,1fr))}
   .work-detail{grid-template-columns:1fr}
 }
 @media(max-width:700px){
@@ -224,6 +237,7 @@
   .story-grid{grid-template-columns:1fr}
   .hero-inventory{gap:8px}.hero-inventory a{padding:14px 12px}.hero-inventory strong{font-size:26px}
   .chip-exploring{right:0;top:2%;padding:9px 12px}.chip-exploring span{font-size:11px}.hud-chip{border-radius:14px}.chip-location{display:none}
+  .satellite-orbit{--orbit-r:166px}.portrait-orbit-a{width:112%}.portrait-orbit-b{width:100%}.portrait-chip-a{left:-3%}.portrait-chip-b{right:-3%}
   .porthole{width:30%;left:4%;bottom:0}.hero-universe-note{display:none}.hero-stage{width:min(100%,350px)}
   .journey-details{padding-left:22px}.journey-step summary{padding:16px}
   .hud-node{width:46px;height:46px;font-size:12px}.hud-node em{display:none}

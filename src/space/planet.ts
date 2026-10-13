@@ -103,7 +103,7 @@ void main(){
   gl_FragColor=acc;
 }`;
 
-export function mountPlanet(canvas: HTMLCanvasElement, state: () => PlanetState, maxDpr = 1.6) {
+export function mountPlanet(canvas: HTMLCanvasElement, state: () => PlanetState, maxDpr: () => number = () => 1.6) {
   const gl = createGL(canvas); if (!gl) return null;
   const program = fullscreen(gl, FRAGMENT); if (!program) return null;
   let lost = false;
@@ -112,7 +112,7 @@ export function mountPlanet(canvas: HTMLCanvasElement, state: () => PlanetState,
   return {
     render() {
       if (lost) return;
-      const dpr = Math.min(window.devicePixelRatio || 1, maxDpr);
+      const dpr = Math.min(window.devicePixelRatio || 1, maxDpr());
       const { w, h } = fit(canvas, dpr, 1400); const s = state();
       gl.viewport(0, 0, w, h); gl.clearColor(0, 0, 0, 0); gl.clear(gl.COLOR_BUFFER_BIT); program.use();
       program.f2('uRes', w, h); program.f1('uTime', s.time); program.f2('uRot', s.rx, s.ry); program.f1('uLight', s.light);

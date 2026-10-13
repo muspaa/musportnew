@@ -1,8 +1,6 @@
 import content from './content.json' with { type: 'json' };
 import profile from './profile.json' with { type: 'json' };
-import certificates from './certificates.json' with { type: 'json' };
 export function publicKnowledge() {
-  const realCertificates = certificates.items || [];
   return [
     `Nama publik: ${profile.name} (${profile.alias}); pelajar, self-taught independent developer. Tidak ada tim developer yang perlu dikarang.`,
     `Tentang: ${profile.about} ${profile.motivation} ${profile.approach}`,
@@ -10,9 +8,7 @@ export function publicKnowledge() {
     `Perjalanan: ${content.JOURNEY_STEPS.map(j => `${j.phase}: ${j.subtitle}. ${j.description}`).join('\n')}`,
     `Arsip karya (${content.PROJECTS.length} proyek web): ${content.PROJECTS.map(p => `${p.name} [${p.category}, ${p.url}]: ${p.summary}`).join('\n')}`,
     'Jangan mengklaim jumlah pengguna, hasil bisnis, tahun proyek, atau performa terverifikasi. Netflix Token dan Alight Motion Pro adalah eksperimen; ingatkan bahwa pemakaian pada akun milik orang lain dapat melanggar ketentuan layanan.',
-    realCertificates.length
-      ? `Sertifikat dan penghargaan: ${realCertificates.map(c => `${c.title} (${c.issuer}, ${c.year})`).join('; ')}.`
-      : 'Galeri sertifikat belum berisi data resmi; jangan menyebut sertifikat atau penghargaan tertentu.',
+    'CV tersedia untuk diunduh lewat tombol Download CV di bagian profil; jangan mengarang isi pendidikan, pengalaman kerja, sertifikat, atau penghargaan yang tidak ada di data publik ini.',
     `Tools yang dieksplorasi, bukan klaim ahli: ${content.ECOSYSTEM.map(g => `${g.category}: ${g.items.map(t => t.name).join(', ')}`).join('; ')}.`,
     `Kontak publik pemilik: ${profile.socials.map(s => `${s.name}: ${s.url}`).join('; ')}`
   ].join('\n');

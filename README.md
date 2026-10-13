@@ -1,29 +1,29 @@
 # MUSFA V3.0 — Space Archive
 
-Portofolio React, TypeScript, dan Vite bertema **luar angkasa** dengan 3D. Isi: **8 proyek live, 6 fase perjalanan, 19 tools, dan galeri sertifikasi**.
+Portofolio React, TypeScript, dan Vite bertema **luar angkasa** dengan 3D. Isi: **8 proyek live, 6 fase perjalanan, 19 tools, dan profil dengan tombol Download CV**.
 
 ## Yang berubah di V3.0
 
 - **Tampilan total baru.** Latar semesta (nebula shader WebGL + starfield 3D yang "terbang" mengikuti scroll dan melebar jadi garis warp saat scroll cepat), planet 3D prosedural di hero (kontinen, awan, lampu kota malam, atmosfer, cincin berbayangan, bulan), kartu dengan tilt 3D, dan header kaca. Tersedia mode gelap (default) dan terang.
 - **Karya = ring 3D.** Delapan proyek menjadi delapan planet pada karusel putar. Drag/swipe, panah keyboard, tombol, filter, pencarian, dan deep link `#work-<id>` tetap ada. Klik planet di depan untuk membuka cerita lengkap.
-- **05 THE PERSONAL UNIVERSE dihapus** dan diganti **galeri sertifikasi** (lihat di bawah).
-- **07 PEOPLE & COMMUNITIES dan The community dihapus**, termasuk data dan aset gambarnya. Nomor bagian dirapikan: 01 Works, 02 About, 03 Journey, 04 Tools, 05 Sertifikat, 06 Relay, 07 Ethos, 08 Rating.
+- **05 THE PERSONAL UNIVERSE dan 05 THE TROPHY ORBIT dihapus.** Slot 05 kini **Self-taught. Always curious.**: profil singkat, foto PKL dalam bingkai 3D, statistik, dan tombol **Download CV**.
+- **07 PEOPLE & COMMUNITIES dan The community dihapus**, termasuk data dan aset gambarnya. Nomor bagian: 01 Works, 02 About, 03 Journey, 04 Tools, 05 Profil & CV, 06 Relay, 07 Ethos, 08 Rating.
 - **Proyek diganti** dengan delapan URL baru (WhatsApp React, MusMusify, Netflix Token, WebtoAPK, AM Find, Media Downloader, TempMail, Alight Motion Pro). Deskripsi disusun dari isi halaman masing-masing saat diperiksa.
 - **Dipertahankan:** hero (teks dan statistik), About, Journey (6 fase), orbit 19 tools + tech stack, Relay (chat AI), Ethos, rating pengunjung, footer, splash, toggle tema, serta seluruh API.
+- Tambahan 3D: satelit yang mengorbit planet hero (bisa tertutup planet), konstelasi bintang di dekat kursor, warna nebula yang berubah per bagian halaman, parallax scroll, bingkai foto dengan cincin orbit, dan penurunan resolusi otomatis di perangkat lambat.
 - Efek 3D memakai WebGL/Canvas buatan sendiri (sekitar 10 KB). Tanpa library 3D di bundle pengunjung. `three` tetap tercantum di `package.json` agar `package-lock.json` tidak berubah, tetapi tidak dipakai.
 - Tanpa WebGL atau saat *reduced motion*: latar jatuh ke gradien CSS, planet hero ke planet CSS, dan animasi berhenti pada satu frame. Tombol jeda ada di header.
 
-## Menambah sertifikat
+## Foto
 
-1. Taruh gambar (disarankan WebP/JPG, rasio landscape) di `public/certificates/`.
-2. Tambahkan entri ke array `items` di `shared/certificates.json`:
+Semua foto memakai foto PKL: `public/images/pp.webp` (potret penuh) dan `public/images/pp-avatar.webp` (crop persegi untuk logo header, splash, hero, dan ikon). Favicon, apple-touch-icon, dan `og-image.jpg` dibuat dari foto yang sama. Ingin mengganti foto? Timpa `pp.webp`, lalu buat ulang avatar persegi dengan nama `pp-avatar.webp`.
 
-```json
-{ "id": "dicoding-web", "title": "Belajar Dasar Pemrograman Web", "issuer": "Dicoding", "year": "2026",
-  "category": "Sertifikasi", "image": "/certificates/dicoding-web.webp", "url": "https://link-verifikasi" }
-```
+## CV
 
-`category` salah satu dari `categories` di berkas yang sama. `image` dan `url` boleh dikosongkan; tanpa gambar, kartu memakai desain kertas sertifikat otomatis. **Selama `items` kosong, galeri menampilkan enam kartu berlabel CONTOH. Begitu ada satu item asli, kartu contoh otomatis hilang.** Relay hanya akan menyebut sertifikat yang ada di `items`.
+Tombol **Download CV** mengunduh `public/cv/CV-MUSFA.pdf`. Berkas itu dibuat otomatis dari data portofolio (profil, 8 proyek, perjalanan, tools, kontak) dan **tidak memuat pendidikan, pengalaman kerja, atau sertifikat**, karena datanya belum ada. Ada dua cara memperbarui:
+
+1. Pakai CV buatanmu sendiri: timpa `public/cv/CV-MUSFA.pdf` dengan nama yang sama.
+2. Buat ulang dari data: `pip install reportlab pillow && python3 scripts/build-cv.py`.
 
 ## Ganti atau tambah proyek
 
@@ -90,18 +90,17 @@ Relay memakai `/api/chat` → Nexray GET `text`, dengan konteks publik dari sumb
 | Bagian | Lokasi |
 | --- | --- |
 | Proyek, journey, tools | `shared/content.json` |
-| Sertifikat | `shared/certificates.json`, `public/certificates/` |
+| CV dan bagian profil | `public/cv/CV-MUSFA.pdf`, `scripts/build-cv.py`, `src/components/Profile.tsx` |
 | About, sosial | `shared/profile.json` |
 | Gaya | `src/styles/base.css`, `sections.css`, `widgets.css` |
-| Latar, planet, bintang (WebGL/Canvas) | `src/space/`, `src/components/Cosmos.tsx`, `Planet.tsx` |
+| Latar, planet, bintang, kualitas adaptif (WebGL/Canvas) | `src/space/`, `src/components/Cosmos.tsx`, `Planet.tsx` |
 | Ring proyek 3D | `src/components/Archive.tsx`, `src/hooks/useRing.ts`, `src/interaction/ring.mjs` |
-| Sertifikat | `src/components/Certificates.tsx` |
 | Scroll, reveal, tilt | `src/hooks/useSpaceFx.ts` |
 | Orbit tools | `src/components/ToolOrbit.tsx`, `src/interaction/orbit.mjs` |
 | Rating / chat API | `api/ratings.js`, `api/chat.js` |
 
 ## Verifikasi dan batasnya
 
-Diverifikasi saat pengerjaan: 35 tes Node lulus (API chat, rating, Lua, intro, review rail, orbit, ring 3D, SEO). Bundel dirakit dengan esbuild dan dijalankan di Chromium headless (WebGL aktif): tidak ada error JS, tanpa overflow horizontal di 1440 px dan 390 px, ring/modal/filter/sertifikat/jeda animasi/mode terang diuji interaksinya, termasuk build development (StrictMode). Render SSR diperiksa tidak memuat konten yang dihapus.
+Diverifikasi saat pengerjaan: Tes Node lulus (API chat, rating, Lua, intro, review rail, orbit, ring 3D, SEO). Bundel dirakit dengan esbuild dan dijalankan di Chromium headless (WebGL aktif): tidak ada error JS, tanpa overflow horizontal di 1440 px dan 390 px, ring/modal/filter/CV/jeda animasi/mode terang diuji interaksinya, termasuk build development (StrictMode). Render SSR diperiksa tidak memuat konten yang dihapus.
 
 Belum dijalankan di lingkungan pengerjaan: `npm run build` penuh (`tsc` + Vite + prerender) karena Vite dan paket npm tidak tersedia di sana. Jalankan `npm ci && npm run build` sebelum deploy. Frame rate di perangkat sungguhan belum diukur.

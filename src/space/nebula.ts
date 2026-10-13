@@ -1,9 +1,9 @@
 import { createGL, fullscreen, fit, PRECISION } from './gl';
 
-export interface NebulaState { time: number; scroll: number; mx: number; my: number; light: number }
+export interface NebulaState { time: number; scroll: number; mx: number; my: number; light: number; tint: [number, number, number] }
 
 const FRAGMENT = PRECISION + `
-uniform vec2 uRes;uniform float uTime;uniform float uScroll;uniform vec2 uMouse;uniform float uLight;
+uniform vec2 uRes;uniform float uTime;uniform float uScroll;uniform vec2 uMouse;uniform float uLight;uniform vec3 uTint;
 float hash(vec2 p){p=fract(p*vec2(123.34,456.21));p+=dot(p,p+45.32);return fract(p.x*p.y);}
 float noise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.0-2.0*f);
   return mix(mix(hash(i),hash(i+vec2(1.0,0.0)),f.x),mix(hash(i+vec2(0.0,1.0)),hash(i+vec2(1.0,1.0)),f.x),f.y);}
@@ -23,6 +23,7 @@ void main(){
   vec3 neb=mix(blue,violet,smoothstep(0.25,0.75,f));
   neb=mix(neb,teal,smoothstep(0.55,0.95,q.x)*0.65);
   neb=mix(neb,rose,smoothstep(0.62,1.0,q.y)*0.5);
+  neb*=uTint;
   float density=pow(f,1.6)*mask*mix(0.95,0.55,uLight);
   vec3 col=mix(base,neb,clamp(density*1.35,0.0,0.82));
   col+=neb*pow(f,3.0)*mask*mix(0.35,0.0,uLight);
@@ -32,7 +33,7 @@ void main(){
   gl_FragColor=vec4(col,1.0);
 }`;
 
-export function mountNebula(canvas: HTMLCanvasElement, state: () => NebulaState, scale = 0.45) {
+export function mountNebula(canvas: HTMLCanvasElement, state: () => NebulaState, scale: () => number = () => 0.45) {
   const gl = createGL(canvas); if (!gl) return null;
   const program = fullscreen(gl, FRAGMENT); if (!program) return null;
   let lost = false;
@@ -41,9 +42,9 @@ export function mountNebula(canvas: HTMLCanvasElement, state: () => NebulaState,
   return {
     render() {
       if (lost) return;
-      const { w, h } = fit(canvas, scale, 1400); const s = state();
+      const { w, h } = fit(canvas, scale(), 1400); const s = state();
       gl.viewport(0, 0, w, h); program.use();
-      program.f2('uRes', w, h); program.f1('uTime', s.time); program.f1('uScroll', s.scroll); program.f2('uMouse', s.mx, s.my); program.f1('uLight', s.light);
+      program.f2('uRes', w, h); program.f1('uTime', s.time); program.f1('uScroll', s.scroll); program.f2('uMouse', s.mx, s.my); program.f1('uLight', s.light); program.f3('uTint', s.tint[0], s.tint[1], s.tint[2]);
       program.draw();
     },
     destroy() { canvas.removeEventListener('webglcontextlost', onLost); program.dispose(); }
