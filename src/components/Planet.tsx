@@ -9,7 +9,7 @@ export default function Planet({ paused }: { paused: boolean }) {
     const el = canvas.current, box = wrap.current; if (!el || !box) return;
     const input = { rx: 0, ry: 0, tx: 0, ty: 0 }, root = document.documentElement;
     let time = 0, last = 0, frame = 0, visible = false;
-    const planet = mountPlanet(el, () => ({ time, rx: input.rx, ry: input.ry, light: root.dataset.theme === 'light' ? 1 : 0 }), () => 1.6 * quality.value);
+    const planet = mountPlanet(el, () => ({ time, rx: input.rx, ry: input.ry, light: root.dataset.theme === 'light' ? 1 : 0 }), () => 2 * quality.value);
     if (!planet) { box.dataset.ready = 'false'; return; }
     const loop = (now: number) => {
       frame = 0; if (paused || !visible || document.hidden) return;

@@ -32,5 +32,18 @@
       "handle": "mustofa"
     }
   ],
-  "motivation": "Ada motivasi personal juga. Waktu itu ada seseorang di kelas yang i sukai, meski tidak pernah diungkapkan. Itu ikut mendorong aku untuk berkontribusi, bukan sekadar ikut nama. Cukup sebagai salah satu pemicu awal."
+  "motivation": "Ada motivasi personal juga. Waktu itu ada seseorang di kelas yang i sukai, meski tidak pernah diungkapkan. Itu ikut mendorong aku untuk berkontribusi, bukan sekadar ikut nama. Cukup sebagai salah satu pemicu awal.",
+  "education": "Lulusan SMK · Teknik Komputer dan Jaringan (TKJ)",
+  "skills": [
+    "Instalasi sistem operasi",
+    "Perakitan dan perawatan komputer",
+    "Konfigurasi jaringan",
+    "Troubleshooting hardware dan software",
+    "Perancangan dan implementasi jaringan komputer"
+  ],
+  "bio": [
+    "Saya adalah siswa lulusan SMK jurusan Teknik Komputer dan Jaringan (TKJ) dengan passion yang mendalam di bidang teknologi informasi.",
+    "Selama masa pendidikan, saya telah mengembangkan keahlian dalam instalasi sistem operasi, perakitan dan perawatan komputer, serta konfigurasi jaringan. Saya memiliki pengalaman praktis dalam troubleshooting hardware dan software, serta kemampuan dalam merancang dan mengimplementasikan jaringan komputer.",
+    "Saya adalah pribadi yang kreatif, teliti, dan mampu bekerja secara mandiri maupun dalam tim. Saya selalu tertarik untuk mempelajari teknologi terbaru dan mengembangkan keterampilan saya di bidang IT. Saya siap berkontribusi dan berkembang dalam lingkungan profesional yang menantang."
+  ]
 }

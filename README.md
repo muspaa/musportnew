@@ -5,11 +5,12 @@ Portofolio React, TypeScript, dan Vite bertema **luar angkasa** dengan 3D. Isi: 
 ## Yang berubah di V3.0
 
 - **Tampilan total baru.** Latar semesta (nebula shader WebGL + starfield 3D yang "terbang" mengikuti scroll dan melebar jadi garis warp saat scroll cepat), planet 3D prosedural di hero (kontinen, awan, lampu kota malam, atmosfer, cincin berbayangan, bulan), kartu dengan tilt 3D, dan header kaca. Tersedia mode gelap (default) dan terang.
-- **Karya = ring 3D.** Delapan proyek menjadi delapan planet pada karusel putar. Drag/swipe, panah keyboard, tombol, filter, pencarian, dan deep link `#work-<id>` tetap ada. Klik planet di depan untuk membuka cerita lengkap.
-- **05 THE PERSONAL UNIVERSE dan 05 THE TROPHY ORBIT dihapus.** Slot 05 kini **Self-taught. Always curious.**: profil singkat, foto PKL dalam bingkai 3D, statistik, dan tombol **Download CV**.
-- **07 PEOPLE & COMMUNITIES dan The community dihapus**, termasuk data dan aset gambarnya. Nomor bagian: 01 Works, 02 About, 03 Journey, 04 Tools, 05 Profil & CV, 06 Relay, 07 Ethos, 08 Rating.
-- **Proyek diganti** dengan delapan URL baru (WhatsApp React, MusMusify, Netflix Token, WebtoAPK, AM Find, Media Downloader, TempMail, Alight Motion Pro). Deskripsi disusun dari isi halaman masing-masing saat diperiksa.
+- **Karya = ring 3D dengan screenshot asli.** Delapan proyek menjadi delapan kartu pada karusel putar; tiap kartu dan modal memakai screenshot situsnya (`public/images/projects/<id>.webp`) dengan lencana planet kecil. Drag/swipe, panah keyboard, tombol, filter, pencarian, dan deep link `#work-<id>` tetap ada.
+- **Profil dipindah ke bawah hero.** Bagian *About me / Mission profile* (Self-taught. Always curious.) kini tepat di bawah *Learning in Progress*, memakai teks tentang saya (lulusan SMK TKJ), foto PKL dalam bingkai 3D, keahlian, dan tombol **Download CV**. 05 THE PERSONAL UNIVERSE dan THE TROPHY ORBIT sudah dihapus.
+- **07 PEOPLE & COMMUNITIES dan The community dihapus**, termasuk data dan aset gambarnya. Nomor bagian: 01 Profil & CV, 02 Works, 03 About, 04 Journey, 05 Tools, 06 Relay, 07 Ethos, 08 Rating.
+- **Proyek diganti** dengan delapan URL baru (WhatsApp React, MusMusify, Netflix Token, WebtoAPK, AM Find, Download Media, TempMail, Alight Motion Pro). Deskripsi dari teks yang kamu berikan; khusus Netflix Token dan Alight Motion Pro memakai redaksi netral.
 - **Dipertahankan:** hero (teks dan statistik), About, Journey (6 fase), orbit 19 tools + tech stack, Relay (chat AI), Ethos, rating pengunjung, footer, splash, toggle tema, serta seluruh API.
+- **Bulan HD** (`public/images/moon.webp`, 720 px: kawah dengan tepi dan puncak tengah, lautan basal, sinar kawah, terminator lembut) mengorbit planet hero secara 3D dan bisa bersembunyi di balik planet dan cincin. Gambar selalu menghadap kamera sehingga tetap bulat.
 - Tambahan 3D: satelit yang mengorbit planet hero (bisa tertutup planet), konstelasi bintang di dekat kursor, warna nebula yang berubah per bagian halaman, parallax scroll, bingkai foto dengan cincin orbit, dan penurunan resolusi otomatis di perangkat lambat.
 - Efek 3D memakai WebGL/Canvas buatan sendiri (sekitar 10 KB). Tanpa library 3D di bundle pengunjung. `three` tetap tercantum di `package.json` agar `package-lock.json` tidak berubah, tetapi tidak dipakai.
 - Tanpa WebGL atau saat *reduced motion*: latar jatuh ke gradien CSS, planet hero ke planet CSS, dan animasi berhenti pada satu frame. Tombol jeda ada di header.
@@ -20,14 +21,18 @@ Semua foto memakai foto PKL: `public/images/pp.webp` (potret penuh) dan `public/
 
 ## CV
 
-Tombol **Download CV** mengunduh `public/cv/CV-MUSFA.pdf`. Berkas itu dibuat otomatis dari data portofolio (profil, 8 proyek, perjalanan, tools, kontak) dan **tidak memuat pendidikan, pengalaman kerja, atau sertifikat**, karena datanya belum ada. Ada dua cara memperbarui:
+Tombol **Download CV** mengunduh `public/cv/CV-MUSFA.pdf`. Berkas itu dibuat otomatis dari data portofolio (profil, pendidikan SMK TKJ, keahlian, 8 proyek, perjalanan, tools, kontak) dan **tidak memuat pengalaman kerja atau sertifikat**, karena datanya belum ada. Ada dua cara memperbarui:
 
 1. Pakai CV buatanmu sendiri: timpa `public/cv/CV-MUSFA.pdf` dengan nama yang sama.
 2. Buat ulang dari data: `pip install reportlab pillow && python3 scripts/build-cv.py`.
 
 ## Ganti atau tambah proyek
 
-Edit `PROJECTS` di `shared/content.json`. Tiap proyek punya `theme` (`hue`, `hue2`, `ring`, `glyph`) yang menentukan warna dan bentuk planetnya.
+Edit `PROJECTS` di `shared/content.json`. Field `image` menunjuk screenshot 16:10 (disarankan 1280×800 WebP) di `public/images/projects/`; `theme` (`hue`, `hue2`, `ring`, `glyph`) menentukan warna lencana planetnya. **Screenshot yang berisi alamat IP, email, atau token sebaiknya disamarkan sebelum dipublikasikan.**
+
+## Teks profil
+
+Teks tentang saya, pendidikan, dan keahlian ada di `shared/profile.json` (`bio`, `education`, `skills`). Isi yang sama dipakai oleh bagian profil, CV (`scripts/build-cv.py`), dan pengetahuan Relay.
 
 ## Jalankan lokal
 
@@ -91,7 +96,7 @@ Relay memakai `/api/chat` → Nexray GET `text`, dengan konteks publik dari sumb
 | --- | --- |
 | Proyek, journey, tools | `shared/content.json` |
 | CV dan bagian profil | `public/cv/CV-MUSFA.pdf`, `scripts/build-cv.py`, `src/components/Profile.tsx` |
-| About, sosial | `shared/profile.json` |
+| Profil, pendidikan, keahlian, sosial | `shared/profile.json` |
 | Gaya | `src/styles/base.css`, `sections.css`, `widgets.css` |
 | Latar, planet, bintang, kualitas adaptif (WebGL/Canvas) | `src/space/`, `src/components/Cosmos.tsx`, `Planet.tsx` |
 | Ring proyek 3D | `src/components/Archive.tsx`, `src/hooks/useRing.ts`, `src/interaction/ring.mjs` |

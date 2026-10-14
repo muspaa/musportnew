@@ -44,9 +44,10 @@ def header(c, doc):
         c.drawImage('/tmp/cv-avatar.png', 18 * mm, H - 44 * mm, 34 * mm, 34 * mm, mask='auto')
         c.setFillColor(colors.white); c.setFont('Helvetica-Bold', 22); c.drawString(60 * mm, H - 24 * mm, FULL_NAME)
         c.setFont('Helvetica', 11); c.setFillColor(colors.HexColor('#9fe3f5')); c.drawString(60 * mm, H - 31 * mm, profile['role'])
+        c.setFont('Helvetica', 9.4); c.setFillColor(colors.white); c.drawString(60 * mm, H - 37.5 * mm, profile['education'].replace('\u00b7', '-'))
         c.setFont('Helvetica', 8.6); c.setFillColor(colors.HexColor('#c4c9ee'))
-        c.drawString(60 * mm, H - 38.5 * mm, 'Alias: %s   |   Indonesia' % ALIAS)
-        c.drawString(60 * mm, H - 44 * mm, 'GitHub: %s   |   Telegram: %s' % (profile['socials'][0]['url'].replace('https://', ''), profile['socials'][1]['url'].replace('https://', '')))
+        c.drawString(60 * mm, H - 43 * mm, 'Alias: %s   |   Indonesia' % ALIAS)
+        c.drawString(60 * mm, H - 48 * mm, 'GitHub: %s   |   Telegram: %s' % (profile['socials'][0]['url'].replace('https://', ''), profile['socials'][1]['url'].replace('https://', '')))
     c.setFont('Helvetica', 7.6); c.setFillColor(MUTED)
     c.drawString(18 * mm, 10 * mm, '%s (%s) - Curriculum Vitae' % (FULL_NAME, ALIAS)); c.drawRightString(W - 18 * mm, 10 * mm, 'Halaman %d' % doc.page)
     c.restoreState()
@@ -59,12 +60,15 @@ doc.addPageTemplates([PageTemplate(id='first', frames=[first], onPage=header, au
 
 s = []
 s += section('Profil')
-s += [Paragraph(profile['about'], body), Spacer(1, 4), Paragraph(profile['approach'], body)]
-kw = []
-for j in content['JOURNEY_STEPS']:
-    for k in j['techKeywords']:
-        if k not in kw: kw.append(k)
-s += section('Fokus dan teknologi yang dipelajari')
+for i, para in enumerate(profile['bio']):
+    s += [Paragraph(para, body), Spacer(1, 4)]
+s += section('Pendidikan')
+s += [Paragraph('<b>%s</b>' % profile['education'].replace('\u00b7', '-'), body)]
+s += section('Keahlian')
+s += [Paragraph('<br/>'.join('&bull; ' + k for k in profile['skills']), body)]
+TECH = ['HTML', 'CSS', 'JavaScript', 'VPS', 'API Integration', 'Cloud Deployment', 'AI Collaboration', 'Vibe Coding', 'Prompt Engineering', 'AI Agent', 'AI Tools', 'Automation', 'AI Engineering', 'User Experience']
+kw = [k for k in TECH if any(k in j['techKeywords'] for j in content['JOURNEY_STEPS'])]
+s += section('Sedang dipelajari (web dan AI)')
 s += [Paragraph(' &middot; '.join(kw), body)]
 s += section('Proyek (%d web live)' % len(content['PROJECTS']))
 for p in content['PROJECTS']:

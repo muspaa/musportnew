@@ -201,8 +201,8 @@
       "name": "WhatsApp React",
       "category": "Creator",
       "url": "https://mus-wa-react.vercel.app/",
-      "description": "Tool web untuk mengirim reaksi emoji ke postingan channel WhatsApp. Pengguna menempel URL postingan, memilih satu atau beberapa emoji (termasuk emoji custom), lalu sistem mengirim reaksi dan menampilkan log hasilnya. Tersedia riwayat 20 URL terakhir yang disimpan lokal di browser.",
-      "summary": "Kirim reaksi emoji otomatis ke postingan channel WhatsApp lewat satu URL.",
+      "description": "WhatsApp React adalah tool web gratis tanpa login untuk mengirim reaksi emoji otomatis ke postingan channel WhatsApp — cukup masukkan URL, pilih emoji, submit, dan reaksi terkirim; dilengkapi riwayat lokal dan respons cepat di bawah 100ms.",
+      "summary": "Tool web gratis tanpa login untuk mengirim reaksi emoji otomatis ke postingan channel WhatsApp.",
       "problem": "Memberi reaksi ke postingan channel secara manual itu repetitif, apalagi kalau ingin memakai banyak emoji sekaligus.",
       "exploration": "Form sederhana yang memanggil API reaksi, ditambah log detail, riwayat lokal, FAQ, dan antarmuka bergaya neubrutalism dengan dark mode.",
       "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
@@ -220,15 +220,17 @@
         "hue2": 185,
         "ring": false,
         "glyph": "♥"
-      }
+      },
+      "image": "/images/projects/wa-react.webp",
+      "imageAlt": "Tampilan halaman WhatsApp React: formulir Kirim Reaksi dengan pilihan emoji"
     },
     {
       "id": "musify",
       "name": "MusMusify",
       "category": "Media",
       "url": "https://mus-musik.vercel.app/",
-      "description": "Web player musik bergaya neubrutalism. Ada pencarian lagu, Quick Picks, playlist populer, top artist, library playlist buatan sendiri, lagu tersimpan lokal, tampilan lirik, dan kontrol putar/jeda di notifikasi atau layar kunci agar musik tetap berjalan di latar belakang.",
-      "summary": "Web player musik dengan pencarian, lirik, playlist, dan pemutaran di latar belakang.",
+      "description": "MusMusify adalah web player musik gratis tanpa iklan yang memungkinkan pengguna streaming dan menemukan lagu, lengkap dengan fitur pencarian real-time, playlist, lagu tersimpan, dan pemutaran latar belakang — semua data disimpan lokal di browser.",
+      "summary": "Web player musik gratis tanpa iklan dengan pencarian real-time, playlist, lagu tersimpan, dan pemutaran latar belakang.",
       "problem": "Mendengarkan musik lewat browser biasanya terganggu iklan, dan pemutaran berhenti saat tab berpindah atau layar terkunci.",
       "exploration": "Antarmuka player dengan pencarian instan, playlist dan lagu tersimpan di perangkat, serta dukungan pemutaran latar belakang untuk Android dan iPhone.",
       "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
@@ -246,7 +248,9 @@
         "hue2": 285,
         "ring": true,
         "glyph": "♪"
-      }
+      },
+      "image": "/images/projects/musify.webp",
+      "imageAlt": "Tampilan beranda MusMusify dengan Quick Picks dan pemutar musik"
     },
     {
       "id": "netflix-token",
@@ -272,15 +276,17 @@
         "hue2": 20,
         "ring": false,
         "glyph": "N"
-      }
+      },
+      "image": "/images/projects/netflix-token.webp",
+      "imageAlt": "Tampilan halaman Netflix Token: kartu Generate Token dengan pilihan jumlah"
     },
     {
       "id": "webto-apk",
       "name": "WebtoAPK",
       "category": "Developer",
       "url": "https://mus-build-apk-web.vercel.app/",
-      "description": "Tool untuk mengubah URL website atau file HTML/ZIP menjadi aplikasi Android. Pengguna mengisi nama aplikasi, package name, versi, ikon, splash screen, orientasi, dan izin; ada pratinjau sebelum compile, lalu status build dan log dipantau otomatis hingga APK siap diunduh.",
-      "summary": "Ubah website atau file HTML menjadi APK Android lewat form dan antrean build.",
+      "description": "WebtoAPK adalah tool web gratis untuk mengubah website atau file HTML menjadi aplikasi Android (APK) — pengguna cukup memasukkan URL/upload HTML, mengisi identitas aplikasi (nama, package, ikon), mengatur splash screen dan izin, lalu compile dan unduh APK-nya dalam 30–120 detik.",
+      "summary": "Ubah website atau file HTML menjadi aplikasi Android (APK) dalam 30–120 detik.",
       "problem": "Membuat aplikasi Android dari web biasanya butuh Android Studio dan laptop, padahal sebagian besar proses belajar ini berlangsung di HP.",
       "exploration": "Form bertahap (sumber, identitas, splash, izin, pratinjau) dengan polling status build tiap 2 detik dan log build langsung di halaman.",
       "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
@@ -298,15 +304,17 @@
         "hue2": 150,
         "ring": true,
         "glyph": "▣"
-      }
+      },
+      "image": "/images/projects/webto-apk.webp",
+      "imageAlt": "Tampilan halaman WebtoAPK: langkah Sumber Aplikasi dan Identitas Aplikasi"
     },
     {
       "id": "am-find",
       "name": "AM Find",
       "category": "Creator",
       "url": "https://mus-am-find.vercel.app/",
-      "description": "Tool web gratis yang membantu editor Alight Motion menemukan preset dari video TikTok. Pengguna menempel link video, menekan SCAN, lalu preset yang ditemukan bisa diunduh. Riwayat pemindaian tersimpan di browser dan backend-nya berupa Vercel Serverless Function sebagai proxy.",
-      "summary": "Cari preset Alight Motion dari link video TikTok secara otomatis.",
+      "description": "AM Find adalah tool web gratis untuk menemukan preset Alight Motion dari video TikTok secara otomatis — pengguna cukup menempel link TikTok, tekan SCAN, lalu sistem memindai dan menyediakan tombol download preset; tanpa daftar akun dan tidak menyimpan data pengguna.",
+      "summary": "Temukan preset Alight Motion dari video TikTok secara otomatis, tanpa daftar akun.",
       "problem": "Preset Alight Motion sering disebut di video TikTok tetapi sulit dilacak satu per satu.",
       "exploration": "Alur salin link, tempel, scan, lalu unduh preset, dengan serverless proxy di belakang antarmuka neubrutalism yang responsif.",
       "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
@@ -324,15 +332,17 @@
         "hue2": 235,
         "ring": false,
         "glyph": "⌕"
-      }
+      },
+      "image": "/images/projects/am-find.webp",
+      "imageAlt": "Tampilan halaman AM Find: kolom Cari Preset dan cara penggunaan"
     },
     {
       "id": "downloader",
-      "name": "Media Downloader",
+      "name": "Download Media",
       "category": "Media",
       "url": "https://mus-downloader-ppp.vercel.app/",
-      "description": "Downloader serba-ada untuk tautan dari lebih dari 18 platform, termasuk TikTok, YouTube, Instagram, Facebook, X, Spotify, SoundCloud, Pinterest, dan Reddit. Pengguna menempel link, memilih kualitas atau format dari hasil yang ditemukan, lalu mengunduh file.",
-      "summary": "Unduh media dari 18+ platform seperti TikTok, YouTube, Instagram, dan Spotify.",
+      "description": "DOWNLOAD MEDIA adalah tool web gratis tanpa batas kuota untuk mengunduh video/audio dari 18+ platform (TikTok, YouTube, Instagram, Facebook, X, Spotify, dll.) — cukup tempel link, pilih kualitas/format, lalu file langsung terunduh tanpa watermark.",
+      "summary": "Unduh video dan audio dari 18+ platform tanpa watermark dan tanpa batas kuota.",
       "problem": "Setiap platform punya cara unduh berbeda, dan banyak situs downloader penuh iklan atau menambahkan watermark.",
       "exploration": "Satu input tautan yang mendeteksi platform, menampilkan judul, kreator, durasi, dan pilihan kualitas.",
       "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
@@ -349,15 +359,17 @@
         "hue2": 340,
         "ring": false,
         "glyph": "↓"
-      }
+      },
+      "image": "/images/projects/downloader.webp",
+      "imageAlt": "Tampilan halaman Download Media: kolom tempel URL dan tombol Download Sekarang"
     },
     {
       "id": "temp-mail",
       "name": "TempMail",
       "category": "Utilities",
       "url": "https://mus-temp.vercel.app/",
-      "description": "Generator email sementara bergaya brutalist. Pengguna menekan Generate untuk membuat alamat, menyalinnya, lalu menunggu pesan masuk di inbox. Pesan dapat dibuka untuk melihat subjek, pengirim, dan isinya, dengan tombol refresh untuk memeriksa pesan baru.",
-      "summary": "Generator email sementara dengan inbox yang bisa dibaca langsung.",
+      "description": "TEMPMAIL adalah layanan email sementara (disposable email) gratis — pengguna klik \"Generate\" untuk membuat alamat email sekali pakai, lalu pesan yang masuk akan tampil di inbox secara otomatis.",
+      "summary": "Layanan email sementara gratis; pesan yang masuk tampil di inbox secara otomatis.",
       "problem": "Mendaftar ke layanan untuk mencoba sesuatu sering memaksa memakai email utama dan membuat inbox penuh.",
       "exploration": "Alur generate, copy, refresh, dan baca pesan dalam satu halaman ringan.",
       "outcome": "Situs aktif dan dapat dibuka saat diperiksa pada 12 Oktober 2026.",
@@ -374,7 +386,9 @@
         "hue2": 310,
         "ring": true,
         "glyph": "@"
-      }
+      },
+      "image": "/images/projects/temp-mail.webp",
+      "imageAlt": "Tampilan halaman TempMail: email sementara dan inbox"
     },
     {
       "id": "alight-motion-pro",
@@ -400,7 +414,9 @@
         "hue2": 28,
         "ring": false,
         "glyph": "✦"
-      }
+      },
+      "image": "/images/projects/alight-motion-pro.webp",
+      "imageAlt": "Tampilan halaman MUSFA Alight Motion Pro dengan tombol Mulai Sekarang"
     }
   ]
 }

@@ -14,7 +14,7 @@ export default function Journey() {
     if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); setPhase(p => Math.max(0, p - 1)); }
   };
   return <section className="journey section-pad" id="journey" aria-labelledby="journey-title"><div className="wrap">
-    <div data-reveal><Chapter number="03">THE EVOLUTION / 6 CHAPTERS</Chapter><div className="section-heading"><h2 id="journey-title">Dari tugas sekolah.<br/><em>Lalu keterusan.</em></h2><p>Pilih titik perjalanan untuk membuka konteksnya.<br/>Masih banyak yang perlu dipelajari.</p></div></div>
+    <div data-reveal><Chapter number="04">THE EVOLUTION / 6 CHAPTERS</Chapter><div className="section-heading"><h2 id="journey-title">Dari tugas sekolah.<br/><em>Lalu keterusan.</em></h2><p>Pilih titik perjalanan untuk membuka konteksnya.<br/>Masih banyak yang perlu dipelajari.</p></div></div>
     <div className="journey-layout" data-reveal>
       <aside className="journey-art"><div className="journey-hud" data-phase={phase} data-tilt="7" onKeyDown={onKey}>
         <svg className="hud-svg" viewBox="0 0 100 100" aria-hidden="true"><circle className="hud-dash" cx="50" cy="50" r="48"/><circle className="hud-track" cx="50" cy="50" r={RADIUS}/><circle className="hud-progress" cx="50" cy="50" r={RADIUS} strokeDasharray={`${(phase / N) * CIRCUMFERENCE} ${CIRCUMFERENCE}`}/><circle className="hud-inner" cx="50" cy="50" r="27"/></svg>

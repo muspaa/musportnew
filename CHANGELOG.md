@@ -1,3 +1,12 @@
+## 3.1.0 — 13 Oktober 2026
+
+- Kartu dan modal proyek memakai 8 screenshot asli dari kamu (WebP, 1280×800). Alamat IP di chip header pada 6 screenshot diburamkan.
+- Deskripsi proyek memakai teks dari kamu; "Media Downloader" menjadi "Download Media". Netflix Token dan Alight Motion Pro tetap memakai redaksi netral.
+- Bagian profil (Self-taught. Always curious.) dipindah tepat di bawah hero dan memakai teks tentang saya (SMK TKJ), keahlian, serta tombol Download CV. Nomor bagian dirapikan 01–08.
+- CV diperbarui: profil, pendidikan SMK TKJ, dan keahlian dari teks kamu.
+- Bulan HD baru (tekstur 720 px dengan kawah, lautan basal, dan sinar kawah) menggantikan bulan kecil di shader; mengorbit planet hero secara 3D dengan oklusi. Planet dirender sampai DPR 2 dengan satu oktaf noise tambahan dan bayangan cincin yang lebih lembut.
+- Knowledge Relay memuat pendidikan dan keahlian.
+
 ## 3.0.0 — 12 Oktober 2026
 
 - Rombak total UI/UX bertema luar angkasa dengan 3D: nebula WebGL, starfield 3D berbasis scroll, planet shader di hero, ring proyek 3D, kartu tilt, HUD journey, mode gelap/terang.

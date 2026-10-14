@@ -2,14 +2,14 @@ import { createGL, fullscreen, fit, PRECISION } from './gl';
 
 export interface PlanetState { time: number; rx: number; ry: number; light: number }
 
-/** Planet prosedural: kontinen fbm, awan, es kutub, lampu kota malam, atmosfer, cincin berbayangan, dan bulan. */
+/** Planet prosedural: kontinen fbm, awan, es kutub, lampu kota malam, atmosfer, dan cincin berbayangan. Bulan dirender terpisah sebagai gambar HD yang mengorbit di DOM (3D CSS). */
 const FRAGMENT = PRECISION + `
 uniform vec2 uRes;uniform float uTime;uniform vec2 uRot;uniform float uLight;
 float hash31(vec3 p){p=fract(p*0.3183099+vec3(0.1,0.2,0.3));p*=17.0;return fract(p.x*p.y*p.z*(p.x+p.y+p.z));}
 float noise(vec3 x){vec3 i=floor(x),f=fract(x);f=f*f*(3.0-2.0*f);
   return mix(mix(mix(hash31(i),hash31(i+vec3(1,0,0)),f.x),mix(hash31(i+vec3(0,1,0)),hash31(i+vec3(1,1,0)),f.x),f.y),
              mix(mix(hash31(i+vec3(0,0,1)),hash31(i+vec3(1,0,1)),f.x),mix(hash31(i+vec3(0,1,1)),hash31(i+vec3(1,1,1)),f.x),f.y),f.z);}
-float fbm(vec3 p){float a=0.5,s=0.0;for(int i=0;i<5;i++){s+=a*noise(p);p=p*2.03+vec3(1.7,9.2,3.1);a*=0.5;}return s;}
+float fbm(vec3 p){float a=0.5,s=0.0;for(int i=0;i<6;i++){s+=a*noise(p);p=p*2.03+vec3(1.7,9.2,3.1);a*=0.5;}return s;}
 vec3 rotY(vec3 p,float a){float c=cos(a),s=sin(a);return vec3(c*p.x+s*p.z,p.y,-s*p.x+c*p.z);}
 vec3 rotZ(vec3 p,float a){float c=cos(a),s=sin(a);return vec3(c*p.x-s*p.y,s*p.x+c*p.y,p.z);}
 vec4 over(vec4 top,vec4 bottom){return top+bottom*(1.0-top.a);}
@@ -63,32 +63,13 @@ void main(){
   bands*=0.55+0.45*noise(vec3(rho*16.0,2.0,0.0));
   vec3 P=vec3(uv,zr);
   float bsh=dot(P,Ln);float cs=dot(P,P)-R*R;float disc=bsh*bsh-cs;
-  float shadow=bsh<0.0?1.0-0.68*smoothstep(0.0,0.035,disc):1.0;
+  float shadow=bsh<0.0?1.0-0.62*smoothstep(0.0,0.32,disc):1.0;
   vec3 ringCol=mix(vec3(0.72,0.66,0.98),vec3(1.0,0.86,0.66),smoothstep(0.66,0.98,rho))*shadow*(0.55+0.7*dot(vec3(0.0,0.0,1.0),Ln));
   float ringA=ringMask*bands*0.92;
   bool ringFront=zr>=0.0;
   bool ringHidden=inSph&&!ringFront;
 
-  // bulan
-  float th=uTime*0.22+1.1;
-  vec3 M=vec3(0.90*cos(th),0.18*sin(th)-0.10,0.90*sin(th));
-  float Rm=0.065;
-  vec2 dm=uv-M.xy;float dmr2=dot(dm,dm);
-  bool inMoon=dmr2<Rm*Rm;
-  float zm=inMoon?sqrt(Rm*Rm-dmr2):0.0;
-  vec4 moon=vec4(0.0);
-  if(inMoon){
-    vec3 mn=vec3(dm,zm)/Rm;
-    float m=fbm(mn*5.0+3.0);
-    float dif=smoothstep(-0.1,0.7,dot(mn,Ln));
-    vec3 mc=mix(vec3(0.42,0.43,0.50),vec3(0.82,0.82,0.88),m)*(0.08+1.15*dif);
-    moon=vec4(mc,1.0);
-  }
-  bool moonFront=M.z>=0.0;
-  bool moonHidden=inMoon&&!moonFront&&inSph;
-
   // belakang
-  if(!moonFront&&inMoon&&!moonHidden)acc=over(moon,acc);
   if(!ringFront&&ringA>0.0&&!ringHidden)acc=over(vec4(ringCol*ringA,ringA),acc);
   // planet
   if(inSph){
@@ -99,11 +80,10 @@ void main(){
   }
   // depan
   if(ringFront&&ringA>0.0)acc=over(vec4(ringCol*ringA,ringA),acc);
-  if(moonFront&&inMoon)acc=over(moon,acc);
   gl_FragColor=acc;
 }`;
 
-export function mountPlanet(canvas: HTMLCanvasElement, state: () => PlanetState, maxDpr: () => number = () => 1.6) {
+export function mountPlanet(canvas: HTMLCanvasElement, state: () => PlanetState, maxDpr: () => number = () => 2) {
   const gl = createGL(canvas); if (!gl) return null;
   const program = fullscreen(gl, FRAGMENT); if (!program) return null;
   let lost = false;
@@ -113,7 +93,7 @@ export function mountPlanet(canvas: HTMLCanvasElement, state: () => PlanetState,
     render() {
       if (lost) return;
       const dpr = Math.min(window.devicePixelRatio || 1, maxDpr());
-      const { w, h } = fit(canvas, dpr, 1400); const s = state();
+      const { w, h } = fit(canvas, dpr, 1800); const s = state();
       gl.viewport(0, 0, w, h); gl.clearColor(0, 0, 0, 0); gl.clear(gl.COLOR_BUFFER_BIT); program.use();
       program.f2('uRes', w, h); program.f1('uTime', s.time); program.f2('uRot', s.rx, s.ry); program.f1('uLight', s.light);
       program.draw();

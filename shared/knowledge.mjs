@@ -4,6 +4,8 @@ export function publicKnowledge() {
   return [
     `Nama publik: ${profile.name} (${profile.alias}); pelajar, self-taught independent developer. Tidak ada tim developer yang perlu dikarang.`,
     `Tentang: ${profile.about} ${profile.motivation} ${profile.approach}`,
+    `Pendidikan dan keahlian: ${profile.education}. ${profile.skills.join('; ')}.`,
+    `Profil singkat: ${profile.bio.join(' ')}`,
     `Filosofi: ${profile.ethos}`,
     `Perjalanan: ${content.JOURNEY_STEPS.map(j => `${j.phase}: ${j.subtitle}. ${j.description}`).join('\n')}`,
     `Arsip karya (${content.PROJECTS.length} proyek web): ${content.PROJECTS.map(p => `${p.name} [${p.category}, ${p.url}]: ${p.summary}`).join('\n')}`,

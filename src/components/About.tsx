@@ -6,7 +6,7 @@ import RelayMark from './RelayMark';
 export default function About() {
   return <section className="about section-pad" id="about" aria-labelledby="about-title"><div className="wrap about-grid">
     <div data-reveal>
-      <Chapter number="02">BEYOND THE CODE</Chapter>
+      <Chapter number="03">BEYOND THE CODE</Chapter>
       <h2 id="about-title">How it started.<br/><em>Sedikit konteks.</em></h2>
       <div className="crew-card" data-tilt="10">
         <div className="crew-top"><Mark/><div><small>CREW ID / 001</small><strong>A. MUSTOFA YUSUF</strong></div></div>

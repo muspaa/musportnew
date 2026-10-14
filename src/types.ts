@@ -5,7 +5,7 @@ export interface Project {
   id: string; name: string; category: string; url: string;
   description: string; summary: string; problem: string; exploration: string; outcome: string;
   ecosystem: string[]; status: WorkStatus; type: 'work' | 'experiment' | 'prototype'; visualType: 'real' | 'illustrative' | 'placeholder';
-  theme: PlanetTheme;
+  theme: PlanetTheme; image: string; imageAlt: string;
 }
 export interface JourneyStep { phase: string; title: string; subtitle: string; description: string; techKeywords: string[]; environment?: { device?: string; laptop?: string; learning?: string } }
 export interface EcosystemGroup { category: string; items: { name: string; description: string; iconName: string }[] }

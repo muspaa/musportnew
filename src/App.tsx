@@ -16,8 +16,8 @@ import { useMotion } from './hooks/useMotion';
 import { useSpaceFx } from './hooks/useSpaceFx';
 import { useTheme } from './hooks/useTheme';
 
-const links = [{ id: 'home', name: 'Home' }, { id: 'about', name: 'About' }, { id: 'archive', name: 'Work' }, { id: 'journey', name: 'Journey' }, { id: 'ecosystem', name: 'Tools' }, { id: 'profile', name: 'Profil' }, { id: 'lab', name: 'Relay' }, { id: 'contact', name: 'Contact' }];
-const primary = ['home', 'about', 'archive', 'profile', 'contact'];
+const links = [{ id: 'home', name: 'Home' }, { id: 'profile', name: 'Profil' }, { id: 'archive', name: 'Work' }, { id: 'about', name: 'About' }, { id: 'journey', name: 'Journey' }, { id: 'ecosystem', name: 'Tools' }, { id: 'lab', name: 'Relay' }, { id: 'contact', name: 'Contact' }];
+const primary = ['home', 'profile', 'archive', 'journey', 'contact'];
 
 export default function App() {
   const reduced = useMotion(), [motionPaused, setMotionPaused] = useState(false), { theme, toggle } = useTheme();
@@ -42,11 +42,11 @@ export default function App() {
     {menu && <Modal label="Menu navigasi" onClose={() => setMenu(false)} className="navigation-modal"><p className="eyebrow">MUSFA / EXPLORE THE UNIVERSE</p><nav aria-label="Semua bagian">{links.map((l, i) => <a key={l.id} href={`#${l.id}`} onClick={() => setMenu(false)}><span>{String(i + 1).padStart(2, '0')}</span>{l.name}<ArrowUpRight size={22}/></a>)}</nav></Modal>}
     <main id="main">
       <Hero paused={still}/>
+      <Profile/>
       <Archive still={still}/>
       <About/>
       <Journey/>
       <Ecosystem paused={still}/>
-      <Profile/>
       <AiSandbox/>
       <section className="ethos section-pad" id="ethos" aria-labelledby="ethos-title"><div className="wrap" data-reveal><Chapter number="07">THE ETHOS</Chapter><p className="eyebrow" id="ethos-title">A NOTE TO MYSELF</p><blockquote><span className="ethos-line">“Masih belajar.</span><span className="ethos-line">Masih <em>mencoba.</em>”</span></blockquote><div className="ethos-bottom"><span className="about-signature">MUSFA.</span><p>{PROFILE.ethos}</p></div></div></section>
       <Ratings paused={still}/>
