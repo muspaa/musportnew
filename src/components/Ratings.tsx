@@ -5,9 +5,9 @@ import { useReviewRail } from '../hooks/useReviewRail';
 type Review={id:string;name:string;stars:number;comment:string;createdAt:string;demo?:boolean};
 type Snapshot={configured:boolean;count:number;average:number;reviews:Review[];challenge:string};
 const examples:Review[]=[
-  {id:'demo-rizky',name:'Rizky',stars:5,comment:'anjayy keren mat',createdAt:'2026-10-10',demo:true},
-  {id:'demo-nanda',name:'Nanda',stars:5,comment:'tutor dung mat',createdAt:'2026-10-10',demo:true},
-  {id:'demo-fajar',name:'Fajar',stars:5,comment:'infokan promt',createdAt:'2026-10-10',demo:true}
+  {id:'demo-rizky',name:'Rizky',stars:5,comment:'anjayy keren banget',createdAt:'2026-10-10',demo:true},
+  {id:'demo-nanda',name:'Nanda',stars:5,comment:'tutor dong',createdAt:'2026-10-10',demo:true},
+  {id:'demo-fajar',name:'Fajar',stars:5,comment:'semangat mus',createdAt:'2026-10-10',demo:true}
 ];
 const empty:Snapshot={configured:false,count:0,average:0,reviews:[],challenge:''};
 function newID(){if(typeof crypto.randomUUID==='function')return crypto.randomUUID();const bytes=crypto.getRandomValues(new Uint8Array(16));bytes[6]=(bytes[6]&15)|64;bytes[8]=(bytes[8]&63)|128;const s=Array.from(bytes,b=>b.toString(16).padStart(2,'0')).join('');return `${s.slice(0,8)}-${s.slice(8,12)}-${s.slice(12,16)}-${s.slice(16,20)}-${s.slice(20)}`;}

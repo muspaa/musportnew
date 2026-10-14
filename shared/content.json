@@ -121,7 +121,7 @@
       "phase": "Phase 1 — The Spark",
       "title": "Awal dari Sebuah Perjalanan",
       "subtitle": "Semua Berawal dari Sebuah Tugas Sekolah",
-      "description": "Saat kelas 10, ada tugas kelompok P5 yang sebenarnya tidak berhubungan langsung dengan web development. Karena sudah tertarik teknologi, aku mencoba pendekatan lain supaya bisa membantu kelompok. Ada seseorang di kelas yang i sukai dan menjadi salah satu pemicu untuk lebih berkontribusi, meski perasaannya cuma dipendam. Setelah tugas selesai, ketertarikan terhadap teknologi tetap berlanjut dengan sendirinya.",
+      "description": "Saat kelas 10 TKJ, ada tugas produktif bikin website sederhana tentang makanan khas daerah. Aku belum pernah ngoding, jadi aku belajar HTML dan CSS dari nol. Tiap malam aku utak-atik kode, sering error, tapi penasaran. Waktu itu aku cuma pengen tugasnya selesai dengan hasil yang bagus. Bukan karena nilai, tapi karena aku penasaran sama coding. Tugas selesai, presentasi lancar.",
       "techKeywords": [
         "First Project",
         "School Journey",
@@ -133,7 +133,7 @@
       "phase": "Phase 2 — Self Learning",
       "title": "Membangun Fondasi",
       "subtitle": "Belajar dengan Cara Sendiri",
-      "description": "Setelah tugas itu selesai, rasa penasaranku tidak ikut berhenti. Sebagian besar perjalanan ini kulalui hanya menggunakan Oppo A3s, perangkat sederhana yang menjadi teman belajar selama bertahun-tahun. Tanpa laptop dan dengan berbagai keterbatasannya, aku mulai memahami HTML, CSS, JavaScript, hingga perlahan membangun fondasi sebagai seorang web developer melalui proses trial & error yang tak pernah berhenti.",
+      "description": "Setelah tugas itu selesai, rasa penasaranku tidak ikut berhenti. Sebagian besar perjalanan ini kulalui hanya menggunakan hp redmi, perangkat sederhana yang menjadi teman belajar selama bertahun-tahun. Tanpa laptop dan dengan berbagai keterbatasannya, aku mulai memahami HTML, CSS, JavaScript, hingga perlahan membangun fondasi sebagai seorang web developer melalui proses trial & error yang tak pernah berhenti.",
       "techKeywords": [
         "HTML",
         "CSS",
@@ -141,7 +141,7 @@
         "Self Learning"
       ],
       "environment": {
-        "device": "Oppo A3s (Android 8.1 Oreo)",
+        "device": "redmi note 8 (Android 10 miui 13)",
         "laptop": "—",
         "learning": "Self-Taught"
       }
@@ -150,7 +150,7 @@
       "phase": "Phase 3 — AI Collaboration",
       "title": "Menemukan Cara Belajar yang Paling Sesuai",
       "subtitle": "Berkembang Bersama AI",
-      "description": "AI membantu i menemukan workflow belajar yang sesuai. Aku mencoba membangun proyek sambil mendiskusikan konsep, arsitektur, dan implementasinya, bukan cuma menghafal sintaks. Hasilnya tetap perlu dibaca, diuji, dan diperbaiki. Web development buat i masih sebuah hobi yang terus berkembang.",
+      "description": "AI membantu saya menemukan workflow belajar yang sesuai. Aku mencoba membangun proyek sambil mendiskusikan konsep, arsitektur, dan implementasinya, bukan cuma menghafal sintaks. Hasilnya tetap perlu dibaca, diuji, dan diperbaiki. Web development buat saya masih sebuah hobi yang terus berkembang.",
       "techKeywords": [
         "AI Collaboration",
         "Vibe Coding",
@@ -162,7 +162,7 @@
       "phase": "Phase 4 — Exploration",
       "title": "Rasa Penasaran yang Tak Pernah Berhenti",
       "subtitle": "Bereksperimen Tanpa Takut Gagal",
-      "description": "Mulai mencoba framework, deployment, API, server, AI Agent, VPS, dan workflow modern. Belum semuanya dikuasai. Menurut w, bagian menariknya justru mencari tahu kenapa suatu pendekatan bekerja dan kapan sebaiknya dipakai. Beberapa eksperimen gagal, lalu di-debug dan dicoba lagi.",
+      "description": "Mulai mencoba framework, deployment, API, server, AI Agent, VPS, dan workflow modern. Belum semuanya dikuasai. Menurut saya, bagian menariknya justru mencari tahu kenapa suatu pendekatan bekerja dan kapan sebaiknya dipakai. Beberapa eksperimen gagal, lalu di-debug dan dicoba lagi.",
       "techKeywords": [
         "API Integration",
         "VPS",
@@ -186,7 +186,7 @@
       "phase": "Phase 6 — Beyond The Horizon",
       "title": "Perjalanan Ini Belum Berakhir",
       "subtitle": "Selalu Ada Hal Baru untuk Dipelajari",
-      "description": "Untuk sekarang, i masih mengeksplorasi AI, automasi, dan web development. Masih banyak fundamental yang perlu dipahami, dan setiap proyek memberi konteks baru. Awalnya memang sebuah tugas sekolah. Sekarang belajar dan bereksperimen sudah menjadi minat sendiri.",
+      "description": "Untuk sekarang, saya masih mengeksplorasi AI, automasi, dan web development. Masih banyak fundamental yang perlu dipahami, dan setiap proyek memberi konteks baru. Awalnya memang sebuah tugas sekolah. Sekarang belajar dan bereksperimen sudah menjadi minat sendiri.",
       "techKeywords": [
         "AI Engineering",
         "Digital Ecosystem",

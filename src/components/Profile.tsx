@@ -9,7 +9,7 @@ const learning = Array.from(new Set(JOURNEY_STEPS.flatMap(j => j.techKeywords)))
 export default function Profile() {
   const toolCount = ECOSYSTEM.reduce((n, g) => n + g.items.length, 0);
   const [lead, ...rest] = PROFILE.bio;
-  const facts = [{ value: 'TKJ', label: 'Jurusan SMK' }, { value: PROJECTS.length, label: 'Proyek web live' }, { value: toolCount, label: 'Tools dieksplorasi' }, { value: JOURNEY_STEPS.length, label: 'Fase perjalanan' }];
+  const facts = [{ value: 'TKJ', label: 'Teknik Komputer Jaringan' }, { value: PROJECTS.length, label: 'Proyek web live' }, { value: toolCount, label: 'Tools dieksplorasi' }, { value: JOURNEY_STEPS.length, label: 'Fase perjalanan' }];
   return <section className="profile section-pad" id="profile" aria-labelledby="profile-title"><div className="wrap profile-grid">
     <div className="profile-visual" data-reveal>
       <div className="portrait-3d" data-tilt="11">
